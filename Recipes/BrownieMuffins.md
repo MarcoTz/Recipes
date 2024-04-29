@@ -28,4 +28,4 @@
 (2) Until a tooth pick comes out clean
 
 #### Tags
-dessert, vegetarian
+dessert, vegetarian, bakedgood

@@ -22,4 +22,4 @@
 7. Fry in oil.
 
 #### Tags
-vegetarian
+vegetarian, potato

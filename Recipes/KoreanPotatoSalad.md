@@ -20,4 +20,4 @@
 4. Add onion and sauce to carrots and let everything rest in the fridge for 1-2h
 
 #### Tags
-vegan, vegetarian, Korean, salad
+vegan, vegetarian, Korean, salad, potato
