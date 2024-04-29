@@ -1,5 +1,4 @@
-INDEXFILE="html/index.html"
-HTMLDIR="./html"
+INDEXFILE="./html/index.html"
 RECIPEDIR="./Recipes"
 
 echo "generating index.html"
@@ -22,7 +21,7 @@ for file in $RECIPEDIR/*.md
 do
 	filename="$(basename -- $file)"
 	echo "<li>" >> $INDEXFILE
-	HTMLNAME=$(echo "$filename" | sed 's/md/html/g')
+	HTMLNAME=$(echo "recipes/$filename" | sed 's/md/html/g')
 	echo "<a href=\"$HTMLNAME\">" >> $INDEXFILE
 	RECIPENAME=$(cat $file | sed '1!d' | sed 's/% //g' >> $INDEXFILE)
 	echo "$RECIPENAME" >> $INDEXFILE

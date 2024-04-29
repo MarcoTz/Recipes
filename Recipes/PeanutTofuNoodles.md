@@ -42,5 +42,4 @@
 (3) alternatively use fresh chilis in mortar
 
 #### Tags
-
 vegan, vegetarian
