@@ -1,7 +1,10 @@
 outdir="./html"
+indir="./Recipes"
 
-for file in *.md 
+for file in $indir/*.md
 do 
-	newfile=$(echo $file | sed 's/.md/.html/g')
-	pandoc $file -o "$outdir/$newfile"
+	echo "building html for $file"
+	filename="$(basename -- $file)"
+	newfile=$(echo "$outdir/$filename" | sed 's/md/html/g')
+	pandoc "$indir/$filename" -o $newfile 
 done
