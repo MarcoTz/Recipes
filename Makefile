@@ -9,6 +9,6 @@ build:
 
 clean: 
 	echo "removing html files"
-	rm -r html/*.html
+	rm -rf html/*.html
 
 full: clean build

@@ -1,4 +1,4 @@
-# Baked Salmon
+% Baked Salmon
 
 ## Ingredients
 

@@ -10,6 +10,7 @@ echo "<html>" >> $INDEXFILE
 
 echo "<head>" >> $INDEXFILE
 echo "<title>Recipes</title>" >> $INDEXFILE
+echo "<link rel=\"stylesheet\" href=\"main.css\"/>" >> $INDEXFILE
 echo "</head>" >> $INDEXFILE
 
 echo "<body>" >> $INDEXFILE
@@ -23,7 +24,7 @@ do
 	echo "<div>" >> $INDEXFILE
 	HTMLNAME=$(echo "$filename" | sed 's/md/html/g')
 	echo "<a href=\"$HTMLNAME\">" >> $INDEXFILE
-	RECIPENAME=$(cat $file | sed '1!d' | sed 's/# //g' >> $INDEXFILE)
+	RECIPENAME=$(cat $file | sed '1!d' | sed 's/% //g' >> $INDEXFILE)
 	echo "$RECIPENAME" >> $INDEXFILE
 	echo "</a>" >> $INDEXFILE
 	echo "</div>" >> $INDEXFILE
