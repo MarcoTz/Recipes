@@ -27,6 +27,9 @@ for fn in os.listdir(md_dir):
 
         lines[tagsLine] = lines[tagsLine].replace(tag,'[%s](../tags/tag_%s.html)' % (tag,tag))
 
+    lines.append('')
+    lines.append('[back](../index.html)')
+
     new_name = os.path.join(intermediate_dir,fn)
     fl = open(new_name,'w')
     contents = '\n'.join(lines)
@@ -37,6 +40,7 @@ for tag in tagDict.keys():
     md_text = '%% %s\n\n' % tag
     for recipe in tagDict[tag]:
         md_text += '* [%s](../recipes/%s.html) \n' % (recipe,recipe)
+    md_text += '\n\n[back](../index.html)'
     tag_path = os.path.join(intermediate_dir,'tag_%s.md' % tag)
     tag_file = open(tag_path,'w')
     tag_file.write(md_text)

@@ -1,5 +1,6 @@
 INDEXFILE="./html/index.html"
 RECIPEDIR="./Recipes"
+TAGDIR="./html/tags"
 
 echo "generating index.html"
 
@@ -30,5 +31,19 @@ do
 done
 
 echo "</ul>">> $INDEXFILE
+
+echo "<h2>Tags</h2>" >> $INDEXFILE
+echo "<ul>"  >> $INDEXFILE
+
+for file in $TAGDIR/*.html
+do
+  filename="$(basename -- $file)"
+  echo "<li>" >> $INDEXFILE
+  tagname=$(echo $filename | sed 's/tag_//g')
+  echo "<a href=\"tags/$filename\"> $tagname </a>" >> $INDEXFILE
+  echo "</li>">> $INDEXFILE
+done 
+
+echo "</ul>" >> $INDEXFILE
 echo "</body>">> $INDEXFILE
 echo "</html>" >> $INDEXFILE
