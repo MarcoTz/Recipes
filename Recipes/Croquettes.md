@@ -1,5 +1,4 @@
-%Croquettes
-# Croquettes
+% Croquettes
 
 ## Ingredients
 

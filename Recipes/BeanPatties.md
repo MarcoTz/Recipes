@@ -1,5 +1,4 @@
 % Kidney Bean Burger Patties
-# Kidney Bean Burger Patties
 
 ## Ingredients 
 

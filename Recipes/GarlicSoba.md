@@ -1,5 +1,4 @@
 % Garlic Soba Noodles
-# Garlic Soba Noodles
 
 ## Ingredients
 

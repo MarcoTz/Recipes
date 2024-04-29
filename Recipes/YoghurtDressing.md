@@ -1,5 +1,4 @@
 % Yoghurt Salad Dressing
-# Yoghurt Salad Dressing 
 
 ## Ingredients
 

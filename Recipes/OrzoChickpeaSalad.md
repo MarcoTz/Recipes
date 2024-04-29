@@ -1,5 +1,4 @@
 % Orzo-Chickpea Salad
-# Orzo-Chickpea Salad
 
 ## Ingredients
 
