@@ -48,3 +48,6 @@
 ## Notes 
 
 (1) alternatively use brown sugar
+
+#### Tags
+vegan, vegetarian, Japanese

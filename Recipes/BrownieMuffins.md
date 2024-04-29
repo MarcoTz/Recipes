@@ -26,3 +26,6 @@
 (1) alternatively use hot chocolate powder for extra sweetness
 
 (2) Until a tooth pick comes out clean
+
+#### Tags
+dessert, vegetarian

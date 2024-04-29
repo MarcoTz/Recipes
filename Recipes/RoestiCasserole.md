@@ -29,3 +29,6 @@
 8. Mix topping ingredients, season and cover the potato mix 
 9. Crack eggs over the topping 
 10. Bake fo 30 mins
+
+#### Tags
+potato

@@ -25,3 +25,6 @@
 8. Add broth, cook until half has been absorbed
 8. Add broccoli, continue cooking until rice is tender 
 9. Remove from heat, add parmesan, lemon juice and thyme
+
+#### Tags
+vegetarian

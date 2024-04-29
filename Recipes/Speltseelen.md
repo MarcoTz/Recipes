@@ -24,3 +24,6 @@
 
 (2) final dough should be fairly wet, but not a batter.
 If the dough is too runny add more water
+
+#### Tags
+bread, vegan, vegetarian

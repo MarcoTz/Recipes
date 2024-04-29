@@ -31,3 +31,6 @@
 ## Notes 
 
 If they are still doughy after frying, bake them in the oven at about 180C convection until they are done
+
+#### Tags
+indian, vegan, vegetarian

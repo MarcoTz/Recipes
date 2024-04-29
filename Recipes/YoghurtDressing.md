@@ -16,3 +16,6 @@
 
 1. Press garlic
 2. Combine all ingredients and add seasonings
+
+#### Tags
+vegetarian, salad

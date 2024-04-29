@@ -35,3 +35,6 @@
 ### Notes 
 
 (1) alternatively use sugar or honey
+
+#### Tags
+vegan, vegetarian, salad

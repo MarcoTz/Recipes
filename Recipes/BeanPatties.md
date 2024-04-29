@@ -17,7 +17,7 @@
 * pepper to taste
 * oil for frying 
 
-### Steps
+## Steps
  
 1. Mince garlic and onion
 2. sautee onion until transparent
@@ -27,6 +27,9 @@
 6. Separate dough into 4-5 balls and form them into patties 
 7. Fry patties in oil
 
-### Notes 
+## Notes 
 
 (1) If the consistency is off, add extra flour
+
+#### Tags
+vegetarian

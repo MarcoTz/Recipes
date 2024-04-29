@@ -20,3 +20,6 @@
 5. Roll dough into about 3cm thick roll and cut off 5-10cm long tubes
 6. Bread the croquettes with flour, egg and bread crumbs (in that order)
 7. Fry in oil.
+
+#### Tags
+vegetarian

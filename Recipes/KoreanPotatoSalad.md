@@ -18,3 +18,6 @@
 2. Dice onion and suatee with Koriander and cayennepepper for about 10 min
 3. Mince garlic and combine with salt, sugar and vinegar
 4. Add onion and sauce to carrots and let everything rest in the fridge for 1-2h
+
+#### Tags
+vegan, vegetarian, Korean, salad

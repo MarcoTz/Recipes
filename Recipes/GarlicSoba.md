@@ -34,3 +34,6 @@
 8. Reduce heat and add noodles, sprouts and remaining sauce
 9. Add bok choy and remove from heat
 10. Garnish with remaining spring onions and peanuts and season to taste
+
+#### Tags
+vegan, vegetarian, Japanese

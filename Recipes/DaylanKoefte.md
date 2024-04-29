@@ -29,3 +29,6 @@
 9. Mix Avjar with water and brush on the loaf 
 10. Bake at 200C for about an hour
 11. During baking, check every 15-20 minutes, spoon leaking juices back on top
+
+#### Tags
+meat
