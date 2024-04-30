@@ -5,7 +5,7 @@ on:
             - main
 jobs:
     htmlbuild:
-        name: Publish Web app 
+        name: Publish Recipes 
         runs-on: ubuntu-latest
         defaults:
             run:
@@ -16,7 +16,7 @@ jobs:
         steps:
         - uses: actions/checkout@v4
         - name: Install Pandoc
-          uses: docker://pandoc/core:3.1.8
+          uses: docker://pandoc/core:edge
         - name: Install Python
           uses: actions/setup-python@v5
           with: 
