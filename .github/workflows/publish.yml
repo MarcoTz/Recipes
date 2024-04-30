@@ -23,6 +23,8 @@ jobs:
           uses: actions/setup-python@v5
           with: 
             python-version: '3.11'
+        - name: Install Jinja
+          run: pip install Jinja2
         - name: Build project
           run: make build 
         - name: Move files
