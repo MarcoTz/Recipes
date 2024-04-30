@@ -12,7 +12,7 @@ def read_file(src_dir,src_file):
     
 def write_file(src_dir,src_file,file_contents):
     full_name = os.path.join(src_dir,src_file)
-    fl = open(full_name,'w')
+    fl = open(full_name,'w+')
     fl.write(file_contents)
     fl.close()
 
@@ -36,7 +36,10 @@ out_dir     = 'html'
 out_recipes = os.path.join(out_dir,'recipes')
 out_tags    = os.path.join(out_dir,'tags')
     
-needed_dirs = [template_dir,md_dir,intermediate_dir,intermediate_recipe,intermediate_tags,pandoc_dir,pandoc_recipes,pandoc_tags,out_dir,out_tags]
+needed_dirs = [
+        intermediate_dir,intermediate_recipe,intermediate_tags,
+        pandoc_dir,pandoc_recipes,pandoc_tags,
+        out_dir,out_tags,out_recipes]
 
 class HTMLBuilder: 
     
