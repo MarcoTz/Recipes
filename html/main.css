@@ -1,6 +1,7 @@
 :root {
-  --bg-color:#070F2B;
+  --bg-color:#060E1A;
   --bg-color2:#292F4D;
+  --bg-color3:#171E2B;
   --fg-color:#9290C3;
   --link-color:#A3A1D4;
 }
@@ -12,7 +13,13 @@ body {
   font-size:14pt;
 }
  
-ul {
+li {
+  margin:0.5em;
+}
+li:nth-child(odd) {
+  background:var(--bg-color3);
+}
+li:nth-child(even){
   background:var(--bg-color2);
 }
 
@@ -20,4 +27,28 @@ a {
   color:var(--link-color);
 }
 
+h1 {
+  text-align:center;
+  font-size:26pt;
+  width:100%;
+}
+h2 {
+  text-align:center;
+  font-size:24pt;
+  width:100%;
+}
 
+#header {
+  margin:auto;
+  width:90%;
+  height:10%;
+}
+#ingredients {
+  margin:auto;
+  width:50%;
+}
+
+#steps {
+  margin:auto;
+  width:60%;
+}
