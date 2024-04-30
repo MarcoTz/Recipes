@@ -1,0 +1,18 @@
+:root {
+  --bg-color:#070F2B;
+  --fg-color:#9290C3;
+  --link-color:#A3A1D4;
+}
+
+body {
+  background:var(--bg-color);
+  color:var(--fg-color);
+  font-family: "Noto Sans", sans-serif;
+  font-size:14pt;
+}
+
+a {
+  color:var(--link-color);
+}
+
+
