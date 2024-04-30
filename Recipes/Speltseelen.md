@@ -1,4 +1,4 @@
-% Spelt Seelen
+# Spelt Seelen
 
 ## Ingredients 
 

@@ -1,4 +1,4 @@
-% Spaetzle
+# Spaetzle
 
 ## Ingredients
 

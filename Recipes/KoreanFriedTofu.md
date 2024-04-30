@@ -1,4 +1,4 @@
-% Kordan Fried Tofu
+# Korean Fried Tofu
 
 ## Ingredients 
 

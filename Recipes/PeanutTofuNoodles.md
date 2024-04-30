@@ -1,4 +1,4 @@
-% Fried Noodles with Tofu and Peanut Sauce
+# Fried Noodles with Tofu and Peanut Sauce
 
 ## Ingredients
 

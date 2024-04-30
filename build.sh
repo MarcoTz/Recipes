@@ -1,19 +1,25 @@
-outdir_recipe="./html/recipes"
-outdir_tag="./html/tags"
-indir="./intermediate"
+#!/bin/bash
 
-for file in $indir/*.md
-do 
- 	echo "building html for $file"
-	filename="$(basename -- $file)"
+in_dir_recipes="intermediate/recipes"
+in_dir_tags="intermediate/tags"
+out_dir_recipes="html/recipes"
+out_dir_tags="html/tags"
+css_file="../main.css"
 
-  if [[ $filename == tag_* ]] 
-  then
-    outdir=$outdir_tag
-  else
-    outdir=$outdir_recipe
-  fi
+build () {
+  filename="$(basename -- $1)"
+  echo "building $filename"
+  out_file=$(echo "$2/$filename" | sed 's/md/html/g')
+  pandoc -f markdown -t html "$file" -o "$out_file" --css="$css_file" --standalone
+}
 
-	newfile=$(echo "$outdir/$filename" | sed 's/md/html/g')
-	pandoc -f markdown -t html "$indir/$filename" -o $newfile --css="../main.css" --standalone
-done
+build_dir () {
+  for file in $1/*.md
+  do 
+    build $file $2
+  done
+}
+echo "bulding recipes"
+build_dir $in_dir_recipes $out_dir_recipes
+echo "building tags"
+build_dir $in_dir_tags $out_dir_tags

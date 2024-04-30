@@ -1,4 +1,4 @@
-% Millet-Potato Balls
+# Millet-Potato Balls
 
 ## Ingredients 
 

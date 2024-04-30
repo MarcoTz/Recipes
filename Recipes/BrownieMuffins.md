@@ -1,4 +1,4 @@
-% Brownie Muffins
+# Brownie Muffins
 
 ## Ingredients 
 

@@ -1,4 +1,4 @@
-% Sausage Pockets
+# Sausage Pockets
 
 ## Ingredients 
 

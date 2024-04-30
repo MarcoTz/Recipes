@@ -1,4 +1,4 @@
-% Sour Cream
+# Sour Cream
 
 ## Ingredients
 

@@ -1,4 +1,4 @@
-% Aloo Paratha
+# Aloo Paratha
 
 ## Ingredients
 

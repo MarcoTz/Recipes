@@ -1,4 +1,4 @@
-% Curry Ramen with Tofu
+# Curry Ramen with Tofu
 
 ## Ingredients 
 
