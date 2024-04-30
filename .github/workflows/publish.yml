@@ -1,4 +1,4 @@
-name: Depoy webdemo
+name: Deploy Website 
 on:
     push:
         branches:
@@ -16,7 +16,9 @@ jobs:
         steps:
         - uses: actions/checkout@v4
         - name: Install Pandoc
-          uses: docker://pandoc/core:edge
+          uses: pandoc/actions/setup@{main}
+          with: 
+            version: 3.1.8
         - name: Install Python
           uses: actions/setup-python@v5
           with: 
