@@ -1,5 +1,6 @@
 :root {
   --bg-color:#070F2B;
+  --bg-color2:#292F4D;
   --fg-color:#9290C3;
   --link-color:#A3A1D4;
 }
@@ -9,6 +10,10 @@ body {
   color:var(--fg-color);
   font-family: "Noto Sans", sans-serif;
   font-size:14pt;
+}
+ 
+ul {
+  background:var(--bg-color2);
 }
 
 a {

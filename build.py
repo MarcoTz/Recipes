@@ -1,110 +1,171 @@
 import os
 import subprocess
+import jinja2
 
 def create_if_not_exists(dir):
-  if not os.path.exists(dir):
-      os.makedirs(dir)
-
-md_dir = './Recipes'
-intermediate_dir = 'intermediate'
-intermediate_recipe = os.path.join(intermediate_dir,'recipes')
-intermediate_tags = os.path.join(intermediate_dir,'tags')
-out_dir = 'html'
-out_recipes = os.path.join(out_dir,'recipes')
-out_tags = os.path.join(out_dir,'tags')
-pandoc_sh = './build.sh'
-index_template = 'index.html'
-index_path = os.path.join(out_dir,index_template)
-
-print('ensuring intermediate directories exist')
-create_if_not_exists(intermediate_dir)
-create_if_not_exists(intermediate_recipe)
-create_if_not_exists(intermediate_tags)
-
-tag_dict = {} 
-recipe_dict = {}
-print('preprocessing recipe markdown files')
-
-files = os.listdir(md_dir)
-files.sort()
-for fn in files:
-    print('preprocessing %s' % fn)
-    full_name = os.path.join(md_dir,fn)
-    site_name = os.path.splitext(os.path.basename(full_name))[0]
-    recipe_name = site_name
-
+    if not os.path.exists(dir):
+        os.makedirs(dir)
+def read_file(src_dir,src_file):
+    full_name = os.path.join(src_dir,src_file)
     fl = open(full_name,'r')
-    contents = fl.read()
-    lines = contents.split('\n')
-
-    tagsLine = -1 
-    for lineNr in range(len(lines)):
-        if lines[lineNr].startswith('# '): 
-            recipe_name = lines[lineNr].replace('# ','')
-            lines[lineNr] = '% '+recipe_name 
-        if lines[lineNr].startswith('#### Tags'):
-            tagsLine = lineNr+1
-            break
+    return fl.read()
     
-    tags = lines[tagsLine].split(', ')
-    recipe_dict[site_name] = recipe_name 
-    for tag in tags:
-        if tag not in tag_dict.keys():
-            tag_dict[tag] = { 'recipes': [site_name] , 'tag_name':tag.capitalize()}
-        else:
-            tag_dict[tag]['recipes'].append(site_name)
-
-        lines[tagsLine] = lines[tagsLine].replace(tag,'[%s](../tags/%s.html)' % (tag_dict[tag]['tag_name'],tag))
-
-    lines.append('')
-    lines.append('[back](../index.html)')
-    new_name = os.path.join(intermediate_recipe,fn)
-    fl = open(new_name,'w')
-    contents = '\n'.join(lines)
-    fl.write(contents)
+def write_file(src_dir,src_file,file_contents):
+    full_name = os.path.join(src_dir,src_file)
+    fl = open(full_name,'w')
+    fl.write(file_contents)
     fl.close()
 
-print('creating markdown files for tags')
-tags = list(tag_dict.keys())
-tags.sort()
-for tag in tags:
-    print('creating markdown for %s' % tag_dict[tag]['tag_name'])
-    md_text = '%% %s\n\n' % tag_dict[tag]['tag_name']
-    for recipe_name in tag_dict[tag]['recipes']:
-        md_text += '* [%s](../recipes/%s.html) \n' % (recipe_dict[recipe_name],recipe_name)
-    md_text += '\n\n[back](../index.html)'
-    tag_path = os.path.join(intermediate_tags,'%s.md' % tag)
-    tag_file = open(tag_path,'w')
-    tag_file.write(md_text)
-    tag_file.close()
+template_dir         = 'html_templates'
+index_template_name  = 'index.html'
+recipe_template_name = 'recipe.html'
+tag_template_name    = 'tag.html'
+header_template_name = 'header.html'
+    
+md_dir = './Recipes'
+intermediate_dir    = os.path.join('intermediate','md')
+intermediate_recipe = os.path.join(intermediate_dir,'recipes')
+intermediate_tags   = os.path.join(intermediate_dir,'tags')
+    
+pandoc_sh       = './build.sh'
+pandoc_dir      = os.path.join('intermediate','html')
+pandoc_recipes  = os.path.join(pandoc_dir,'recipes')
+pandoc_tags     = os.path.join(pandoc_dir,'tags')
+    
+out_dir     = 'html'
+out_recipes = os.path.join(out_dir,'recipes')
+out_tags    = os.path.join(out_dir,'tags')
+    
+needed_dirs = [template_dir,md_dir,intermediate_dir,intermediate_recipe,intermediate_tags,pandoc_dir,pandoc_recipes,pandoc_tags,out_dir,out_tags]
 
-print('ensuring html dirs exist')
-create_if_not_exists(out_dir)
-create_if_not_exists(out_recipes)
-create_if_not_exists(out_tags)
+class HTMLBuilder: 
+    
+    
+    tag_dict = {} 
+    recipe_dict = {}
+     
+    def __init__(self):
+        print('loading templates')
+        env             = jinja2.Environment(loader=jinja2.FileSystemLoader(template_dir),autoescape=False)
+        self.index_template  = env.get_template(index_template_name)
+        self.recipe_template = env.get_template(recipe_template_name)
+        self.tag_template    = env.get_template(tag_template_name)
+        self.header_template = env.get_template(header_template_name)
 
-print('running pandoc build')
-subprocess.call(pandoc_sh)
+    def render_template(self,templ,html_contents,html_title,out_file,isRecipe):
+        header_str = self.header_template.render(index_link='../index.html')
+        curr_html = templ.render(content=html_contents,header=header_str,title=html_title)
+        out_dir = out_recipes if isRecipe else out_tags
+        write_file(out_dir,out_file,curr_html)
+    
+    def render_index(self) :
+        (recipes_str,tags_str) = self.create_html_lists()
+        header_str = self.header_template.render(index_link='index.html')
+        index_html = self.index_template.render(recipes=recipes_str,header=header_str,tags=tags_str)
+        write_file(out_dir,'index.html',index_html)
+    
+    def process_file(self,src_name):
+        print('preprocessing %s' % src_name)
+        src_contents = read_file(md_dir,src_name)
+        src_name_base = os.path.splitext(src_name)[0]
+        recipe_name = ''
+    
+        src_lines = src_contents.split('\n')
+        new_lines = []
+        
+        for line_nr in range(len(src_lines)):
+            curr_line = src_lines[line_nr]
+            if curr_line.startswith('# '):
+                recipe_name = curr_line.replace('# ','')
+                new_lines.append(curr_line)
+                continue
 
-print('creating index file')
+            if curr_line.startswith('#### Tags'):
+                tag_line = self.update_tagline(src_lines[line_nr+1],src_name_base)
+                new_lines.append(curr_line)
+                new_lines.append(tag_line)
+                continue            
+            new_lines.append(curr_line)
+        
+        recipe_information = { 'recipe_name':recipe_name }
+        self.recipe_dict[src_name_base] = recipe_information
+        src_contents = '\n'.join(new_lines)
+        write_file(intermediate_recipe,src_name,src_contents)
+    
+    def update_tagline(self,line,recipe): 
+        tags = line.split(', ')
+        for tag in tags:
+            self.update_tag(tag,recipe)
+            line = line.replace(tag,'[%s](../tags/%s.html)' % (tag.capitalize(),tag))
+        return line
+    
+    def update_tag(self,tag,recipe):
+        if not tag in self.tag_dict.keys():
+            self.tag_dict[tag] = { 'recipes' : [recipe], 'tag_name':tag.capitalize() }
+        else:
+            self.tag_dict[tag]['recipes'].append(recipe)
+    
+    def create_tag_markdown(self,tag):
+        tag_name = self.tag_dict[tag]['tag_name']
+        print('creating markdown for %s' % tag_name)
+        md_text = '# %s\n\n' % tag_name 
+        for recipe in self.tag_dict[tag]['recipes']:
+            md_text += '* [%s](../recipes/%s.html) \n' % (self.recipe_dict[recipe]['recipe_name'],recipe)
+        write_file(intermediate_tags,tag+'.md',md_text)
+    
+    def render_templates(self,isRecipe):
+        in_dir = pandoc_recipes if isRecipe else pandoc_tags
+        file_ls = os.listdir(in_dir)
+        file_ls.sort()
+        for file_name in file_ls:
+            file_html = read_file(in_dir,file_name) 
+            file_base = os.path.splitext(file_name)[0]
+            file_title = self.recipe_dict[file_base]['recipe_name'] if isRecipe else self.tag_dict[file_base]['tag_name']
+            templ = self.recipe_template if isRecipe else self.tag_template
+            self.render_template(templ,file_html,file_title,file_name,isRecipe)
+    
+    def create_html_lists(self):
+        li_template = '<li><a href=%s/%s.html>%s</a></li>\n'
+        recipes_str = ''
+        for recipe_base in self.recipe_dict.keys():
+            recipes_str += li_template % ('recipes',recipe_base,self.recipe_dict[recipe_base]['recipe_name'])
+        tags_str = ''
+        for tag_base in self.tag_dict.keys():
+            tags_str += li_template % ('tags',tag_base,self.tag_dict[tag_base]['tag_name'])
+        return (recipes_str,tags_str)
+    
+    
+    def run_build(self):
+        print('Checking if all needed directories are present')
+        for dir_name in needed_dirs: 
+            create_if_not_exists(dir_name)
+        
+        
+        print('preprocessing recipe markdown files')
+        files = os.listdir(md_dir)
+        files.sort()
+        for file in files:
+            self.process_file(file)
+        
+        print('creating markdown files for tags')
+        tags = list(self.tag_dict.keys())
+        tags.sort()
+        for tag in tags:
+            self.create_tag_markdown(tag)
+        
+        print('running pandoc build')
+        subprocess.call(pandoc_sh)
+        
+        print('inserting recipe html into templates') 
+        self.render_templates(True)
+        print('inserting tag html into templates')
+        self.render_templates(False)
+        
+        print('creating index file')
+        self.render_index() 
 
-print('creating recipe list')
-recipes_str = ''
-for recipe_site in recipe_dict.keys():
-    recipe_str = '<li><a href="recipes/%s.html">%s</a></li>' % (recipe_site, recipe_dict[recipe_site])
-    recipes_str += recipe_str + '\n'
-
-print('creating tag list')
-tags_str = ''
-for tag_name in tag_dict.keys():
-    tag_str = '<li><a href="tags/%s.html">%s</a></li>' % (tag_name,tag_dict[tag_name]['tag_name'])
-    tags_str += tag_str + '\n'
-
-print('inserting html in template')
-templ_file = open(index_template,'r')
-templ_contents = templ_file.read()
-templ_contents = templ_contents.replace('{{- recipes -}}', recipes_str)
-templ_contents = templ_contents.replace('{{- tags -}}',tags_str)
-
-index_file = open(index_path,'w')
-index_file.write(templ_contents)
+if __name__ == '__main__':
+    runner = HTMLBuilder()
+    runner.run_build()
+else: 
+    print(__name__)
