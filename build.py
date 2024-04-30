@@ -66,7 +66,7 @@ class HTMLBuilder:
         header_str = self.header_template.render(index_link='index.html')
         index_html = self.index_template.render(recipes=recipes_str,header=header_str,tags=tags_str)
         write_file(out_dir,'index.html',index_html)
-    
+   
     def process_file(self,src_name):
         print('preprocessing %s' % src_name)
         src_contents = read_file(md_dir,src_name)
@@ -75,8 +75,12 @@ class HTMLBuilder:
     
         src_lines = src_contents.split('\n')
         new_lines = []
-        
+        skip = -1   
+
         for line_nr in range(len(src_lines)):
+            if line_nr == skip:
+                continue
+
             curr_line = src_lines[line_nr]
             if curr_line.startswith('# '):
                 recipe_name = curr_line.replace('# ','')
@@ -87,7 +91,9 @@ class HTMLBuilder:
                 tag_line = self.update_tagline(src_lines[line_nr+1],src_name_base)
                 new_lines.append(curr_line)
                 new_lines.append(tag_line)
-                continue            
+                skip = line_nr + 1
+                continue
+
             new_lines.append(curr_line)
         
         recipe_information = { 'recipe_name':recipe_name }
