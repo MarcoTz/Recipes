@@ -32,7 +32,7 @@ jobs:
             mkdir ../public
             mkdir ../public/tags
             mkdir ../public/recipes
-            mv ./html/index.html ../public
+            mv ./html/*.html ../public
             mv ./html/main.css ../public
             mv ./html/main.js ../public
             mv ./html/recipes/* ../public/recipes
