@@ -28,4 +28,4 @@
 6. Fry each hot dog for about 3min
 
 #### Tags
-American
+american

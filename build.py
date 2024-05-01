@@ -174,10 +174,11 @@ class HTMLBuilder:
         write_file(intermediate_tags,tag+'.md',md_text)
         
     def create_tag_list(self):
-        li_template = '<li><a href="tags/%s.html">%s</a></li>\n'
+        li_template = '<li><a href="tags/%s.html">%s</a>&nbsp;(%s)</li>\n'
         tags_str = ''
         for tag in self.tag_dict.keys():
-            tags_str += li_template % (tag,self.tag_dict[tag]['tag_name'])
+            tag_nr = len(self.tag_dict[tag]['recipes'])
+            tags_str += li_template % (tag,self.tag_dict[tag]['tag_name'],str(tag_nr))
         return tags_str
 
 

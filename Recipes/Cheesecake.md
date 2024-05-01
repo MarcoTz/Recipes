@@ -1,4 +1,4 @@
-# Cheese Cake
+# Cheesecake
 
 ## Ingredients
 
