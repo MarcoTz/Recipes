@@ -1,4 +1,4 @@
-# Spice Mix for Kebab
+# Kebab Spice Mix
 
 ## Ingredients
 

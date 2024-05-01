@@ -1,9 +1,15 @@
-.PHONY: build clean full
+.PHONY: build clean new full
 
 BUILDPY = "build.py"
+NEWSH = "./newRecipe.sh"
+
 build: 
 	python $(BUILDPY)
 
+# call with make new -name=Name
+new: 
+	$(NEWSH) $(name)
+	
 clean: 
 	rm -rf intermediate
 	rm -rf html/recipes

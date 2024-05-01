@@ -18,3 +18,6 @@
 5. Brush cookies with egg yellow
 6. Bake for 10-12min until yellow-brown
 7. Decorate with sprinkles or icing
+
+#### Tags 
+dessert, bakedgood, vegetarian, cookie
