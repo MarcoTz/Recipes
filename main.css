@@ -79,11 +79,22 @@ select {
   height:2em;
 }
 
+#hline {
+  width:100%;
+  height:0.5em;
+  background-color:var(--bg-color3);
+}
+
 #recipe_list_sort, #tags_list_sort{
   float:right;
   margin-right:2em;
+  padding-left:1em;
 }
 
 .recipe_taglist {
   font-size: 10pt;
+}
+
+.metadata_created, .metadata_modified{
+  display:none;
 }
