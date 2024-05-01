@@ -49,5 +49,7 @@
 
 (1) alternatively use brown sugar
 
+Pairs well with [Naan](Naan.html)
+
 #### Tags
 vegan, vegetarian, Japanese

@@ -27,4 +27,4 @@
 9. Remove from heat, add parmesan, lemon juice and thyme
 
 #### Tags
-vegetarian
+vegetarian, fast

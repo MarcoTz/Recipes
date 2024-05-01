@@ -21,4 +21,4 @@
 7. Bake 12-15 mins until salmon can be pulled apart with a fork
 
 #### Tags
-fish
+fish, fast
