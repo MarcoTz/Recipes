@@ -5,11 +5,19 @@
     <link rel="stylesheet" href="main.css"/>
     <script src="main.js"></script>
   </head>
-  <body id='body_index'>
+  <body id='body_index' onLoad="sort()">
     {{- header -}}
     
     <h1>Recipes</h1>
     <div id="recipe_list_container">
+      <div id="recipe_list_sort">
+        Sort by 
+        <select id="sort_key" onChange="sort()">
+          <option value="name_asc">Recipe Name (asc.)</option>
+          <option value="name_desc">Recipe Name (desc.)</option>
+        </select>
+      </div>
+      <div id="spacer"></div>
       <ul id="recipe_list">
        {{- recipes -}}
       </ul>

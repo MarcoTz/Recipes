@@ -3,6 +3,38 @@ function filter(){
   if(document.body.id == 'body_tag_overview') { filter_tags(); }
 }
 
+function sort(){
+  if(document.body.id == 'body_index') { sort_recipes(); }
+}
+
+function sort_recipes() {
+  recipes_ul = document.getElementById('recipe_list');
+  sort_select = document.getElementById('sort_key');
+
+  sort_key = sort_select.value;
+  
+  sort_fun_asc = function(li1,li2) { return (-1)*(li1.textContent.localeCompare(li2.textContent)); };
+  sort_fun_desc = function(li1,li2) { return (li1.textContent.localeCompare(li2.textContent)); };
+
+  if(sort_key == 'name_asc') { sort_ul(recipes_ul,sort_fun_asc); }
+  else { sort_ul(recipes_ul,sort_fun_desc); }
+
+}
+
+function sort_ul(ul,sort_fun){
+  var new_ul = ul.cloneNode(false);
+
+  var lis = [];
+  for(var i=0;i<ul.children.length;i++){ lis.push(ul.children[i]); }
+  
+  lis.sort(sort_fun);
+
+  for(var i=0;i<lis.length;i++){ new_ul.appendChild(lis[i]); }
+
+  ul.parentNode.replaceChild(new_ul,ul);
+}
+
+
 function filter_general(html_elements,filter_fun) {
   search_value = document.getElementById('search').value.toLowerCase();
   for(element of html_elements){
