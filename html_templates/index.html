@@ -3,18 +3,23 @@
   <head>
     <title>Recipes</title>
     <link rel="stylesheet" href="main.css"/>
+    <script src="main.js"></script>
   </head>
   <body>
     {{- header -}}
-
+    
     <h1>Recipes</h1>
-    <ul>
-      {{- recipes -}}
-    </ul>
+    <div id="recipe_list_container">
+      <ul id="recipe_list">
+       {{- recipes -}}
+      </ul>
+    </div>
     
     <h2>Tags</h2>
-    <ul>
-      {{- tags -}}
-    </ul>
+    <div id="tag_list_container">
+      <ul id="recipe_list">
+        {{- tags -}}
+      </ul>
+    </div>
   </body>
 </html>

@@ -38,6 +38,11 @@ h2 {
   width:100%;
 }
 
+input {
+  background:var(--bg-color2);
+  color:var(--fg-color);
+}
+
 #header {
   margin:auto;
   width:90%;
@@ -51,4 +56,12 @@ h2 {
 #steps {
   margin:auto;
   width:60%;
+}
+
+#header > *{
+  display:inline;
+}
+
+#searchbox {
+  float:right;
 }

@@ -34,6 +34,7 @@ jobs:
             mkdir ../public/recipes
             mv ./html/index.html ../public
             mv ./html/main.css ../public
+            mv ./html/main.js ../public
             mv ./html/recipes/* ../public/recipes
             mv ./html/tags/* ../public/tags
         - name: Deploy
