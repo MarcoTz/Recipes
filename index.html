@@ -5,12 +5,20 @@
     <link rel="stylesheet" href="main.css"/>
     <script src="main.js"></script>
   </head>
-  <body id='body_index'><div id="header">
+  <body id='body_index' onLoad="sort()"><div id="header">
   <div id="headline"><a href="index.html">All Recipes</a></div>
   <div id="tagslink"><a href="tag_overview.html">Tags</a></div>
   <div id="searchbox">Filter <input type="text" id="search" onKeyup="filter()"/></div>
 </div><h1>Recipes</h1>
     <div id="recipe_list_container">
+      <div id="recipe_list_sort">
+        Sort by 
+        <select id="sort_key" onChange="sort()">
+          <option value="name_asc">Recipe Name (asc.)</option>
+          <option value="name_desc">Recipe Name (desc.)</option>
+        </select>
+      </div>
+      <div id="spacer"></div>
       <ul id="recipe_list"><li><a href="recipes/AlooParatha.html">Aloo Paratha</a><div class="recipe_taglist">Tags: <a href="tags/indian.html">indian</a>,&nbsp;<a href="tags/vegan.html">vegan</a>,&nbsp;<a href="tags/vegetarian.html">vegetarian</a>,&nbsp;<a href="tags/potato.html">potato</a>,&nbsp;</div></li>
 <li><a href="recipes/AppleSauce.html">Apple Sauce</a><div class="recipe_taglist">Tags: <a href="tags/vegetarian.html">vegetarian</a>,&nbsp;<a href="tags/vegan.html">vegan</a>,&nbsp;<a href="tags/dessert.html">dessert</a>,&nbsp;</div></li>
 <li><a href="recipes/AvjarKebabSauce.html">Avjar Kebab Sauce </a><div class="recipe_taglist">Tags: <a href="tags/kebab.html">kebab</a>,&nbsp;<a href="tags/sauce.html">sauce</a>,&nbsp;<a href="tags/vegetarian.html">vegetarian</a>,&nbsp;</div></li>
