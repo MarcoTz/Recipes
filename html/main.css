@@ -66,6 +66,6 @@ input {
   float:right;
 }
 
-#recipe_taglist {
+.recipe_taglist {
   font-size: 10pt;
 }

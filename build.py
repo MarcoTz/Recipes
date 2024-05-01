@@ -21,6 +21,7 @@ index_template_name  = 'index.html'
 recipe_template_name = 'recipe.html'
 tag_template_name    = 'tag.html'
 header_template_name = 'header.html'
+tag_overview_template_name = 'tag_overview.html'
     
 md_dir = './Recipes'
 intermediate_dir    = os.path.join('intermediate','md')
@@ -54,18 +55,26 @@ class HTMLBuilder:
         self.recipe_template = env.get_template(recipe_template_name)
         self.tag_template    = env.get_template(tag_template_name)
         self.header_template = env.get_template(header_template_name)
+        self.tag_overview_template = env.get_template(tag_overview_template_name)
 
     def render_template(self,templ,html_contents,html_title,out_file,isRecipe):
-        header_str = self.header_template.render(index_link='../index.html')
+        header_str = self.header_template.render(index_link='../index.html',tag_link='../tag_overview.html')
         curr_html = templ.render(content=html_contents,header=header_str,title=html_title)
         out_dir = out_recipes if isRecipe else out_tags
         write_file(out_dir,out_file,curr_html)
     
     def render_index(self) :
-        (recipes_str,tags_str) = self.create_html_lists()
-        header_str = self.header_template.render(index_link='index.html')
-        index_html = self.index_template.render(recipes=recipes_str,header=header_str,tags=tags_str)
+        recipes_str = self.create_recipe_list()
+        header_str = self.header_template.render(index_link='index.html',tag_link='tag_overview.html')
+        index_html = self.index_template.render(recipes=recipes_str,header=header_str)
         write_file(out_dir,'index.html',index_html)
+
+    def render_tag_overview(self):
+        tags_str = self.create_tag_list()
+        header_str = self.header_template.render(index_link='index.html',tag_link='tag_overview.html')
+        overview_html = self.tag_overview_template.render(tags=tags_str,header=header_str)
+        write_file(out_dir,'tag_overview.html',overview_html)
+
    
     def process_file(self,src_name):
         print('preprocessing %s' % src_name)
@@ -138,19 +147,32 @@ class HTMLBuilder:
             templ = self.recipe_template if isRecipe else self.tag_template
             self.render_template(templ,file_html,file_title,file_name,isRecipe)
     
-    def create_html_lists(self):
-        li_start = '<li><a href=%s/%s.html>%s</a>'
+    def create_tag_list(self):
+        li_template = '<li><a href="tags/%s.html">%s</a></li>\n'
+        tags_str = ''
+        for tag in self.tag_dict.keys():
+            tags_str += li_template % (tag,self.tag_dict[tag]['tag_name'])
+        return tags_str
+
+
+    def create_recipe_list(self):
+        li_start = '<li><a href="recipes/%s.html">%s</a>'
         li_end = '</li>\n'
         recipes_str = ''
         for recipe_base in self.recipe_dict.keys():
-            recipes_str += li_start % ('recipes',recipe_base,self.recipe_dict[recipe_base]['recipe_name'])
-            recipes_str += '<div class="recipe_taglist">%s</div>' % ', '.join(self.recipe_dict[recipe_base]['tags'])
+            recipes_str += li_start % (recipe_base,self.recipe_dict[recipe_base]['recipe_name'])
+            tags = self.recipe_dict[recipe_base]['tags']
+
+            if tags == []:
+                recipes_str += li_end
+                continue
+            
+            recipes_str += '<div class="recipe_taglist">Tags: '
+            for tag in tags: 
+                recipes_str += '<a href="tags/%s.html">%s</a>,&nbsp;'%(tag,tag)
+            recipes_str += '</div>'
             recipes_str += li_end
-        tags_str = ''
-        for tag_base in self.tag_dict.keys():
-            tags_str += li_start % ('tags',tag_base,self.tag_dict[tag_base]['tag_name'])
-            tags_str += li_end
-        return (recipes_str,tags_str)
+        return recipes_str
     
     
     def run_build(self):
@@ -174,11 +196,14 @@ class HTMLBuilder:
         print('running pandoc build')
         subprocess.call(pandoc_sh)
         
-        print('inserting recipe html into templates') 
+        print('rendering recipe pages') 
         self.render_templates(True)
-        print('inserting tag html into templates')
+        print('rendering tag pages')
         self.render_templates(False)
-        
+
+        print('creating tag overview')
+        self.render_tag_overview()
+         
         print('creating index file')
         self.render_index() 
 
