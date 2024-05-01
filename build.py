@@ -76,6 +76,7 @@ class HTMLBuilder:
         src_lines = src_contents.split('\n')
         new_lines = []
         skip = -1   
+        tags = []
 
         for line_nr in range(len(src_lines)):
             if line_nr == skip:
@@ -88,7 +89,8 @@ class HTMLBuilder:
                 continue
 
             if curr_line.startswith('#### Tags'):
-                tag_line = self.update_tagline(src_lines[line_nr+1],src_name_base)
+                (recipe_tags,tag_line) = self.update_tagline(src_lines[line_nr+1],src_name_base)
+                tags = recipe_tags
                 new_lines.append(curr_line)
                 new_lines.append(tag_line)
                 skip = line_nr + 1
@@ -96,17 +98,20 @@ class HTMLBuilder:
 
             new_lines.append(curr_line)
         
-        recipe_information = { 'recipe_name':recipe_name }
+        recipe_information = { 'recipe_name':recipe_name, 'tags':tags }
         self.recipe_dict[src_name_base] = recipe_information
         src_contents = '\n'.join(new_lines)
         write_file(intermediate_recipe,src_name,src_contents)
     
     def update_tagline(self,line,recipe): 
         tags = line.split(', ')
+        recipe_tags = []
         for tag in tags:
+            tag = tag.lower()
+            recipe_tags.append(tag)
             self.update_tag(tag,recipe)
             line = line.replace(tag,'[%s](../tags/%s.html)' % (tag.capitalize(),tag))
-        return line
+        return (recipe_tags,line)
     
     def update_tag(self,tag,recipe):
         if not tag in self.tag_dict.keys():
@@ -134,13 +139,17 @@ class HTMLBuilder:
             self.render_template(templ,file_html,file_title,file_name,isRecipe)
     
     def create_html_lists(self):
-        li_template = '<li><a href=%s/%s.html>%s</a></li>\n'
+        li_start = '<li><a href=%s/%s.html>%s</a>'
+        li_end = '</li>\n'
         recipes_str = ''
         for recipe_base in self.recipe_dict.keys():
-            recipes_str += li_template % ('recipes',recipe_base,self.recipe_dict[recipe_base]['recipe_name'])
+            recipes_str += li_start % ('recipes',recipe_base,self.recipe_dict[recipe_base]['recipe_name'])
+            recipes_str += '<div class="recipe_taglist">%s</div>' % ', '.join(self.recipe_dict[recipe_base]['tags'])
+            recipes_str += li_end
         tags_str = ''
         for tag_base in self.tag_dict.keys():
-            tags_str += li_template % ('tags',tag_base,self.tag_dict[tag_base]['tag_name'])
+            tags_str += li_start % ('tags',tag_base,self.tag_dict[tag_base]['tag_name'])
+            tags_str += li_end
         return (recipes_str,tags_str)
     
     
