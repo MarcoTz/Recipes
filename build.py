@@ -64,7 +64,8 @@ class HTMLBuilder:
         recipes_str = self.create_recipe_list()
         header_str = self.header_template.render(index_link='index.html',tag_link='tag_overview.html')
         created_date = datetime.datetime.now().strftime('%d.%m.%Y')
-        footer_str = self.footer_template.render(created_date=created_date,modified_date='')
+        num_recipes = len(self.recipe_dict.keys())
+        footer_str = self.footer_template.render(created_date=created_date,modified_date='Number of recipes: '+str(num_recipes))
         index_html = self.index_template.render(recipes=recipes_str,header=header_str,footer=footer_str)
         write_file(out_dir,'index.html',index_html)
 
@@ -72,8 +73,9 @@ class HTMLBuilder:
         tags_str = self.create_tag_list()
         header_str = self.header_template.render(index_link='index.html',tag_link='tag_overview.html')
         created_date = datetime.datetime.now().strftime('%d.%m.%Y')
-        footer_str = self.footer_template.render(created_time=created_date,modified_date='')
-        overview_html = self.tag_overview_template.render(tags=tags_str,header=header_str,footer=footer_str)
+        num_recipes = len(self.recipe_dict.keys())
+        footer_str = self.footer_template.render(created_time=created_date,modified_date='Number of recipes: '+str(num_recipes))
+        overview_html = self.tag_overview_template.render(tags=tags_str,header=header_str,footer=footer_str,)
         write_file(out_dir,'tag_overview.html',overview_html)
 
     def render_recipe_template(self,recipe_file_name):

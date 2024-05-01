@@ -5,7 +5,7 @@
 * 1kg flour
 * 700ml water 
 * 50ml olive oil
-* 10g salt
+* 15g salt
 * 30g dry yeast 
 
 ## Steps
@@ -21,4 +21,4 @@
 (1) Knead longer for more gluten development
 
 #### Tags 
-bakedgood, breat, italian
+bakedgood, bread, italian, dough

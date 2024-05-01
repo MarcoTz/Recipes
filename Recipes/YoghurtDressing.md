@@ -18,4 +18,4 @@
 2. Combine all ingredients and add seasonings
 
 #### Tags
-vegetarian, salad
+vegetarian, salad, sauce
