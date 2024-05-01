@@ -8,7 +8,7 @@
 * 0.5 tsp garam masala (optional)
 * 0.5 tsp salt
 * 0.5 tsp pepper
-* oil for frying
+* vegetable oil for frying
 
 ### Dough
 * 300g flour

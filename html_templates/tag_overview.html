@@ -17,7 +17,9 @@
           <option value="name_asc">Tag Name (asc.)</option> 
         </select>
       </div>
+      <div id="searchbox">Filter <input type="text" id="search" onKeyup="filter()"/></div>
       <div id="spacer"></div>
+      <div id="hline"></div>
       <ul id="tags_list">
        {{- tags -}}
       </ul>

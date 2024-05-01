@@ -15,9 +15,15 @@
         <select id="sort_key" onChange="sort()">
           <option value="name_desc">Recipe Name (desc.)</option>
           <option value="name_asc">Recipe Name (asc.)</option>
+          <option value="created_asc">Time Created (desc.)</option>
+          <option value="created_desc">Time Created (asc.)</option>
+          <option value="modified_asc">Time Modified (desc.)</option>
+          <option value="modified_desc">Time Modified (asc.)</option>
         </select>
       </div>
+      <div id="searchbox">Filter <input type="text" id="search" onKeyup="filter()"/></div>
       <div id="spacer"></div>
+      <div id="hline"></div>
       <ul id="recipe_list">
        {{- recipes -}}
       </ul>

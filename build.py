@@ -79,6 +79,10 @@ class HTMLBuilder:
     def process_file(self,src_name):
         print('preprocessing %s' % src_name)
         src_contents = read_file(md_dir,src_name)
+        file_path = os.path.join(md_dir,src_name)
+        created_date = os.path.getmtime(file_path)
+        modified_date = os.path.getctime(file_path)
+
         src_name_base = os.path.splitext(src_name)[0]
         recipe_name = ''
     
@@ -107,7 +111,7 @@ class HTMLBuilder:
 
             new_lines.append(curr_line)
         
-        recipe_information = { 'recipe_name':recipe_name, 'tags':tags }
+        recipe_information = { 'recipe_name':recipe_name, 'tags':tags, 'created_date':created_date, 'modified_date':modified_date }
         self.recipe_dict[src_name_base] = recipe_information
         src_contents = '\n'.join(new_lines)
         write_file(intermediate_recipe,src_name,src_contents)
@@ -163,14 +167,15 @@ class HTMLBuilder:
             recipes_str += li_start % (recipe_base,self.recipe_dict[recipe_base]['recipe_name'])
             tags = self.recipe_dict[recipe_base]['tags']
 
-            if tags == []:
-                recipes_str += li_end
-                continue
-            
-            recipes_str += '<div class="recipe_taglist">Tags: '
-            for tag in tags: 
-                recipes_str += '<a href="tags/%s.html">%s</a>,&nbsp;'%(tag,tag)
-            recipes_str += '</div>'
+            if not tags == []:
+                recipes_str += '<div class="recipe_taglist">Tags: '
+                for tag in tags: 
+                    recipes_str += '<a href="tags/%s.html">%s</a>,&nbsp;'%(tag,tag)
+                recipes_str += '</div>'
+
+            recipes_str += '<div class="metadata_created">%s</div>' % str(self.recipe_dict[recipe_base]['created_date'])
+            recipes_str += '<div class="metadata_modified">%s</div>' % str(self.recipe_dict[recipe_base]['modified_date'])
+
             recipes_str += li_end
         return recipes_str
     
