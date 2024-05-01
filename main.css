@@ -12,7 +12,10 @@ body {
   font-family: "Noto Sans", sans-serif;
   font-size:14pt;
 }
- 
+
+ul {
+  list-style-type:none;
+}
 li {
   margin:0.5em;
 }
