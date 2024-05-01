@@ -2,7 +2,6 @@ import os
 import subprocess
 import jinja2
 import datetime
-import time
 
 def create_if_not_exists(dir):
     if not os.path.exists(dir):
@@ -81,8 +80,8 @@ class HTMLBuilder:
         recipe_base = os.path.splitext(recipe_file_name)[0]
         html_title = self.recipe_dict[recipe_base]['recipe_name']
         html_content = read_file(pandoc_recipes,recipe_file_name)
-        created_date = self.recipe_dict[recipe_base]['created_date']
-        modified_date = self.recipe_dict[recipe_base]['modified_date'] 
+        created_date = self.recipe_dict[recipe_base]['created_date'].strftime('%d.%m.%Y %H:%M')
+        modified_date = self.recipe_dict[recipe_base]['modified_date'].strftime('%d.%m.%Y %H:%M')
         footer_str = self.footer_template.render(created_date=created_date,modified_date='Last modified: '+modified_date)
         header_str = self.header_template.render(index_link='../index.html',tag_link='../tag_overview.html')
         curr_html = self.recipe_template.render(content=html_content,header=header_str,title=html_title,footer=footer_str)
@@ -113,8 +112,8 @@ class HTMLBuilder:
         print('preprocessing %s' % src_name)
         src_contents = read_file(md_dir,src_name)
         file_path = os.path.join(md_dir,src_name)
-        created_date = str(time.ctime(os.path.getctime(file_path)))
-        modified_date = str(time.ctime(os.path.getmtime(file_path)))
+        created_date = datetime.datetime.fromtimestamp(os.path.getctime(file_path))
+        modified_date = datetime.datetime.fromtimestamp(os.path.getmtime(file_path))
 
         src_name_base = os.path.splitext(src_name)[0]
         recipe_name = ''
@@ -195,9 +194,11 @@ class HTMLBuilder:
                 for tag in tags: 
                     recipes_str += '<a href="tags/%s.html">%s</a>,&nbsp;'%(tag,tag)
                 recipes_str += '</div>'
-
-            recipes_str += '<div class="metadata_created">%s</div>' % str(self.recipe_dict[recipe_base]['created_date'])
-            recipes_str += '<div class="metadata_modified">%s</div>' % str(self.recipe_dict[recipe_base]['modified_date'])
+            
+            created_date = str(self.recipe_dict[recipe_base]['created_date'].timestamp())
+            modified_date = str(self.recipe_dict[recipe_base]['modified_date'].timestamp())
+            recipes_str += '<div class="metadata_created">%s</div>' % created_date
+            recipes_str += '<div class="metadata_modified">%s</div>' % modified_date
 
             recipes_str += li_end
         return recipes_str
