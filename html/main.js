@@ -5,6 +5,21 @@ function filter(){
 
 function sort(){
   if(document.body.id == 'body_index') { sort_recipes(); }
+  if(document.body.id == 'body_tag_overview') { sort_tags(); }
+}
+
+function sort_tags() {
+  tags_ul = document.getElementById('tags_list');
+  sort_select = document.getElementById('sort_key');
+
+  sort_key = sort_select.value
+
+  sort_fun_asc = function(li1,li2) { return (-1)*(li1.textContent.localeCompare(li2.textContent));};
+  sort_fun_desc = function(li1,li2) { return (li1.textContent.localeCompare(li2.textContent));};
+
+  if( sort_key == 'name_asc') { sort_ul(tags_ul,sort_fun_asc);}
+  else { sort_ul(tags_ul,sort_fun_desc);}
+
 }
 
 function sort_recipes() {

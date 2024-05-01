@@ -5,11 +5,19 @@
     <link rel="stylesheet" href="main.css"/>
     <script src="main.js"></script>
   </head>
-  <body id="body_tag_overview">
+  <body id="body_tag_overview" onLoad="sort()">
     {{- header -}}
     
     <h1>Tags</h1>
     <div id="tags_list_container">
+      <div id="tags_list_sort">
+        Sort by 
+        <select id="sort_key" onChange="sort()">
+          <option value="name_desc">Tag Name (desc.)</option>
+          <option value="name_asc">Tag Name (asc.)</option> 
+        </select>
+      </div>
+      <div id="spacer"></div>
       <ul id="tags_list">
        {{- tags -}}
       </ul>

@@ -79,7 +79,7 @@ select {
   height:2em;
 }
 
-#recipe_list_sort {
+#recipe_list_sort, #tags_list_sort{
   float:right;
   margin-right:2em;
 }
