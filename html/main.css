@@ -51,8 +51,10 @@ select {
   color:var(--fg-color);
 }
 
-#header {
-  margin:auto;
+#header, #footer {
+  margin-top:2em;
+  margin-left:auto;
+  margin-right:auto;
   width:90%;
   height:10%;
 }
@@ -66,29 +68,30 @@ select {
   width:60%;
 }
 
-#header > *{
+#header > *, #footer > *{
   display:inline;
+  margin-left:0.5em;
+  margin-right:0.5em;
 }
 
 #searchbox {
   float:right;
 }
 
-#spacer {
-  width:100%;
-  height:2em;
-}
-
-#hline {
-  width:100%;
-  height:0.5em;
-  background-color:var(--bg-color3);
-}
-
 #recipe_list_sort, #tags_list_sort{
   float:right;
   margin-right:2em;
   padding-left:1em;
+}
+
+#created_date {
+  float:right;
+}
+#last_modified_date{
+  float:right;
+}
+#github_link{
+  float:left;
 }
 
 .recipe_taglist {
@@ -98,3 +101,15 @@ select {
 .metadata_created, .metadata_modified{
   display:none;
 }
+
+.spacer {
+  width:100%;
+  height:2em;
+}
+
+.hline {
+  width:100%;
+  height:0.5em;
+  background-color:var(--bg-color3);
+}
+

@@ -1,6 +1,8 @@
 import os
 import subprocess
 import jinja2
+import datetime
+import time
 
 def create_if_not_exists(dir):
     if not os.path.exists(dir):
@@ -21,6 +23,7 @@ index_template_name  = 'index.html'
 recipe_template_name = 'recipe.html'
 tag_template_name    = 'tag.html'
 header_template_name = 'header.html'
+footer_template_name = 'footer.html'
 tag_overview_template_name = 'tag_overview.html'
     
 md_dir = './Recipes'
@@ -55,33 +58,63 @@ class HTMLBuilder:
         self.recipe_template = env.get_template(recipe_template_name)
         self.tag_template    = env.get_template(tag_template_name)
         self.header_template = env.get_template(header_template_name)
+        self.footer_template = env.get_template(footer_template_name)
         self.tag_overview_template = env.get_template(tag_overview_template_name)
-
-    def render_template(self,templ,html_contents,html_title,out_file,isRecipe):
-        header_str = self.header_template.render(index_link='../index.html',tag_link='../tag_overview.html')
-        curr_html = templ.render(content=html_contents,header=header_str,title=html_title)
-        out_dir = out_recipes if isRecipe else out_tags
-        write_file(out_dir,out_file,curr_html)
     
     def render_index(self) :
         recipes_str = self.create_recipe_list()
         header_str = self.header_template.render(index_link='index.html',tag_link='tag_overview.html')
-        index_html = self.index_template.render(recipes=recipes_str,header=header_str)
+        created_date = datetime.datetime.now().strftime('%d.%m.%Y')
+        footer_str = self.footer_template.render(created_date=created_date,modified_date='')
+        index_html = self.index_template.render(recipes=recipes_str,header=header_str,footer=footer_str)
         write_file(out_dir,'index.html',index_html)
 
     def render_tag_overview(self):
         tags_str = self.create_tag_list()
         header_str = self.header_template.render(index_link='index.html',tag_link='tag_overview.html')
-        overview_html = self.tag_overview_template.render(tags=tags_str,header=header_str)
+        created_date = datetime.datetime.now().strftime('%d.%m.%Y')
+        footer_str = self.footer_template.render(created_time=created_date,modified_date='')
+        overview_html = self.tag_overview_template.render(tags=tags_str,header=header_str,footer=footer_str)
         write_file(out_dir,'tag_overview.html',overview_html)
 
-   
+    def render_recipe_template(self,recipe_file_name):
+        recipe_base = os.path.splitext(recipe_file_name)[0]
+        html_title = self.recipe_dict[recipe_base]['recipe_name']
+        html_content = read_file(pandoc_recipes,recipe_file_name)
+        created_date = self.recipe_dict[recipe_base]['created_date']
+        modified_date = self.recipe_dict[recipe_base]['modified_date'] 
+        footer_str = self.footer_template.render(created_date=created_date,modified_date='Last modified: '+modified_date)
+        header_str = self.header_template.render(index_link='../index.html',tag_link='../tag_overview.html')
+        curr_html = self.recipe_template.render(content=html_content,header=header_str,title=html_title,footer=footer_str)
+        write_file(out_recipes,recipe_file_name,curr_html)
+
+    def render_tag_template(self,tag_file_name):
+        tag_base = os.path.splitext(tag_file_name)[0]
+        html_title = self.tag_dict[tag_base]['tag_name']
+        html_content = read_file(pandoc_tags,tag_file_name)
+        created_date = datetime.datetime.now().strftime('%d.%m.%Y')
+        footer_str = self.footer_template.render(created_date=created_date,modified_date='')
+        header_str = self.header_template.render(index_link='../index.html',tag_link='../tag_overview.html')
+        curr_html = self.tag_template.render(content=html_content,header=header_str,title=html_title,footer=footer_str)
+        write_file(out_tags,tag_file_name,curr_html)
+
+    def render_templates(self,isRecipe):
+        in_dir = pandoc_recipes if isRecipe else pandoc_tags
+        file_ls = os.listdir(in_dir)
+        file_ls.sort()
+        for file_name in file_ls:
+            if isRecipe:
+                self.render_recipe_template(file_name)
+            else:
+                self.render_tag_template(file_name)
+
+  
     def process_file(self,src_name):
         print('preprocessing %s' % src_name)
         src_contents = read_file(md_dir,src_name)
         file_path = os.path.join(md_dir,src_name)
-        created_date = os.path.getmtime(file_path)
-        modified_date = os.path.getctime(file_path)
+        created_date = str(time.ctime(os.path.getctime(file_path)))
+        modified_date = str(time.ctime(os.path.getmtime(file_path)))
 
         src_name_base = os.path.splitext(src_name)[0]
         recipe_name = ''
@@ -139,18 +172,7 @@ class HTMLBuilder:
         for recipe in self.tag_dict[tag]['recipes']:
             md_text += '* [%s](../recipes/%s.html) \n' % (self.recipe_dict[recipe]['recipe_name'],recipe)
         write_file(intermediate_tags,tag+'.md',md_text)
-    
-    def render_templates(self,isRecipe):
-        in_dir = pandoc_recipes if isRecipe else pandoc_tags
-        file_ls = os.listdir(in_dir)
-        file_ls.sort()
-        for file_name in file_ls:
-            file_html = read_file(in_dir,file_name) 
-            file_base = os.path.splitext(file_name)[0]
-            file_title = self.recipe_dict[file_base]['recipe_name'] if isRecipe else self.tag_dict[file_base]['tag_name']
-            templ = self.recipe_template if isRecipe else self.tag_template
-            self.render_template(templ,file_html,file_title,file_name,isRecipe)
-    
+        
     def create_tag_list(self):
         li_template = '<li><a href="tags/%s.html">%s</a></li>\n'
         tags_str = ''
