@@ -21,4 +21,4 @@
 The final batter should be as thick as honey
 
 #### Tags
-vegetarian, German
+vegetarian, German, noodle
