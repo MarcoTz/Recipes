@@ -22,5 +22,7 @@ To form that noodles, it can be helpful to roll the entire dough into one long s
 
 After cooking the noodles, optionally also fry them.
 
+For a vegan version, leave out egg and replace with 100g chickpea flour and 60g tapioka flour, or similar thickening flours
+
 #### Tags
-noodle, potato, vegetarian
+noodle, potato, vegetarian, vegan
