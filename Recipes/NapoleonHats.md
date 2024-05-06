@@ -1,4 +1,4 @@
-# NapoleonHats
+# Napoleon Hats
 
 ## Ingredients
 

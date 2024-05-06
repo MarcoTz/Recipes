@@ -1,4 +1,4 @@
-# PuffPastryDough.md
+# Puff Pastry Dough
 
 ## Ingredients
 

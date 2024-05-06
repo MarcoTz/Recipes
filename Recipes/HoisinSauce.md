@@ -1,4 +1,4 @@
-# HoisinSauce
+# Hoisin Sauce
 
 ## Ingredients
 

@@ -1,4 +1,4 @@
-# Pizza buns
+# Pizza Buns
 
 ## Ingredients
 

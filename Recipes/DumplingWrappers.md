@@ -1,4 +1,4 @@
-# DumplingWrappers
+# Dumpling Wrappers
 
 ## Ingredients
 

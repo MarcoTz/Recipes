@@ -1,4 +1,4 @@
-# Pizza bombs
+# Pizza Bombs
 
 ## Ingredients
 

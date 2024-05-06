@@ -1,4 +1,4 @@
-# HoneyMustardDressing
+# Honey Mustard Dressing
 
 ## Ingredients
 

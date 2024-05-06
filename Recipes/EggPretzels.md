@@ -1,4 +1,4 @@
-# EggPretzels
+# Egg Pretzels
 
 ## Ingredients
 
