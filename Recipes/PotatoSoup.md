@@ -2,34 +2,32 @@
 
 ## Ingredients
 
-* 8-10 potatoes
+* 1 Tbsp vegetable oil 
+* 1 onion
+* 2 stalks celery 
 * 2 carrots
-* 0.5 leeks
-* 2 onions
-* 0.5 bulb celery (1)
+* 900g potatoes
 * 1l vegetable broth
-* 1 laurel leaf 
-* 1 tsp Majoram
-* 50g butter
-* 2 Tbsp olive oil or vegetable oil
-* 20g parsley 
-* salt to taste
+* 1 tsp majoram
+* 1 tsp nutmeg 
+* 2 bay leaves 
+* salt to taste 
 * pepper to taste
-* 100ml cream (optional)
+* 100ml cream or milk (optional)
 
 ## Steps
 
-1. Wash, peel and dice all vegetables 
-2. Saute onions in butter and oil
-3. Add diced vegetables, fry for about 1min and fill with vegetable broth
-4. Add laurel leaf and other spices, except majoram and parsley
-5. Cook vegetables for about 30min, regularly remove foam on top
-6. Remove laurel leaf, puree soup and season with parsley and majoram
-7. Mix in cream
+1. dice onion, celery, carrots and potatoes and mince garlic
+2. Sautee onions in oil until transparent, add garlic and continue for 30s 
+3. Add remaining vegetables and fry while stirring for another minute
+4. Add vegetable broth and bay leaves 
+5. Cook for about 20min, until all the vegetables are soft
+6. Puree with a handmixer (1)
+7. Add cream and season with spices
 
 ## Notes
 
-(1) stalk celery also works
+(1) This step can be left out, or only part of the soup can be pureed, depending on the desired consistency
 
 #### Tags
-potato, soup, vegan, vegetarian
+vegan, vegetarian, soup, potato

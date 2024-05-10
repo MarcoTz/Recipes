@@ -175,7 +175,7 @@ class HTMLBuilder:
         write_file(intermediate_tags,tag+'.md',md_text)
         
     def create_tag_list(self):
-        li_template = '<li><a href="tags/%s.html">%s</a>&nbsp;(%s)</li>\n'
+        li_template = '<div class="tag_item"><a href="tags/%s.html">%s</a>&nbsp;(%s)</div>\n'
         tags_str = ''
         for tag in self.tag_dict.keys():
             tag_nr = len(self.tag_dict[tag]['recipes'])
@@ -184,15 +184,15 @@ class HTMLBuilder:
 
 
     def create_recipe_list(self):
-        li_start = '<li><a href="recipes/%s.html">%s</a>'
-        li_end = '</li>\n'
+        li_start = '<div class="recipe_item"><a href="recipes/%s.html">%s</a>'
+        li_end = '</div>\n'
         recipes_str = ''
         for recipe_base in self.recipe_dict.keys():
             recipes_str += li_start % (recipe_base,self.recipe_dict[recipe_base]['recipe_name'])
             tags = self.recipe_dict[recipe_base]['tags']
 
             if not tags == []:
-                recipes_str += '<div class="recipe_taglist">Tags: '
+                recipes_str += '<div class="recipe_taglist">Tags:'
                 for tag in tags: 
                     recipes_str += '<a href="tags/%s.html">%s</a>,&nbsp;'%(tag,tag)
                 recipes_str += '</div>'
