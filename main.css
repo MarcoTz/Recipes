@@ -75,14 +75,41 @@ select {
 #header > *:nth-child(odd){
   background:var(--bg-color2);
 }
+
+.level1 {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:flex-start;
+}
 #ingredients {
-  margin:auto;
-  width:50%;
+  width:45%;
+  margin-left:2em;
 }
 
 #steps {
+  width:45%;
+  margin-right:2em;
+}
+
+#notes {
   margin:auto;
-  width:60%;
+  width:95%;
+}
+
+#recipe_images {
+  width:100%;
+  display:flex;
+
+}
+.recipe_image{
+  margin:auto;
+  height:15%;
+  width: 15%;
+  padding:2em;
+}
+img { 
+  height:100%;
+  width:100%;
 }
 
 #header > *, #footer > *{
@@ -151,6 +178,17 @@ select {
 .recipe_taglist {
   text-align:left;
   font-size: 8pt;
+}
+
+#tags > h2 {
+  font-size:12pt;
+  text-align:left;
+}
+#tags{
+  text-align:left;
+  font-size: 12pt;
+  width:100%;
+  margin:2em;
 }
 
 .metadata_created, .metadata_modified{
