@@ -19,5 +19,5 @@
 2. Mix water and corn starch and bring sauce to a boil
 3. Stir in slurry little by little, until sauce thickens sufficiently
 
-#### Tags
+## Tags
 sauce, chinese

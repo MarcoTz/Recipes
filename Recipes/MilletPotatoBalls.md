@@ -24,5 +24,5 @@
 
 (1) If all water is absorbed, add more broth
 
-#### Tags
+## Tags
 vegetarian, vegan, potato

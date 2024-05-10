@@ -14,5 +14,5 @@
 1. Combine all ingredients except chocolate chips in a mixer and mix until smooth
 2. Add chocolate chips
 
-#### Tags
+## Tags
 vegan, vegetarian, dessert

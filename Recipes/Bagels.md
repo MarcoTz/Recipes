@@ -28,5 +28,5 @@
 
 Leave out egg yolk during brushing for a vegan version 
 
-#### Tags
+## Tags
 bread, bakedgood, vegetarian, vegan

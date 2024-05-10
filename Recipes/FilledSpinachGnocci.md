@@ -28,5 +28,5 @@
 
 To get the gnocci pattern on the noodles, roll over the back of a fork after cutting them off 
 
-#### Tags
+## Tags
 vegetarian, vegan, potato, noodle

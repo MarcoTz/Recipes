@@ -15,5 +15,5 @@
 3. Combine all other ingredients and marinate tofu cubes for at least 15min
 4. Bake for 30min or fry in oil
 
-#### Tags
+## Tags
 vegetarian, vegan

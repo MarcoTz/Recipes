@@ -18,5 +18,5 @@
 3. Once boiling, use a spaetzle maker or cutting board to drop noodles into the hot water 
 4. Remove spaetzle from water once they float at the top and rinse under cold water
 
-#### Tags
+## Tags
 vegan, vegetarian, noodle, German

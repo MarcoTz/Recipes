@@ -24,5 +24,5 @@
 7. Top with parmesan and bake for 5min
 8. Put tomatoes and basil on top of ciabatta
 
-#### Tags
+## Tags
 Italian, bread, vegan, vegetarian

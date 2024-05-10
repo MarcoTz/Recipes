@@ -21,5 +21,5 @@
 6. Bread the croquettes with flour, egg and bread crumbs (in that order)
 7. Fry in oil.
 
-#### Tags
+## Tags
 vegetarian, potato

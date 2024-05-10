@@ -17,5 +17,5 @@
 3. Alternate adding one layer of biscuits, mascarpone and strawberries in a container
 4. Cool in the fridge for at least 4h
 
-#### Tags
+## Tags
 dessert, vegetarian

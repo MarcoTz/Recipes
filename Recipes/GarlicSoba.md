@@ -35,5 +35,5 @@
 9. Add bok choy and remove from heat
 10. Garnish with remaining spring onions and peanuts and season to taste
 
-#### Tags
+## Tags
 vegan, vegetarian, Japanese

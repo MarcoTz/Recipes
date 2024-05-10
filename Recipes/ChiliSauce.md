@@ -22,5 +22,5 @@
 4. Simmer until the sauce thickens, season with salt, pepper and cayenne pepper
 5. Let fully cool down, then blend in a mixer
 
-#### Tags
+## Tags
 sauce, vegetarian, vegan, dip

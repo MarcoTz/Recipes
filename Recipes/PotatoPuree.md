@@ -17,5 +17,5 @@
 4. Take balls of about 10cm diameter and flatten them 
 5. Fry each pancake for 4-5min per side in butter, pat dry with kitchen towel
 
-#### Tags
+## Tags
 potato, vegetarian

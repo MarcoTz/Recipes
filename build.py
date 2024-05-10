@@ -38,6 +38,7 @@ pandoc_tags     = os.path.join(pandoc_dir,'tags')
 out_dir     = 'html'
 out_recipes = os.path.join(out_dir,'recipes')
 out_tags    = os.path.join(out_dir,'tags')
+images_dir  = 'img'
     
 needed_dirs = [
         intermediate_dir,intermediate_recipe,intermediate_tags,
@@ -86,7 +87,23 @@ class HTMLBuilder:
         modified_date = self.recipe_dict[recipe_base]['modified_date'].strftime('%d.%m.%Y %H:%M')
         footer_str = self.footer_template.render(created_date=created_date,modified_date='Last modified: '+modified_date)
         header_str = self.header_template.render(index_link='../index.html',tag_link='../tag_overview.html')
-        curr_html = self.recipe_template.render(content=html_content,header=header_str,title=html_title,footer=footer_str)
+        recipe_images = []
+        images_path = os.path.join(out_dir,images_dir)
+        recipe_images_files = os.listdir(images_path)
+        recipe_images_files.sort()
+        recipe_images_files = list(filter(lambda x: recipe_base in x,recipe_images_files))
+        recipe_image_template = '<div class="recipe_image"><img src="%s"/></div>'
+        for recipe_image_file in recipe_images_files:
+            recipe_image_path = os.path.join('..',images_dir,recipe_image_file)
+            recipe_images.append(recipe_image_template % recipe_image_path)
+        recipe_images_str = '<div id="recipe_images">%s</div>' %'\n'.join(recipe_images)
+        recipe_dict  = {
+                'recipe_images':recipe_images_str,
+                'content':html_content,
+                'header':header_str,
+                'title':html_title,
+                'footer':footer_str}
+        curr_html = self.recipe_template.render(recipe_dict)
         write_file(out_recipes,recipe_file_name,curr_html)
 
     def render_tag_template(self,tag_file_name):
@@ -135,7 +152,7 @@ class HTMLBuilder:
                 new_lines.append(curr_line)
                 continue
 
-            if curr_line.startswith('#### Tags'):
+            if curr_line.startswith('## Tags'):
                 (recipe_tags,tag_line) = self.update_tagline(src_lines[line_nr+1],src_name_base)
                 tags = recipe_tags
                 new_lines.append(curr_line)
@@ -152,6 +169,7 @@ class HTMLBuilder:
     
     def update_tagline(self,line,recipe): 
         tags = line.split(', ')
+        tags = list(map(lambda x: x.strip(),tags))
         recipe_tags = []
         for tag in tags:
             tag = tag.lower()

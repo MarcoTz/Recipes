@@ -37,5 +37,5 @@
 
 (1) Can be mixed to any consistency, but make sure the final mixture can be formed into a loaf
 
-#### Tags
+## Tags
 vegan, vegetarian

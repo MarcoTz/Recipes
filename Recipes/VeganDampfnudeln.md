@@ -28,5 +28,5 @@
 
 Instead of cooking them in water, they can also be steamed 
 
-#### Tags
-vegan, vegetrian, German
+## Tags
+vegan, vegetarian, German

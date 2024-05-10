@@ -13,5 +13,5 @@
 3. Top pretzels with cheese
 4. Bake for 10-15min
 
-#### Tags
+## Tags
 fast, vegetarian

@@ -16,5 +16,5 @@
 1. Use a pestle and mortar to grind all spices
 2. Combine all spices
 
-#### Tags
+## Tags
 spice, dessert, vegan, vegetarian

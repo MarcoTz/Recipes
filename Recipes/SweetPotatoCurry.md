@@ -23,5 +23,5 @@
 5. Add chickpeas, continue simmering for 5min
 6. Add spinach, season with salt and pepper, then remove from heat
 
-#### Tags
+## Tags
 vegan, vegetarian

@@ -25,5 +25,5 @@ Egg and Parmesan can be left out for a vegan variant (make sure to add more flou
 
 (2) To get the typical gnocci look, roll them over the back of a fork after forming
 
-#### Tags
+## Tags
 potato, italian, pasta, noodle

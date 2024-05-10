@@ -14,5 +14,5 @@
 
 ## Notes
 
-#### Tags
+## Tags
 vegetarian, vegan, dessert

@@ -31,5 +31,5 @@ Good with [Apple Sauce](AppleSauce.html)
 
 See also [Vegan Kaiserschmarrn](VeganKaiserSchmarrn.html)
 
-#### Tags
+## Tags
 vegetarian, dessert

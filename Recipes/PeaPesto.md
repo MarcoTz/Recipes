@@ -14,5 +14,5 @@
 
 1. Add all ingredients to a mixer and mix until smooth
 
-#### Tags
+## Tags
 vegetarian, vegan, sauce

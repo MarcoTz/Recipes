@@ -23,5 +23,5 @@
 5. Melt butter in a pan, sautee onion in butter until transparent, add garlic and sautee for another 30s
 6. Combine all ingredients in a single pot and season to taste
 
-#### Tags
+## Tags
 fast, vegetarian, pasta, risotto

@@ -19,5 +19,5 @@
 3. Mince garlic and combine with salt, sugar and vinegar
 4. Add onion and sauce to carrots and let everything rest in the fridge for 1-2h
 
-#### Tags
+## Tags
 vegan, vegetarian, Korean, salad

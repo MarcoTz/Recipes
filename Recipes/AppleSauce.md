@@ -14,5 +14,5 @@
 2. Combine all ingredients and cook on low heat for 4 hours 
 3. Mash into sauce
 
-#### Tags
+## Tags
 vegetarian, vegan, dessert

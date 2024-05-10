@@ -26,5 +26,5 @@
 
 If using fresh rice, make sure to use as little water as possible to ensure the rice is not soggy
 
-#### Tags
+## Tags
 korean, vegan, vegetarian, rice

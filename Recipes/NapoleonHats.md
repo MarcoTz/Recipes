@@ -30,5 +30,5 @@
 6. Place one marzipan ball on each circle and form into a pyramid
 7. Bake for 10-15min
 
-#### Tags
+## Tags
 dessert, vegetarian, cookie

@@ -29,5 +29,5 @@
 
 To use this for marinading kebab meat, add tomato paste, soy sauce and olive or a neutral vegetable oil.
 
-#### Tags 
+## Tags 
 spice, kebab

@@ -39,5 +39,5 @@ This means everything needs to be cut as small as the smallest ingredient
 
 This is a good recipe for using left over vegetables
 
-#### Tags
+## Tags
 Chinese, vegetarian, rice

@@ -14,5 +14,5 @@
 
 1. Combine all ingredients and mix well
 
-#### Tags
+## Tags
 sauce, american, vegetarian, vegan

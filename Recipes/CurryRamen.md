@@ -51,5 +51,5 @@
 
 Pairs well with [Naan](Naan.html)
 
-#### Tags
+## Tags
 vegan, vegetarian, Japanese, soup, noodle

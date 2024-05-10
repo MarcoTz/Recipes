@@ -26,5 +26,5 @@
 
 Chicken can be replaced by tofu for a vegan version
 
-#### Tags
+## Tags
 meat, chinese

@@ -20,5 +20,5 @@
 4. Let rest for at least 2h at room temperature, then over night in fridge
 5. Knead in sugar, then bake in waffle iron
 
-#### Tags
+## Tags
 bakedgood, vegetarian, vegan

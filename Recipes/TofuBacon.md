@@ -20,5 +20,5 @@
 3. Mix all other ingredients, brush tofu strips with marinade
 4. Bake for 20min, flip after 10min
 
-#### Tags
+## Tags
 vegan, vegetarian

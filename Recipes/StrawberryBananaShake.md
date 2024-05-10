@@ -13,5 +13,5 @@
 
 1. Combine all ingredients in a mixer and mix until smooth
 
-#### Tags
+## Tags
 dessert, drink, vegetarian, vegan

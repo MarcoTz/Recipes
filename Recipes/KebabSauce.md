@@ -24,5 +24,5 @@ For more intense taste, leave in fridge over night.
 
 (1) carefully add sugar, very little at a time. Stop before the sauce gets too sweet
 
-#### Tags 
+## Tags 
 kebab, vegetarian, sauce

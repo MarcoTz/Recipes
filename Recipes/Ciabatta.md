@@ -19,5 +19,5 @@
 7. Form dough into a loaf and place on baking tray, and rest for another 30min
 8. Bake for about 22min
 
-#### Tags
+## Tags
 Italian, bread, bakedgood, vegan, vegetarian

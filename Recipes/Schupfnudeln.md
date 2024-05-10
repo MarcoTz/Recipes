@@ -24,5 +24,5 @@ After cooking the noodles, optionally also fry them.
 
 For a vegan version, leave out egg and replace with 100g chickpea flour and 60g tapioka flour, or similar thickening flours
 
-#### Tags
+## Tags
 noodle, potato, vegetarian, vegan

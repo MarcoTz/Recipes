@@ -32,5 +32,5 @@ Best mushrooms are shiitake, but champignons also work
 
 (3) For extra flavor, save some of the mushroom water and add to the dashi
 
-#### Tags
+## Tags
 japanese, vegetarian, rice

@@ -17,5 +17,5 @@
 1. Press garlic
 2. Combine all ingredients and add seasonings
 
-#### Tags
+## Tags
 vegetarian, salad, sauce

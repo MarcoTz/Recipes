@@ -41,5 +41,5 @@
 
 (3) alternatively use fresh chilis in mortar
 
-#### Tags
+## Tags
 vegan, vegetarian, noodle

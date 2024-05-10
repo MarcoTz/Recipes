@@ -30,5 +30,5 @@
 (1) The sauce should have almost the consistency of tomato paste.
 Keep heat very low to avoid burning
 
-#### Tags
+## Tags
 vegan, vegetarian

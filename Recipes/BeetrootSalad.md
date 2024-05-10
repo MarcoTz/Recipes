@@ -23,5 +23,5 @@
 
 (1) either red wine or balsamic
 
-#### Tags
+## Tags
 salad, vegan, vegetarian

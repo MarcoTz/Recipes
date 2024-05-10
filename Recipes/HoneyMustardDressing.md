@@ -17,5 +17,5 @@
 
 For a vegan version use agave sirup instead of honey
 
-#### Tags
+## Tags
 Salad, sauce, vegetarian, vegan

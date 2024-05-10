@@ -22,5 +22,5 @@
 
 (1) All fries should be covered in olive oil, but should not be drenched
 
-#### Tags
+## Tags
 potato, vegetarian, vegan

@@ -24,5 +24,5 @@
 
 (1) Alternatively, leave tofu sticks in the mixture to marinade before breading
 
-#### Tags
+## Tags
 vegetarian, vegan

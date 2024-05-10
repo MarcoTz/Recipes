@@ -28,5 +28,5 @@
 1. For each kind of popsicle, add all ingredients into a blender and blend until smooth (1)
 2. Pour into popsicle form and freeze until solid 
 
-#### Tags
+## Tags
 dessert, vegan, vegetarian

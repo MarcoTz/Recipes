@@ -26,5 +26,5 @@
 7. Combine Tahin, olive oil and all spices
 8. Add all ingredients to the tortillas and wrap them up
 
-#### Tags
+## Tags
 vegetarian

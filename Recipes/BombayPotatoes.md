@@ -32,5 +32,5 @@
 7. Add water and simmer until potatoes are done, then add garam masala, lemon juice and sugar 
 8. Cook for another minute while stirring 
 
-#### Tags
+## Tags
 indian, potato, vegetarian, vegan

@@ -24,5 +24,5 @@
 
 For information on how to roll maultaschen, see [Maultaschen Dough](MaultaschenDough.html)
 
-#### Tags
+## Tags
 German, meat

@@ -26,5 +26,5 @@
 (1) both savory and sweet fillings work
 Cheese, pizza toppings, jam and nutella are recommended options 
 
-#### Tags
+## Tags
 bakedgood, vegetarian, vegan

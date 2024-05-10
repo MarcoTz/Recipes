@@ -19,5 +19,5 @@
 1. Combine all ingredients and mix well
 2. Leave in the fridge over night
 
-#### Tags
+## Tags
 alcohol, drink, vegan, vegetarian

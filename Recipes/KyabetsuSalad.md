@@ -16,5 +16,5 @@
 3. Add all ingredients into a big bowl and mix well 
 
 
-#### Tags
+## Tags
 Japanese, salad, vegetarian, vegan

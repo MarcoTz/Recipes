@@ -26,5 +26,5 @@
 5. Add marinade and let simmer on low heat
 6. Once most of the marinate has been absorbed, remove from heat and garnish with spring onion
 
-#### Tags
+## Tags
 vegan, vegetarian, Korean

@@ -18,5 +18,5 @@
 3. Wash cabbage, peel and jullienne other vegetables, then combine with sauce
 4. Put into sterile glasses, close airtight and let ferment for at least 1-2 days
 
-#### Tags
+## Tags
 Korean, vegan, vegetarian

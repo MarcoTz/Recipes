@@ -13,5 +13,5 @@
 1. roast pine seeds in a pan
 2. Combine all ingretients and pulse in food processor until smooth
 
-#### Tags
+## Tags
 sauce, vegan, vegetarian

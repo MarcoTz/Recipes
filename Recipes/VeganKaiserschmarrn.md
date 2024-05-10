@@ -24,5 +24,5 @@
 
 See also [Kaiserschmarrn](Kaiserschmarrn.html)
 
-#### Tags
+## Tags
 vegan, vegetarian, dessert

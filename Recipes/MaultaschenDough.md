@@ -27,5 +27,5 @@ To make maultaschen, follow these steps:
 9. Cut trough the pressed down parts and press dough together 
 10. Cook maultaschen for about 10min in salted water or broth
 
-#### Tags
+## Tags
 dough, vegetarian, vegan, German

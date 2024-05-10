@@ -27,5 +27,5 @@
 
 Add more spices to taste
 
-#### Tags
-vegetarian, vegan, sauce 
+## Tags
+vegetarian, vegan, sauce

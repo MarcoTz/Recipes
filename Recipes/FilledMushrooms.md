@@ -21,5 +21,5 @@
 (1) Depending on how well the stems come out, there might be little room for the cream. 
 In that case, the mushrooms can be hollowed out a bit more with a knife .
 
-#### Tags
+## Tags
 vegetarian, bbq

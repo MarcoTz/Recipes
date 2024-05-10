@@ -27,5 +27,5 @@
 10. Cool down cake for 10min, then pour over frosting
 11. Let dry for 30min
 
-#### Tags
+## Tags
 dessert, cake, vegetarian

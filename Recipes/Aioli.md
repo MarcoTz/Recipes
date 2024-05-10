@@ -13,5 +13,5 @@
 1. Combine all ingredients with a hand mixer
 2. Rest in fridge for at least 30min
 
-#### Tags
+## Tags
 vegetarian, vegan, sauce, dip

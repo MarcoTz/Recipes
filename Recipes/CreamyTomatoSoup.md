@@ -23,5 +23,5 @@
 5. Mix with handmixer until smooth
 6. Add basil leaves and add salt and pepper
 
-#### Tags
+## Tags
 soup, vegetarian, vegan

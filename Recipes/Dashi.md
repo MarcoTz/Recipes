@@ -24,5 +24,5 @@
 For a vegan version, use dried shiitake instead of bonito.
 If using dried shiitake, soak them first, then rip or cut them into small pieces and simmer with the konbu
 
-#### Tags
+## Tags
 soup, Japanese

@@ -20,5 +20,5 @@
 
 (1) instead of paprika powder, use different spice mixes, for differnt kinds of chips
 
-#### Tags
-snack, vegetarian 
+## Tags
+snack, vegetarian

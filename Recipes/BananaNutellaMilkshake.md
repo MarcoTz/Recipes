@@ -14,5 +14,5 @@
 1. Add all ingredients (except cream and cocoa powder) to mixer and mix until smooth
 2. Garnish with whipped cream and cocoa powder 
 
-#### Tags
+## Tags
 dessert, drink

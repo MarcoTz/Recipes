@@ -39,5 +39,5 @@
 
 (1) Alternatively mix equal parts sugar, vanilla sugar and corn starch
 
-#### Tags
+## Tags
 dessert, cake, bakedgood, vegetarian

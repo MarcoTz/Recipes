@@ -26,5 +26,5 @@
 
 (1) Alternatively, use butter milk
 
-#### Tags
+## Tags
 bakedgood, dessert, vegetarian, vegan

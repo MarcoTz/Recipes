@@ -14,5 +14,5 @@
 2. Roast pine seeds in a pan
 3. Combine all ingredients in a bowl and mix well
 
-#### Tags
+## Tags
 fast, vegetarian

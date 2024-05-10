@@ -25,5 +25,5 @@
 
 Replace meat with seasoned tofu for a vegan variant
 
-#### Tags
+## Tags
 Japanese

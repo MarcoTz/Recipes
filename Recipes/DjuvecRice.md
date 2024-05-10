@@ -31,5 +31,5 @@
 7. Add sugar and tomatoes, add more seasoning if needed
 8. Let rest for at least 15min
 
-#### Tags
+## Tags
 vegetarian, vegan, rice

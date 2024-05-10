@@ -26,5 +26,5 @@
 
 If the sauce does not thicken once it is boiling, slowly add more cornstarch (dissolved in water) until the desired consistency is reached
 
-#### Tags
+## Tags
 sauce, vegan, vegetarian

@@ -29,5 +29,5 @@
 
 (1) This step can be left out, or only part of the soup can be pureed, depending on the desired consistency
 
-#### Tags
+## Tags
 vegan, vegetarian, soup, potato

@@ -17,5 +17,5 @@
 4. Transfer batter onto a baking tray using a spoon, each cookie should be 5-10cm in diameter and about 0.5cm thick
 4. Add sprinkles and bake for 15-20min
 
-#### Tags
+## Tags
 dessert, cookie, vegan, vegetarian, bakedgood

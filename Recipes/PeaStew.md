@@ -36,5 +36,5 @@
 
 (1) If not using precooked peas, add them once the broth has been added so they can finish cooking
 
-#### Tags
+## Tags
 stew, vegetarian, vegan

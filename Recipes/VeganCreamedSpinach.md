@@ -28,5 +28,5 @@
 
 (1) If using frozen spinach, unfreeze separately to ensure onions and garlic don't burn
 
-#### Tags 
+## Tags 
 vegan, vegetarian

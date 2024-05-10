@@ -27,5 +27,5 @@
 5. Dunk hot dogs into batter and immediately transfer to hot oil
 6. Fry each hot dog for about 3min
 
-#### Tags
+## Tags
 american

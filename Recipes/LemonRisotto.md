@@ -26,5 +26,5 @@
 8. Add broccoli, continue cooking until rice is tender 
 9. Remove from heat, add parmesan, lemon juice and thyme
 
-#### Tags
+## Tags
 vegetarian, fast, rice, risotto

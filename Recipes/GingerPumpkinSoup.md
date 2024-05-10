@@ -20,5 +20,5 @@
 4. Add vegetable broth and cook for about 20min until the pumpkin is done 
 5. Puree with a handmixer and season with salt and pepper
 
-#### Tags
+## Tags
 soup, pumpkin, vegan, vegetarian

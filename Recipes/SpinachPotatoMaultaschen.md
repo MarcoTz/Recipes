@@ -23,5 +23,5 @@
 
 For more information on how to form maultaschen, see [Maultaschen Dough](MaultaschenDough.html)
 
-#### Tags
+## Tags
 vegetarian, vegan, German

@@ -28,5 +28,5 @@ Topping options:
 * Garlic butter/ garlic oil
 * olive oil with herbs
 
-#### Tags
+## Tags
 Italian, bakedgood, bread, vegetarian, vegan

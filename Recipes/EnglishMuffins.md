@@ -22,5 +22,5 @@
 7. Let rest for 20min
 8. Fry in a pan at low heat, without any oil, for about 6-7min per side 
 
-#### Tags 
+## Tags 
 bakedgood, vegan, bread
