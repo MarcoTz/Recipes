@@ -52,4 +52,4 @@
 Pairs well with [Naan](Naan.html)
 
 #### Tags
-vegan, vegetarian, Japanese
+vegan, vegetarian, Japanese, soup, noodle

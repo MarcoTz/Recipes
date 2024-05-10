@@ -32,4 +32,4 @@
 8. Let rest for at least 15min
 
 #### Tags
-vegetarian, vegan
+vegetarian, vegan, rice

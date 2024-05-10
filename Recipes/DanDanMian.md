@@ -46,5 +46,5 @@
 (3) can be replaced with ramen or soba
 
 #### Tags
-chinese, vegetarian
+chinese, vegetarian, noodle
 

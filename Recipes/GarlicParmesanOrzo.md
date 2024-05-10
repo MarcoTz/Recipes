@@ -24,4 +24,4 @@
 6. Combine all ingredients in a single pot and season to taste
 
 #### Tags
-fast, vegetarian, pasta
+fast, vegetarian, pasta, risotto

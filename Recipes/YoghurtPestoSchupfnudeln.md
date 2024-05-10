@@ -15,4 +15,4 @@
 3. Mix all ingredients together
 
 #### Tags
-vegetarian, fast
+vegetarian, fast, noodle

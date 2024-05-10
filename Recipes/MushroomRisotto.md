@@ -37,4 +37,4 @@ Both fresh and dried ones work, but dried ones need to be soaked in water at lea
 To make the water evaporate fastr, add a pinch of salt to the pan
 
 #### Tags
-vegetarian, Italian
+vegetarian, Italian, rice, risotto
