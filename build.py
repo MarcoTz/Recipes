@@ -168,7 +168,7 @@ class HTMLBuilder:
         write_file(intermediate_recipe,src_name,src_contents)
     
     def update_tagline(self,line,recipe): 
-        tags = line.split(', ')
+        tags = line.split(',')
         tags = list(map(lambda x: x.strip(),tags))
         recipe_tags = []
         for tag in tags:

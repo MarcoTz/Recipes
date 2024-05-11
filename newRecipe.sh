@@ -7,6 +7,6 @@ echo "## Steps" >> $FILENAME
 echo "" >> $FILENAME
 echo "## Notes" >> $FILENAME
 echo "" >> $FILENAME
-echo "#### Tags" >> $FILENAME
+echo "## Tags" >> $FILENAME
 $EDITOR $FILENAME
 
