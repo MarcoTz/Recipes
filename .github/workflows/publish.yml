@@ -33,6 +33,8 @@ jobs:
             mkdir ../public/tags
             mkdir ../public/recipes
             mkdir ../public/img
+            ls .
+            ls ./html
             mv ./html/* ../public
             mv ./html/recipes/* ../public/recipes
             mv ./html/tags/* ../public/tags
