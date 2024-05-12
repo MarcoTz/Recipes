@@ -31,4 +31,4 @@
 8. Brush rolls with egg yolk and bake for 20-25min
 
 ## Tags
-bakedgood, dessert, vegetarian
+bakedgood, dessert, vegetarian, yeast

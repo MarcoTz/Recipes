@@ -3,7 +3,7 @@
 ## Ingredients
 
 * 1kg flour
-* 700ml water 
+* 800ml water 
 * 50ml olive oil
 * 15g salt
 * 30g dry yeast 
@@ -21,4 +21,4 @@
 (1) Knead longer for more gluten development
 
 ## Tags 
-bakedgood, bread, italian, dough
+bakedgood, bread, italian, dough, yeast

@@ -20,4 +20,4 @@
 8. Bake for about 22min
 
 ## Tags
-Italian, bread, bakedgood, vegan, vegetarian
+Italian, bread, bakedgood, vegan, vegetarian, yeast

@@ -19,4 +19,4 @@
 7. Bake for 10-15min, then reduce temperature to 220C and bake for another 40-45min
 
 ## Tags
-bakedgood, vegetarian, vegan, bread
+bakedgood, vegetarian, vegan, bread, yeast

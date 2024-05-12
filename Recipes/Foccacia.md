@@ -29,4 +29,4 @@ Topping options:
 * olive oil with herbs
 
 ## Tags
-Italian, bakedgood, bread, vegetarian, vegan
+Italian, bakedgood, bread, vegetarian, vegan, yeast

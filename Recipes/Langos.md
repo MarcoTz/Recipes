@@ -28,4 +28,4 @@
 For a sweet topping, use a mix of sugar and cinnamon
 
 ## Tags
-vegetarian, vegan, bakedgood
+vegetarian, vegan, bakedgood, yeast

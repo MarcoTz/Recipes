@@ -26,4 +26,4 @@
 (1) Better rest for 2-3h, stretch and fold every 30min, then bulk ferment over night
 
 ## Tags
-bakedgood, bread, vegetarian, vegan
+bakedgood, bread, vegetarian, vegan, yeast

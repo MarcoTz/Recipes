@@ -23,4 +23,4 @@
 8. Fry in a pan at low heat, without any oil, for about 6-7min per side 
 
 ## Tags 
-bakedgood, vegan, bread
+bakedgood, vegan, bread, yeast

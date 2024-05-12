@@ -26,4 +26,4 @@
 If the dough is too runny add more water
 
 ## Tags
-bread, vegan, vegetarian, bakedgood
+bread, vegan, vegetarian, bakedgood, yeast

@@ -20,4 +20,4 @@
 7. Reduce heat to 190C, then bake another 10min
 
 ## Tags
-vegetarian, vegan, bakedgood, bread
+vegetarian, vegan, bakedgood, bread, yeast

@@ -21,4 +21,4 @@
 5. Knead in sugar, then bake in waffle iron
 
 ## Tags
-bakedgood, vegetarian, vegan
+bakedgood, vegetarian, vegan, yeast

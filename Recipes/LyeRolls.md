@@ -28,4 +28,4 @@
 
 
 ## Tags
-bakedgood, bread, vegetarian, vegan
+bakedgood, bread, vegetarian, vegan, yeast

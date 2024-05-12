@@ -29,4 +29,4 @@
 Instead of cooking them in water, they can also be steamed 
 
 ## Tags
-vegan, vegetarian, German
+vegan, vegetarian, German, yeast
