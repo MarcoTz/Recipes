@@ -29,16 +29,7 @@ jobs:
           run: make build 
         - name: Move files
           run: |
-            mkdir ../public
-            mkdir ../public/tags
-            mkdir ../public/recipes
-            mkdir ../public/img
-            ls .
-            ls ./html
-            mv ./html/* ../public
-            mv ./html/recipes/* ../public/recipes
-            mv ./html/tags/* ../public/tags
-            mv ./html/img/* ../public/img
+            mv ./html ../public
         - name: Deploy
           uses: JamesIves/github-pages-deploy-action@v4
           with:
