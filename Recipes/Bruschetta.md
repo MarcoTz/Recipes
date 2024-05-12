@@ -25,4 +25,4 @@
 8. Put tomatoes and basil on top of ciabatta
 
 ## Tags
-Italian, bread, vegan, vegetarian
+Italian, bread, vegan, vegetarian, sandwich

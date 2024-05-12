@@ -1,4 +1,4 @@
-# Gnocci
+# Gnocchi
 
 ## Ingredients
 

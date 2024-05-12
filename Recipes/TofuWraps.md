@@ -11,7 +11,7 @@
 * 1 tsp basil
 * 1 Tbsp tomato paste 
 * 2-3 Tbsp olive oil 
-* 2 tortillas 
+* 2 [Tortillas](Tortillas.html)
 * 200g fresh spinach
 * 200g salad
 * 1 cucumber 

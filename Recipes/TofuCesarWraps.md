@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-* 4 tortillas 
+* 4 [Tortillas](Tortillas.html)
 * 1 tomato 
 * 100g lettuce
 * 1 avocado
@@ -25,4 +25,4 @@
 4. Roll up into wraps
 
 ## Tags
-vegan, vegetarian
+vegan, vegetarian, sandwich

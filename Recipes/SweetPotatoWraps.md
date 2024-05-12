@@ -3,7 +3,7 @@
 ## Ingredients
 
 * 1 sweet potato
-* 2 tortillas 
+* 2 [Tortillas](Tortillas.html)
 * 2 eggs
 * 50g green salad 
 * 2 Tbsp Tahini
@@ -27,4 +27,4 @@
 8. Add all ingredients to the tortillas and wrap them up
 
 ## Tags
-vegetarian
+vegetarian, potato, sandwich

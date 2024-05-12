@@ -169,6 +169,8 @@ class HTMLBuilder:
     
     def update_tagline(self,line,recipe): 
         tags = line.split(',')
+        if len(tags) == 0:
+            print('No tags for %s' % recipe)
         tags = list(map(lambda x: x.strip(),tags))
         recipe_tags = []
         for tag in tags:

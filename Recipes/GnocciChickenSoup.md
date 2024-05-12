@@ -1,7 +1,8 @@
-# Gnocci-Chicken Soup
+# Gnocchi-Chicken Soup
 
 ## Ingredients
 
+* 500g [Gnocchi](Gnocchi.html)
 * 1 Tbsp olive oil
 * 1 onion
 * 2 cloves garlic
@@ -27,8 +28,8 @@
 5. Cook for 20-25min, until the potatoes are soft
 6. Use a handmixer to mash some of the potatoes (optional, increases thickness)
 7. Add milk and simmer for another 10min
-8. Cook gnocci and pan-fry chicken
-9. Add gnocci and chicken to soup and simmer for another 5min
+8. Cook gnocchi and pan-fry chicken
+9. Add gnocchi and chicken to soup and simmer for another 5min
 10. Optionally add additional seasoning
 
 ## Tags
