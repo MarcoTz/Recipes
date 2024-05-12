@@ -32,11 +32,11 @@ jobs:
             mkdir ../public
             mkdir ../public/tags
             mkdir ../public/recipes
-            mv ./html/*.html ../public
-            mv ./html/main.css ../public
-            mv ./html/main.js ../public
+            mkdir ../public/img
+            mv ./html/* ../public
             mv ./html/recipes/* ../public/recipes
             mv ./html/tags/* ../public/tags
+            mv ./html/img/* ../public/img
         - name: Deploy
           uses: JamesIves/github-pages-deploy-action@v4
           with:

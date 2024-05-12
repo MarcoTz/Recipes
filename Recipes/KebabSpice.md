@@ -12,6 +12,7 @@
 * 1 tsp Marojam
 * 1 tsp Satureja (Bohnenkraut) (3)
 * 2 tsp Cayenne pepper, or more to taste 
+* 2 tsp Pul biber (or more cayenne pepper)
 * 0.5 tsp oregano
 * 0.5 tsp onion powder optional 
 
