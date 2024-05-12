@@ -19,4 +19,4 @@
 4. Put into sterile glasses, close airtight and let ferment for at least 1-2 days
 
 ## Tags
-Korean, vegan, vegetarian
+Korean, vegan, vegetarian, fermented
