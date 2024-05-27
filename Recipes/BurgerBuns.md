@@ -42,4 +42,4 @@
 (3) If the dough is too sticky, add more flour
 
 ## Tags
-bakedgood, yeast, bread, vegetarian
+bakedgood, yeast, bread, vegetarian, burger

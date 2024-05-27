@@ -31,5 +31,5 @@
 (2) Final dough should be faily wet, but easy to form
 If it's too runny, add some flour, if it's too solid, add some water
 
-#### Tags
+## Tags
 vegetarian, vegan, burger

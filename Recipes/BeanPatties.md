@@ -32,4 +32,4 @@
 (1) If the consistency is off, add extra flour
 
 ## Tags
-vegetarian
+vegetarian, burger
