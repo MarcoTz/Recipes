@@ -191,7 +191,7 @@ class HTMLBuilder:
         print('creating markdown for %s' % tag_name)
         md_text = '# %s\n\n' % tag_name 
         for recipe in self.tag_dict[tag]['recipes']:
-            md_text += '* [%s](../recipes/%s.html) \n' % (self.recipe_dict[recipe]['recipe_name'],recipe)
+            md_text += '[%s](../recipes/%s.html) \n\n' % (self.recipe_dict[recipe]['recipe_name'],recipe)
         write_file(intermediate_tags,tag+'.md',md_text)
         
     def create_tag_list(self):

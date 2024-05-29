@@ -19,4 +19,4 @@
 4. Panfry in vegetable oil until crisp
 
 ## Tags
-vegetrian, vegan, Kebab
+vegetarian, vegan, Kebab

@@ -22,4 +22,4 @@
 (2) Either use white sugar, or mix it with brown sugar to a ratio of up to 50-50
 
 ## Tags
-vegetarian. vegan, dessert
+vegetarian, vegan, dessert
