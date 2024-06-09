@@ -28,7 +28,6 @@ tag_overview_template_name = 'tag_overview.html'
 md_dir = './Recipes'
 intermediate_dir    = os.path.join('intermediate','md')
 intermediate_recipe = os.path.join(intermediate_dir,'recipes')
-intermediate_tags   = os.path.join(intermediate_dir,'tags')
     
 pandoc_sh       = './build.sh'
 pandoc_dir      = os.path.join('intermediate','html')
@@ -41,7 +40,7 @@ out_tags    = os.path.join(out_dir,'tags')
 images_dir  = 'img'
     
 needed_dirs = [
-        intermediate_dir,intermediate_recipe,intermediate_tags,
+        intermediate_dir,intermediate_recipe,
         pandoc_dir,pandoc_recipes,pandoc_tags,
         out_dir,out_tags,out_recipes]
 
@@ -75,7 +74,7 @@ class HTMLBuilder:
         header_str = self.header_template.render(index_link='index.html',tag_link='tag_overview.html')
         created_date = datetime.datetime.now().strftime('%d.%m.%Y')
         num_recipes = len(self.recipe_dict.keys())
-        footer_str = self.footer_template.render(created_time=created_date,modified_date='Number of recipes: '+str(num_recipes))
+        footer_str = self.footer_template.render(created_date=created_date,modified_date='Number of recipes: '+str(num_recipes))
         overview_html = self.tag_overview_template.render(tags=tags_str,header=header_str,footer=footer_str,)
         write_file(out_dir,'tag_overview.html',overview_html)
 
@@ -186,13 +185,26 @@ class HTMLBuilder:
         else:
             self.tag_dict[tag]['recipes'].append(recipe)
     
-    def create_tag_markdown(self,tag):
-        tag_name = self.tag_dict[tag]['tag_name']
-        print('creating markdown for %s' % tag_name)
-        md_text = '# %s\n\n' % tag_name 
+    def render_tag_details(self,tag):
+        tag_name : str = self.tag_dict[tag]['tag_name']
+
+        tag_dict = {}
+        tag_dict['title']  = tag_name
+        tag_dict['header'] = self.header_template.render(index_link='../index.html',tag_link='../tag_overview.html')
+        created_date : str = datetime.datetime.now().strftime('%d.%m.%Y')
+        num_recipes  : int = len(self.recipe_dict.keys())
+        tag_dict['footer'] = self.footer_template.render(created_date=created_date,modified_date='Number of recipes: '+str(num_recipes))
+        
+        content_strs : list[str] = []
+        recipe_li_template = '<div class="recipe_item"><a href="../recipes/%s.html">%s</a></div>'
         for recipe in self.tag_dict[tag]['recipes']:
-            md_text += '[%s](../recipes/%s.html) \n\n' % (self.recipe_dict[recipe]['recipe_name'],recipe)
-        write_file(intermediate_tags,tag+'.md',md_text)
+            recipe_str = recipe_li_template % (self.recipe_dict[recipe]['recipe_name'],recipe)
+            content_strs.append(recipe_str)
+
+        tag_dict['content'] = '\n'.join(content_strs)
+        tag_html = self.tag_template.render(tag_dict)
+        write_file(out_tags,tag+'.html',tag_html)
+
         
     def create_tag_list(self):
         li_template = '<div class="tag_item"><a href="tags/%s.html">%s</a>&nbsp;(%s)</div>\n'
@@ -242,15 +254,13 @@ class HTMLBuilder:
         tags = list(self.tag_dict.keys())
         tags.sort()
         for tag in tags:
-            self.create_tag_markdown(tag)
+            self.render_tag_details(tag)
         
         print('running pandoc build')
         subprocess.call(pandoc_sh)
         
         print('rendering recipe pages') 
         self.render_templates(True)
-        print('rendering tag pages')
-        self.render_templates(False)
 
         print('creating tag overview')
         self.render_tag_overview()
