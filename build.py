@@ -115,15 +115,12 @@ class HTMLBuilder:
         curr_html = self.tag_template.render(content=html_content,header=header_str,title=html_title,footer=footer_str)
         write_file(out_tags,tag_file_name,curr_html)
 
-    def render_templates(self,isRecipe):
-        in_dir = pandoc_recipes if isRecipe else pandoc_tags
+    def render_recipe_details(self):
+        in_dir = pandoc_recipes 
         file_ls = os.listdir(in_dir)
         file_ls.sort()
         for file_name in file_ls:
-            if isRecipe:
-                self.render_recipe_template(file_name)
-            else:
-                self.render_tag_template(file_name)
+            self.render_recipe_template(file_name)
 
   
     def process_file(self,src_name):
@@ -219,7 +216,14 @@ class HTMLBuilder:
         li_start = '<div class="recipe_item"><a href="recipes/%s.html">%s</a>'
         li_end = '</div>\n'
         recipes_str = ''
+
+        current_char : str = chr(ord('A')-1)
+        letter_separator : str = '<div class="recipe_letter">%s</div>'
+
         for recipe_base in self.recipe_dict.keys():
+            if current_char != recipe_base[0].upper():
+                current_char = chr(ord(current_char)+1)
+                recipes_str += letter_separator % current_char 
             recipes_str += li_start % (recipe_base,self.recipe_dict[recipe_base]['recipe_name'])
             tags = self.recipe_dict[recipe_base]['tags']
 
@@ -260,7 +264,7 @@ class HTMLBuilder:
         subprocess.call(pandoc_sh)
         
         print('rendering recipe pages') 
-        self.render_templates(True)
+        self.render_recipe_details()
 
         print('creating tag overview')
         self.render_tag_overview()
