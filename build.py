@@ -224,7 +224,8 @@ class HTMLBuilder:
             if current_char != recipe_base[0].upper():
                 current_char = chr(ord(current_char)+1)
                 recipes_str += letter_separator % current_char 
-            recipes_str += li_start % (recipe_base,self.recipe_dict[recipe_base]['recipe_name'])
+            recipe_html : str = self.recipe_dict[recipe_base]['recipe_name'].replace(' ','')
+            recipes_str += li_start % (recipe_base,recipe_html)
             tags = self.recipe_dict[recipe_base]['tags']
 
             if not tags == []:
