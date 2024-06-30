@@ -2,6 +2,7 @@
 
 BUILDPY = "build.py"
 NEWSH = "./newRecipe.sh"
+SCRAPERPY = "./scraper.py"
 
 build: 
 	python $(BUILDPY)
@@ -17,3 +18,6 @@ clean:
 	rm -f html/index.html
 
 full: clean build
+
+scrape:
+	venv/bin/python $(SCRAPERPY)
