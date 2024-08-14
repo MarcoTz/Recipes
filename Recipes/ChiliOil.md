@@ -29,3 +29,5 @@
 
 (2) Oil should still be around 110-120C at this point 
 
+## Tags
+chinese, vegetarian, vegan, spice
