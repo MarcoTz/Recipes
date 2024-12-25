@@ -3,6 +3,10 @@
 version = 3
 
 [[package]]
+name = "pages"
+version = "0.0.1"
+
+[[package]]
 name = "parse_markdown"
 version = "0.0.1"
 dependencies = [
@@ -25,6 +29,7 @@ version = "0.0.1"
 name = "render_recipes"
 version = "0.1.0"
 dependencies = [
+ "pages",
  "parse_markdown",
  "recipes",
 ]

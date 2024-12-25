@@ -3,7 +3,8 @@ members = [
     "render_recipes",
     "test",
     "lib/recipes",
-    "lib/parse_markdown"
+    "lib/parse_markdown",
+    "lib/pages"
 ]
 
 resolver = "2"
