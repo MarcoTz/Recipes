@@ -1,9 +1,9 @@
-use super::{Measurement, Tag};
+use super::{Ingredient, Tag};
 use std::fmt;
 
 pub struct Recipe {
     pub name: String,
-    pub ingredients: Vec<(Measurement, String)>,
+    pub ingredients: Vec<Ingredient>,
     pub steps: Vec<String>,
     pub notes: Vec<String>,
     pub tags: Vec<Tag>,
@@ -14,7 +14,7 @@ impl fmt::Display for Recipe {
         let ingredient_strs: Vec<String> = self
             .ingredients
             .iter()
-            .map(|(measure, ingredient)| format!("* {measure} {ingredient}"))
+            .map(|ingredient| format!("* {ingredient}"))
             .collect();
         let step_strs: Vec<String> = self
             .steps

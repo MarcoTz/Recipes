@@ -1,13 +1,18 @@
-use parse_markdown::load_markdown;
+use parse_markdown::parse_recipe;
 use std::path::PathBuf;
-//use recipes::{Measurement, Recipe, Unit};
 
 static RECIPE_PATH: &str = "./Recipes";
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let contents = load_markdown(PathBuf::from(RECIPE_PATH)).map_err(Box::new)?;
+    /*let contents = load_markdown(PathBuf::from(RECIPE_PATH)).map_err(Box::new)?;
     println!("loaded: \n{}", contents.join("\n\n"));
+    Ok(())*/
+
+    let contents = std::fs::read_to_string(PathBuf::from(RECIPE_PATH).join("VeganDampfnudeln.md"))?;
+    let res = parse_recipe(contents)?;
+    println!("{res}");
     Ok(())
+
     /*    let test_recipe = Recipe {
         name: "testing".to_owned(),
         ingredients: vec![
