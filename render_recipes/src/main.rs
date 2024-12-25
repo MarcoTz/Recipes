@@ -1,7 +1,14 @@
-use recipes::{Measurement, Recipe, Unit};
+use parse_markdown::load_markdown;
+use std::path::PathBuf;
+//use recipes::{Measurement, Recipe, Unit};
 
-fn main() {
-    let test_recipe = Recipe {
+static RECIPE_PATH: &str = "./Recipes";
+
+fn main() -> Result<(), Box<dyn std::error::Error>> {
+    let contents = load_markdown(PathBuf::from(RECIPE_PATH)).map_err(Box::new)?;
+    println!("loaded: \n{}", contents.join("\n\n"));
+    Ok(())
+    /*    let test_recipe = Recipe {
         name: "testing".to_owned(),
         ingredients: vec![
             (
@@ -37,5 +44,5 @@ fn main() {
         ],
         tags: vec!["tag1".to_owned(), "tag2".to_owned()],
     };
-    println!("{test_recipe}")
+    println!("{test_recipe}")*/
 }
