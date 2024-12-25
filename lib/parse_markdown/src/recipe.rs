@@ -1,5 +1,5 @@
 use super::{errors::Error, ingredient::parse_ingredient, parse_steps::ParseStep};
-use recipes::Recipe;
+use recipes::{IngredientSection, Recipe, StepSection};
 use std::str::Lines;
 
 pub fn parse_recipe(input: String) -> Result<Recipe, Error> {
@@ -8,8 +8,10 @@ pub fn parse_recipe(input: String) -> Result<Recipe, Error> {
 
     let name = parse_name(&mut inputs)?;
     let mut current_step = ParseStep::default();
-    let mut ingredients = vec![];
-    let mut steps = vec![];
+    let mut previous_ingredients = vec![];
+    let mut current_ingredients = IngredientSection::default();
+    let mut previous_steps = vec![];
+    let mut current_steps = StepSection::default();
     let mut notes = vec![];
     let mut tags = vec![];
     for mut input in inputs {
@@ -20,7 +22,16 @@ pub fn parse_recipe(input: String) -> Result<Recipe, Error> {
         }
 
         if input.is_empty() || input.starts_with('#') {
-            //TODO subheaders should work
+            let next_header = input.replace('#', "").trim().to_owned();
+            if current_step == ParseStep::Ingredients {
+                previous_ingredients.push(current_ingredients);
+                current_ingredients = IngredientSection::default();
+                current_ingredients.header = next_header;
+            } else if current_step == ParseStep::Steps {
+                previous_steps.push(current_steps);
+                current_steps = StepSection::default();
+                current_steps.header = next_header;
+            }
             continue;
         }
 
@@ -28,21 +39,23 @@ pub fn parse_recipe(input: String) -> Result<Recipe, Error> {
             ParseStep::Name => return Err(Error::MissingHeader("name".to_owned())),
             ParseStep::Ingredients => {
                 let ing = parse_ingredient(input.to_owned())?;
-                ingredients.push(ing);
+                current_ingredients.ingredients.push(ing);
             }
             ParseStep::Steps => {
                 let step = parse_step(input.to_owned())?;
-                steps.push(step);
+                current_steps.steps.push(step);
             }
             ParseStep::Notes => notes.push(input.trim().to_owned()),
             ParseStep::Tags => tags.extend(parse_tags(input.to_owned())),
             ParseStep::Done => break,
         }
     }
+    previous_ingredients.push(current_ingredients);
+    previous_steps.push(current_steps);
     Ok(Recipe {
         name,
-        ingredients,
-        steps,
+        ingredients: previous_ingredients,
+        steps: previous_steps,
         notes,
         tags,
     })
