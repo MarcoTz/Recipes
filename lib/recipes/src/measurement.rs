@@ -6,8 +6,8 @@ pub enum Unit {
 }
 
 pub struct Measurement {
-    amount: f32,
-    unit: Unit,
+    pub amount: f32,
+    pub unit: Unit,
 }
 
 impl fmt::Display for Measurement {

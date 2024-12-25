@@ -2,11 +2,11 @@ use super::{Measurement, Tag};
 use std::fmt;
 
 pub struct Recipe {
-    name: String,
-    ingredients: Vec<(Measurement, String)>,
-    steps: Vec<String>,
-    notes: Vec<String>,
-    tags: Vec<Tag>,
+    pub name: String,
+    pub ingredients: Vec<(Measurement, String)>,
+    pub steps: Vec<String>,
+    pub notes: Vec<String>,
+    pub tags: Vec<Tag>,
 }
 
 impl fmt::Display for Recipe {
@@ -20,32 +20,23 @@ impl fmt::Display for Recipe {
             .steps
             .iter()
             .enumerate()
-            .map(|(num, step)| format!("{num}. {step}"))
+            .map(|(num, step)| format!("{}. {step}", num + 1))
             .collect();
-        write!(
-            f,
-            "#{}
-
-            ## Ingredients
-
-            {}
-
-            ## Steps 
-            
-            {}
-
-            ## Notes
-
-            {}
-
-            ## Tags
-            {}
-            ",
-            self.name,
-            ingredient_strs.join("\n"),
-            step_strs.join("\n"),
-            self.notes.join("\n\n"),
-            self.tags.join(",")
-        )
+        writeln!(f, "# {}", self.name)?;
+        writeln!(f,)?;
+        writeln!(f, "## Ingredients")?;
+        writeln!(f,)?;
+        writeln!(f, "{}", ingredient_strs.join("\n"))?;
+        writeln!(f,)?;
+        writeln!(f, "## Steps")?;
+        writeln!(f,)?;
+        writeln!(f, "{}", step_strs.join("\n"))?;
+        writeln!(f,)?;
+        writeln!(f, "## Notes")?;
+        writeln!(f,)?;
+        writeln!(f, "{}", self.notes.join("\n\n"))?;
+        writeln!(f,)?;
+        writeln!(f, "## Tags")?;
+        writeln!(f, "{}", self.tags.join(","))
     }
 }
