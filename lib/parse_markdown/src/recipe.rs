@@ -16,12 +16,15 @@ pub fn parse_recipe(input: String) -> Result<Recipe, Error> {
     let mut tags = vec![];
     for mut input in inputs {
         input = input.trim();
+        if input.is_empty() {
+            continue;
+        }
         if input.starts_with("## ") {
             current_step = current_step.next();
             continue;
         }
 
-        if input.is_empty() || input.starts_with('#') {
+        if input.starts_with("###") {
             let next_header = input.replace('#', "").trim().to_owned();
             if current_step == ParseStep::Ingredients {
                 previous_ingredients.push(current_ingredients);
@@ -64,7 +67,7 @@ pub fn parse_recipe(input: String) -> Result<Recipe, Error> {
 fn parse_step(input: String) -> Result<String, Error> {
     let step = input
         .split_once(".")
-        .map(|res| res.1)
+        .map(|res| res.1.trim())
         .ok_or(Error::MissingPart("Number".to_owned(), ParseStep::Steps))?;
     Ok(step.to_owned())
 }
@@ -79,8 +82,8 @@ fn parse_tags(input: String) -> Vec<String> {
 fn parse_name(lines: &mut Lines<'_>) -> Result<String, Error> {
     let mut name = lines
         .next()
-        .map(|s| s.to_owned())
+        .map(|s| s.trim().to_owned())
         .ok_or(Error::MissingHeader("Name".to_owned()))?;
-    name = name.replace('#', "");
+    name = name.replace('#', "").trim().to_owned();
     Ok(name)
 }

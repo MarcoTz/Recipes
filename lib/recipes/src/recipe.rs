@@ -1,12 +1,13 @@
 use super::{IngredientSection, Tag};
 use std::fmt;
 
-#[derive(Default)]
+#[derive(Debug, Default, PartialEq, Eq)]
 pub struct StepSection {
     pub header: String,
     pub steps: Vec<String>,
 }
 
+#[derive(Debug, PartialEq)]
 pub struct Recipe {
     pub name: String,
     pub ingredients: Vec<IngredientSection>,

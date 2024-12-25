@@ -6,7 +6,7 @@ pub fn parse_ingredient(input: String) -> Result<Ingredient, Error> {
     let measurement = parse_measurement(&mut input)?;
     Ok(Ingredient {
         measure: measurement,
-        ingredient: input,
+        ingredient: input.trim().to_owned(),
     })
 }
 

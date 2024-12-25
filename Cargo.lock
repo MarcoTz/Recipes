@@ -10,6 +10,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "recipe_tests"
+version = "0.1.0"
+dependencies = [
+ "parse_markdown",
+ "recipes",
+]
+
+[[package]]
 name = "recipes"
 version = "0.0.1"
 

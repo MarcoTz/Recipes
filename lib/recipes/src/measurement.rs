@@ -1,11 +1,13 @@
 use super::Unit;
 use std::fmt;
 
+#[derive(Debug, PartialEq)]
 pub enum Amount {
     Num(f32),
     Range(f32, f32),
 }
 
+#[derive(Debug, PartialEq)]
 pub struct Measurement {
     pub amount: Amount,
     pub unit: Unit,
@@ -25,7 +27,7 @@ impl From<(f32, f32)> for Amount {
 
 impl fmt::Display for Measurement {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-        write!(f, "{} {}", self.amount, self.unit)
+        write!(f, "{}{}", self.amount, self.unit)
     }
 }
 

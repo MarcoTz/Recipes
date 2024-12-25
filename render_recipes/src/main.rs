@@ -6,7 +6,7 @@ static RECIPE_PATH: &str = "./Recipes";
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let recipe_strs = load_markdown(PathBuf::from(RECIPE_PATH)).map_err(Box::new)?;
     for recipe_str in recipe_strs {
-        let recipe = parse_recipe(recipe_str)?;
+        let recipe = parse_recipe(recipe_str.contents)?;
         if recipe.name.contains("Quark") {
             println!("{recipe}");
         }

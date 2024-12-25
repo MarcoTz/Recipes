@@ -11,15 +11,24 @@ use std::{
     str::FromStr,
 };
 
-pub fn load_markdown(path: PathBuf) -> Result<Vec<String>, Error> {
+pub struct RecipeSource {
+    pub file_name: PathBuf,
+    pub contents: String,
+}
+
+pub fn load_markdown(path: PathBuf) -> Result<Vec<RecipeSource>, Error> {
     let dir_contents = read_dir(path)?;
-    let mut contents = vec![];
+    let mut sources = vec![];
     for m_entry in dir_contents {
         let entry = m_entry?;
         let path = entry.path();
         if path.extension() == Some(&OsString::from_str("md").unwrap()) {
-            contents.push(read_to_string(entry.path())?);
+            let contents = read_to_string(entry.path())?;
+            sources.push(RecipeSource {
+                file_name: path,
+                contents,
+            });
         }
     }
-    Ok(contents)
+    Ok(sources)
 }

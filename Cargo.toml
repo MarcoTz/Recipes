@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "render_recipes",
+    "test",
     "lib/recipes",
     "lib/parse_markdown"
 ]
