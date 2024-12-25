@@ -1,0 +1,8 @@
+[package]
+name = "render_recipes"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "render_recipes"
+path = "src/main.rs"

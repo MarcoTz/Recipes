@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "render_recipes",
+]
+
+resolver = "2"
+default-members = ["render_recipes"]
