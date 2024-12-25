@@ -1,4 +1,4 @@
-use parse_markdown::parse_recipe;
+use parse_markdown::recipe::parse_recipe;
 use std::path::PathBuf;
 
 static RECIPE_PATH: &str = "./Recipes";
