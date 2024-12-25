@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-* 1 broccoli stem 
+* 1_ broccoli stem 
 * 50g pine seeds
 * 80ml olive oil
 * 50g grated parmesan

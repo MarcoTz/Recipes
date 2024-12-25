@@ -2,14 +2,14 @@
 
 ## Ingredients
 
-* 5-6 eggs
-* 2-3 carrots
+* 5-6_ eggs
+* 2-3_ carrots
 * 200g peas
 * 1kg minced meat 
 * 50g breadcrumbs
-* 1 onion
-* 2 cloves garlic
-* 2-3 potatoes
+* 1_ onion
+* 2_ cloves garlic
+* 2-3_ potatoes
 * 200g Avjar (alternatively use tomato puree)
 * 2-3 Tbsp Water
 * 1 tsp Salt

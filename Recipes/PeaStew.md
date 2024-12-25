@@ -3,10 +3,10 @@
 ## Ingredients
 
 * 1 tbsp vegetable oil
-* 1 onion
-* 3 carrots 
-* 5 potatoes
-* 1 stalk celery 
+* 1_ onion
+* 3_ carrots 
+* 5_ potatoes
+* 1_ stalk celery 
 * 700ml vegetable broth
 * 350g peas (cooked or only soaked)
 * 120ml heavy cream or milk

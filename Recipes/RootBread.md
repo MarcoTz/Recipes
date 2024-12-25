@@ -6,7 +6,7 @@
 * 100g whole grain wheat flour
 * 15g salt
 * 15g dried yeast
-* 1 Tbps honey or maple syrup
+* 1 Tbsp honey or maple syrup
 * 360ml water
 
 ## Steps

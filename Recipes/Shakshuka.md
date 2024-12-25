@@ -2,15 +2,15 @@
 
 ## Ingredients
 
-* 1 onion
-* 1 red bell pepper 
-* 4 cloves garlic
+* 1_ onion
+* 1_ red bell pepper 
+* 4_ cloves garlic
 * 1 Tbsp paprika powder
 * 1 Tbsp cumin
 * 1 tsp Koriander or more to taste
 * 0.5 Tbsp Chili powder 
 * 800g diced tomatoes
-* 6 eggs 
+* 6_ eggs 
 * 1 tsp Salt or to taste
 * 1 Tbsp Pepper to taste
 * 20g parsley 

@@ -5,8 +5,8 @@
 * 600g [Maultaschen Dough](MaultaschenDough.html)
 * 300g potatoes
 * 200g spinach 
-* 1 onion
-* 2 cloves garlic
+* 1_ onion
+* 2_ cloves garlic
 * 1 tsp salt or to taste
 * 1 tsp pepper or to taste
 

@@ -4,7 +4,7 @@
 
 * 500g potatoes 
 * 200-300g flour
-* 1 egg
+* 1_ egg
 * 1 tsp nutmeg 
 * 1 tsp salt 
 

@@ -3,7 +3,7 @@
 ## Ingredients
 
 * 1.5kg potatoes
-* 1 egg 
+* 1_ egg 
 * 2 Tbsp flour
 * 60g butter
 * 1 tsp salt or to taste 

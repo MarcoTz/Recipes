@@ -2,8 +2,8 @@
 
 ## Ingredients
 
-* 6 pretzles 
-* 6 eggs 
+* 6_ pretzles 
+* 6_ eggs 
 * 300g grated cheese
 
 ## Steps

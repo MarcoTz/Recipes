@@ -12,8 +12,8 @@
 * 0.5 tsp garlic powder 
 * 1.5 tsp salt 
 * 1 tsp pepper 
-* 2 onions 
-* 3 cloves garlic
+* 2_ onions 
+* 3_ cloves garlic
 
 ## Steps
 

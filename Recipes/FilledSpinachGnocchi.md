@@ -7,7 +7,7 @@
 * 0.5 tsp salt
 * 120g spinach
 * 15g parsley 
-* 2 cloves garlic
+* 2_ cloves garlic
 * 50g pine seeds
 * 1 tsp lemon juice 
 * 60ml olive oil 

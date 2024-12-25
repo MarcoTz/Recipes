@@ -6,8 +6,8 @@
 * 35g sunflower seeds
 * 45g yeast flakes
 * 60g tomato paste
-* 0.5 onions 
-* 2 cloves garlic 
+* 0.5_ onions 
+* 2_ cloves garlic 
 * 2 Tbsp chia seeds 
 * 0.5 tsp smoked paprika 
 * 0.5 tsp onion powder 

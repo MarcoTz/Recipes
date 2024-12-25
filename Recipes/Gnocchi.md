@@ -3,7 +3,7 @@
 ## Ingredients
 
 * 1.2kg potatoes
-* 1 egg
+* 1_ egg
 * 250g Ricotta or Parmesan
 * 250g flour
 * 2 tsp salt

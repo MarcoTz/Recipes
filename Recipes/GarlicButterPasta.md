@@ -3,8 +3,8 @@
 ## Ingredients
 
 * 2 Tbsp butter
-* 5 cloves garlic
-* 1 bell pepper
+* 5_ cloves garlic
+* 1_ bell pepper
 * 2 tsp corn starch
 * 350ml milk
 * 1 tsp lemon juice

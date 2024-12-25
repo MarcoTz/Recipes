@@ -5,8 +5,8 @@
 * 250g floud
 * 90g sugar 
 * 125g butter 
-* 1 egg 
-* 1 egg yellow (optional)
+* 1_ egg 
+* 1_ egg yellow (optional)
 * 50g sprinkles/icing (optional)
 
 ## Steps 

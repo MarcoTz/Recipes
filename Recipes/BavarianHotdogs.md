@@ -3,8 +3,8 @@
 ## Ingredients
 
 * 125g Sauerkraut
-* 2 hot dogs
-* 2 lye sticks
+* 2_ hot dogs
+* 2_ lye sticks
 * 3 Tbsp mayonaise
 * 3 Tbsp sweet mustard
 * 100g Camembert

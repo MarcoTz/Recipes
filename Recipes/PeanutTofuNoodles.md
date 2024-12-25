@@ -5,7 +5,7 @@
 * 500g noodles (1)
 * 350g firm tofu
 * 50g sesame seeds
-* 3 spring onions
+* 3_ spring onions
 * 50g chopped peanuts or to taste (2)
 
 ### Sauce 
@@ -17,7 +17,7 @@
 * 2 Tbsp Sugar 
 * 1 Tbsp Gochuchang (3)
 * 1-2 Tbsp Paprika or tomato paste
-* 1 clove garlic 
+* 1_ clove garlic 
 * 2cm fresh ginger
 
 ## Steps 

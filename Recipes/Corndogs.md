@@ -2,8 +2,8 @@
 
 ## Ingredients
 
-* 12 hot dogs
-* 12 shashlik sticks
+* 12_ hot dogs
+* 12_ shashlik sticks
 * 1l frying oil
 
 ### Batter 
@@ -14,7 +14,7 @@
 * 1 Tbsp baking powder
 * 0.5 Tbsp salt
 * 400ml butter milk (regular milk works as well)
-* 1 egg
+* 1_ egg
 * 1 Tbsp olive oil
 * 1 Tbsp honey
 

@@ -2,10 +2,10 @@
 
 ## Ingredients
 
-* 4-5 potatoes
+* 4-5_ potatoes
 * 200g mini mozzarella balls 
-* 3-4 Tbsp green pesto
-* 20 cherry tomatoes
+* 3-4_ Tbsp green pesto
+* 20_ cherry tomatoes
 * 50g pine seeds
 
 ## Steps

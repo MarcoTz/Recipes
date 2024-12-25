@@ -8,7 +8,7 @@
 * 500g sugar 
 * 1 Tbsp vanilla sugar
 * 200g flour 
-* 4 eggs 
+* 4_ eggs 
 * 100g cocoa powder
 * 0.5 Tbsp salt
 * 50g small fruits or berries (optional)
@@ -17,7 +17,7 @@
 
 * 100g sugar
 * 200g cream cheese 
-* 1 egg 
+* 1_ egg 
 * 1 Tbsp vanilla sugar
 
 ## Steps 

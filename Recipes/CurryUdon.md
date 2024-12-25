@@ -2,13 +2,13 @@
 
 ## Ingredients
 
-* 1 onion
-* 2 spring onions
+* 1_ onion
+* 2_ spring onions
 * 1 Tbsp vegetable oil
 * 200g pork or tofu
 * 1 Tbsp sake
 * 750ml dashi
-* 2 cubes curry roux
+* 2_ cubes curry roux
 * 2 Tbsp soy sauce
 * 500g udon noodles
 

@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-* 1 block of tofu 
+* 1_ block of tofu 
 * 100ml frying oil
 
 ## Steps

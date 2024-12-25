@@ -3,9 +3,9 @@
 ## Ingredients
 
 * 1 Tbsp vegetable oil 
-* 0.5 onions 
+* 0.5_ onions 
 * 1 tsp oregano 
-* 2 cloves garlic 
+* 2_ cloves garlic 
 * 2 tsp tomato paste
 * 500g bell peppers 
 * 150ml heavy cream 

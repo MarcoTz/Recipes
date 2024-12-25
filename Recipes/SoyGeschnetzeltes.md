@@ -4,15 +4,15 @@
 
 * 125g soy chunks
 * 250g champignons
-* 1 onion
+* 1_ onion
 * 250ml haevy cream
 * 125ml white wine 
 * 1 tsp floud 
 * 4 Tbsp vegetable oil 
-* 2 bay leaves 
+* 2_ bay leaves 
 * 2 tsp sweet paprika powder 
 * 2 Tbsp parsley 
-* 1.5l+50ml vegetable broth
+* 1.5l vegetable broth plus some extra
 * 2 Tbsp soy sauce
 * 1 tsp salt or to taste
 * 1 Tbsp pepper or to taste

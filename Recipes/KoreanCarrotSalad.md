@@ -6,9 +6,9 @@
 * 1 Tbsp salt 
 * 1 Tbsp sugar
 * 1 Tbsp red wine vinegar 
-* 2 cloves of garlic
+* 2_ cloves of garlic
 * 2 Tbsp vegetable oil
-* 0.5 onions
+* 0.5_ onions
 * 1 Tbsp Koriander 
 * 0.5 Tbsp cayenne pepper 
 

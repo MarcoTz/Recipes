@@ -2,8 +2,8 @@
 
 ## Ingredients
 
-* 6 Lye roll sticks
-* 2 onions 
+* 6_ Lye roll sticks
+* 2_ onions 
 * 200g ham cubes
 * 200g cheese
 

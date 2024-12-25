@@ -3,7 +3,7 @@
 ## Ingredients
 
 * 500g chili peppers (any kind or mixed)
-* 4 cloves garlic
+* 4_ cloves garlic
 * 250ml water 
 * 150ml rice vinegar
 * 1 tsp sugar 

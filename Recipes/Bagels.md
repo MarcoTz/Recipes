@@ -8,8 +8,8 @@
 * 2 Tbsp sugar 
 * 50g butter 
 * 300ml water
-* 1 Tbps honey 
-* 1 egg yolk
+* 1 Tbsp honey 
+* 1_ egg yolk
 * 2 Tbsp milk
 * 1 Tbsp sunflower seeds, pumpkin seeds, etc (optional)
 
@@ -20,7 +20,7 @@
 3. Rest for 1h
 4. Separated dough into 8 pieces, form them into 3-5cm long sausages and knead the ends together 
 5. Rest for another 30min, then preheat oven to 200C convection 
-6. Melt honey in 2 Tbps of hot water and mix egg yolk with milk
+6. Melt honey in 2 Tbsp of hot water and mix egg yolk with milk
 7. Brush bagels with honey water and egg mixture
 8. Bake for 20min
 

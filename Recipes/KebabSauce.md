@@ -4,8 +4,8 @@
  
 * 150g greek or turkish yoghurt 
 * 3 Tbsp Mayonnaise
-* 3 cloves garlic, or more to taste
-* 0.5 lemons juiced
+* 3_ cloves garlic, or more to taste
+* 0.5_ lemons juiced
 * 0.5 tsp sugar (1)
 * 2 tsp dill
 * 3 tsp parsley 

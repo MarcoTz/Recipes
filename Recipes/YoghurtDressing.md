@@ -6,7 +6,7 @@
 * 3 Tbsp lemon juice
 * 1 Tbsp olive oil
 * 1 tsp mustard 
-* 1 clove garlic
+* 1_ clove garlic
 * 1 tsp sugar 
 * 1 tsp Salt or to taste
 * 1 Tbsp Papper to taste

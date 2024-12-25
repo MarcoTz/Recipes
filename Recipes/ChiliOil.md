@@ -3,15 +3,15 @@
 ## Ingredients
 
 * 500ml neutral oil
-* 5 star anise
-* 1 cinnamon stick
-* 2 bay leaves
+* 5_ star anise
+* 1_ cinnamon stick
+* 2_ bay leaves
 * 3 tbsp sichuan peppercorns
-* 2 pods black cardamom
+* 2_ pods black cardamom
 * 1 tbsp dried ginger
 * 2 tsp cloves
-* 3 cloves garlic
-* 2 shallots
+* 3_ cloves garlic
+* 2_ shallots
 * 100g sichuan chili flakes
 * 2 tsp salt
 

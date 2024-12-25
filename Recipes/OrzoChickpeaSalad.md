@@ -3,20 +3,20 @@
 ## Ingredients
 
 * 150g Orzo
-* 0.5 cucumbers 
-* 0.5 red onions
+* 0.5_ cucumbers 
+* 0.5_ red onions
 * 100g cherry tomatoes
 * 25g sliced almonds
 * 260g chickpeas (cooked)
 
 ### Dressing 
 
-* 1 lemon 
+* 1_ lemon 
 * 2 Tbsp yeast flakes (optional)
 * 1 Tbsp chili flakes
 * 30ml olive oil
 * 1 Tbsp balsamic vinegar 
-* 2 cloves garlic
+* 2_ cloves garlic
 * 1 Tbsp Agave syrup (1)
 * 1 Tbsp fresh basil
 * 0.5 Tbsp dried oregano

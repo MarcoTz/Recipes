@@ -8,8 +8,8 @@
 ### Tomato Sauce 
 
 * 500g minced meat (or smoked tofu) (1)
-* 2 onions 
-* 4 cloves garlic
+* 2_ onions 
+* 4_ cloves garlic
 * 800g pureed tomatoes 
 * 100ml red wine 
 * 2 Tbsp tomato paste
@@ -22,7 +22,7 @@
 
 * 4 Tbsp butter 
 * 2 Tbsp flour
-* 400m milk
+* 400ml milk
 * 1 tsp nutmeg 
 * 1 tsp salt or to taste
 * 1 Tbsp pepper to taste

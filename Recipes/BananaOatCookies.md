@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-* 2 bananas
+* 2_ bananas
 * 180g peanut butter
 * 200g rolled oats
 * 1 tsp cinnamon (optional)

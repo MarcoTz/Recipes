@@ -5,8 +5,8 @@
 * 500g Orzo
 * 500ml vegetable broth (or chicken broth)
 * 4 Tbsp butter
-* 2 onions 
-* 3 cloves garlic
+* 2_ onions 
+* 3_ cloves garlic
 * 180g Parmesan 
 * 80ml cream
 * 2-3 Tbsp parsley 

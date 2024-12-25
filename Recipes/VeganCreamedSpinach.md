@@ -5,8 +5,8 @@
 * 400g spinach
 * 50g cashews 
 * 250g vegetable broth
-* 1 clove garlic
-* 0.5 onions
+* 1_ clove garlic
+* 0.5_ onions
 * 1 Tbsp yeast flakes
 * 1 tsp nutmeg or to taste
 * 1 tsp salt or to taste

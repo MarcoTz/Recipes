@@ -8,9 +8,9 @@
 * 70g sugar 
 * 2 tsp salt
 * 250ml milk
-* 1 egg
+* 1_ egg
 * 550g flour
-* 1 egg yolk
+* 1_ egg yolk
 
 ### Filling
 

@@ -6,7 +6,7 @@
 
 * 500ml broth (1)
 * 1 tsp soy sauce
-* 1 spring onion
+* 1_ spring onion
 * 1cm ginger
 * 1 tsp gelatin (2) 
 
@@ -19,8 +19,8 @@
 ### Filling
 
 * 2cm ginger
-* 3 cloves garlic
-* 1 spring onion
+* 3_ cloves garlic
+* 1_ spring onion
 * 1 tsp soy sauce 
 * 1 tsp seseme oil 
 * 1 tsp sugar 

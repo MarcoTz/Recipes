@@ -3,8 +3,8 @@
 ## Ingredients
 
 * 500g potatoes
-* 2 egg yellows 
-* 1 whole egg 
+* 2_ egg yellows 
+* 1_ egg 
 * 100g of bread crumbs
 * 50g flour
 * 1 Tbsp salt

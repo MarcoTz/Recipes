@@ -4,11 +4,11 @@
 
 * 1.2l vegetable/chicken broth
 * 1 Tbsp Olive Oil 
-* 1 Onion
+* 1_ Onion
 * 375g Arborio rice
 * 2 tsp Lemon Zest 
 * 130ml white wine 
-* 1 head broccoli 
+* 1_ head broccoli 
 * 80g Parmesan 
 * 2 tsp lemon juice 
 * 2 tsp thyme

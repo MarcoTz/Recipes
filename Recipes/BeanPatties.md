@@ -3,8 +3,8 @@
 ## Ingredients 
 
 * 250g kidney beans 
-* 1 onion
-* 1 clove garlic
+* 1_ onion
+* 1_ clove garlic
 * 60g rolled oats
 * 25g flour
 * 1 Tbsp soy sauce 

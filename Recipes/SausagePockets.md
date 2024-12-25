@@ -2,12 +2,12 @@
 
 ## Ingredients 
 
-* 6 Vienna sausages 
-* 1 (single) spaghetti noodle (maybe 2)
+* 6_ Vienna sausages 
+* 1_ (single) spaghetti noodle (maybe 2)
 * 200g puff pastry dough
 * 2 Tbsp green Pesto 
 * 100g grated cheese 
-* 6 cherry tomatoes 
+* 6_ cherry tomatoes 
 
 ## Steps 
 

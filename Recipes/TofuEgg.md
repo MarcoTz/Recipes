@@ -5,7 +5,7 @@
 * 250g firm tofu
 * 60ml milk
 * 1 Tbsp yeast flakes
-* 2 cloves garlic
+* 2_ cloves garlic
 * 1 Tbsp onion powder 
 * 0.5 tsp black salt 
 * 1 Tbsp tumeric

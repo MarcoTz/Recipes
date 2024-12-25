@@ -3,15 +3,15 @@
 ## Ingredients
 
 * 600g Maultaschen
-* 1 head Broccoli
-* 2 bell peppers
+* 1_ head Broccoli
+* 2_ bell peppers
 * 250g heavy cream
 * 400g grated cheese 
-* 3 cloves garlic
+* 3_ cloves garlic
 * 1 Tbsp Italian herb mix 
 * 2 Tbsp Paprika powder 
 * 1 tsp  Salt or to taste
-* 1 Tbsps pepper or to taste
+* 1 Tbsp pepper or to taste
 
 ## Steps
 

@@ -3,12 +3,12 @@
 ## Ingredients
 
 * 2 Tbsp avocado oil or olive oil
-* 1 onion
-* 4 cloves garlic
+* 1_ onion
+* 4_ cloves garlic
 * 2cm ginger
-* 2 potatoes
-* 1 head cauliflower
-* 2 tomatoes 
+* 2_ potatoes
+* 1_ head cauliflower
+* 2_ tomatoes 
 * 180ml vegetable broth
 * 1 tsp lemon juice
 * 1 tsp cumin

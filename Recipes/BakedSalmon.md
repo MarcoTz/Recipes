@@ -2,12 +2,12 @@
 
 ## Ingredients
 
-* 4 salmon filets
+* 4_ salmon filets
 * 2 tsp olive oil
-* 2 cloves garlic
-* 1 lemon
-* 1/2 tsp salt
-* 1/2 tsp pepper
+* 2_ cloves garlic
+* 1_ lemon
+* 0.5 tsp salt
+* 0.5 tsp pepper
 * 1 tsp italian herb mix 
 
 ## Steps

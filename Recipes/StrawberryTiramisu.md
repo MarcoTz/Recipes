@@ -2,9 +2,9 @@
 
 ## Ingredients
 
-* 24-30 spoon biscuits
+* 24-30_ spoon biscuits
 * 250g Mascarpone
-* 500 whipped cream
+* 500g whipped cream
 * 1 tsp vanilla sugar
 * 60g powdered sugar 
 * 125ml orange juice

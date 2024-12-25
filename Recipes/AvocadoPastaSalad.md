@@ -2,14 +2,14 @@
 
 ## Ingredients
 
-* 350p pasta (any kind)
-* 3 avocados
+* 350g pasta (any kind)
+* 3_ avocados
 * 300g cherry tomatoes
 * 300g corn
 * 400g spinach
 * 130ml milk
-* 1 lemon juiced
-* 1 clove garlic
+* 1_ lemon juiced
+* 1_ clove garlic
 * 1 Tbsp olive oil
 * 1 tsp salt or to taste
 * 1 tsp pepper or to taste

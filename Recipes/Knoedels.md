@@ -5,7 +5,7 @@
 * 420g old bread rolls 
 * 300ml milk
 * 1 tsp vegetable oil
-* 1 onion
+* 1_ onion
 * 30g parsley 
 * 1 tsp salt 
 * 0.5 tsp nutmeg

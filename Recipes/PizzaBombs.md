@@ -7,7 +7,7 @@
 * 400ml pureed tomatoes 
 * 100g Mozzarella
 * 50g Parmesen
-* 2 cloves garlic
+* 2_ cloves garlic
 * 2 Tbsp Italian Herbs
 * 1 tsp salt or to taste
 * 1 Tbsp pepper or to taste

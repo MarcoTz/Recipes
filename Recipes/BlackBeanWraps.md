@@ -2,11 +2,11 @@
 
 ## Ingredients
 
-* 6 [tortillas](Tortillas.html)
+* 6_ [tortillas](Tortillas.html)
 * 250g black beans (cooked)
-* 1 carrot 
-* 1 onion
-* 2 cloves garlic
+* 1_ carrot 
+* 1_ onion
+* 2_ cloves garlic
 * 1 Tbsp tomato paste
 * 1 tsp paprika powder 
 * 2 tsp cumin

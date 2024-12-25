@@ -5,10 +5,10 @@
 * 400ml fruit tea
 * 200ml red wine
 * 50ml rum
-* 3-4 Tbps honey or maple syrup, or more to taste
-* 1 stick cinnamon
-* 5 cloves 
-* 2 oranges
+* 3-4 Tbsp honey or maple syrup, or more to taste
+* 1_ stick cinnamon
+* 5_ cloves 
+* 2_ oranges
 * 300g mixed berries
 
 

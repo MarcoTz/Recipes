@@ -5,7 +5,7 @@
 * 1kg potatoes
 * 600g broccoli
 * 250ml cream
-* 1 clove garlic
+* 1_ clove garlic
 * 250ml vegetable broth
 * 1 tsp salt
 * 1 Tbsp pepper

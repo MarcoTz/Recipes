@@ -3,7 +3,7 @@
 ## Ingredients
 
 * 500g quark
-* 6 eggs 
+* 6_ eggs 
 * 150g oat bran
 * 50g wheat bran
 * 15g baking powder

@@ -6,13 +6,13 @@
 
 * 200g flour
 * 75g butter
-* 1 egg 
+* 1_ egg 
 * 1 tsp baking powder
 * 200g sugar
 
 ### "Cheese"
 
-* 3 eggs
+* 3_ eggs
 * 100g sugar
 * 1 Tbsp vanilla sugar
 * 20g vanilla pudding powder (1)

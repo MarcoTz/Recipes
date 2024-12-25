@@ -7,7 +7,7 @@
 * 2 Tbsp sesame oil
 * 2 Tbsp rice vinegar
 * 2 Tbsp peanut butter
-* 2 cloves garlic
+* 2_ cloves garlic
 * 2 tsp sriracha or gochujang or miso paste
 * 0.5 tsp white pepper
 * 1 Tbsp water

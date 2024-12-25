@@ -3,8 +3,8 @@
 ## Ingredients
 
 * 500g pasta (any kind)
-* 1 onion
-* 2 cloves garlic
+* 1_ onion
+* 2_ cloves garlic
 * 750g [Creamed Spinac](CreamedSpinach.html) (alternatively use [Vegan creamed spinach](VeganCreamedSpinach.html))
 * 50g creme fraiche
 * 100g cream cheese (1)

@@ -4,14 +4,14 @@
 
 * 500g [Gnocchi](Gnocchi.html)
 * 1 Tbsp olive oil
-* 1 onion
-* 2 cloves garlic
+* 1_ onion
+* 2_ cloves garlic
 * 0.5 Tbsp parsley 
 * 900ml vegetable broth (or chicken broth)
 * 400g chicken breast
-* 3-4 celery sticks
-* 5 carrots
-* 2-3 potatoes
+* 3-4_ celery sticks
+* 5_ carrots
+* 2-3_ potatoes
 * 0.5 Tbsp black pepper
 * 500ml milk or cream
 * 1 tsp thyme

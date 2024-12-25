@@ -6,7 +6,7 @@
 * 5 Tbsp soy sauce 
 * 4 Tbsp rice vinegar
 * 1 tsp sesame oil 
-* 3 cloves garlic
+* 3_ cloves garlic
 * 2-3 cm ginger
 * 2 Tbsp starch
 * 0.5 tsp sesame seeds (optional)

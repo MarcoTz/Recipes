@@ -4,11 +4,11 @@
 
 * 300g pasta (any kind)
 * 300g tofu
-* 1 butternut squash
-* 2 bell peppers
-* 2 carrots
-* 1 onion
-* 1 red chili
+* 1_ butternut squash
+* 2_ bell peppers
+* 2_ carrots
+* 1_ onion
+* 1_ red chili
 * 250ml milk
 * 30g spinach
 * 1 tsp sugar

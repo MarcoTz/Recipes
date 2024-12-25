@@ -2,16 +2,16 @@
 
 ## Ingredients
 
-* 1 small onion
+* 1_ small onion
 * 100ml [Dashi](Dashi.html)
 * 1 Tbsp sake 
 * 1 Tbsp mirin
 * 1 tsp soy sauce 
 * 1 tsp salt
-* 2 eggs 
+* 2_ eggs 
 * 200g cooked rice (1)
 * 100g fresh mushrooms or 15g dried mushrooms (2)
-* 2-3 spring onions (optional)
+* 2-3_ spring onions (optional)
 
 ## Steps
 

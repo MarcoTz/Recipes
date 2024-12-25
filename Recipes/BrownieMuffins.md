@@ -7,7 +7,7 @@
 * 60g Flour
 * 40g cocoa powder (1)
 * 0.5 tsp salt
-* 2 eggs
+* 2_ eggs
 * 150g sugar 
 
 ## Steps 

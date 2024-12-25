@@ -2,17 +2,17 @@
 
 ## Ingredients
 
-* 2 onions
-* 2-4 pointed peppers
-* 2 carrots
+* 2_ onions
+* 2-4_ pointed peppers
+* 2_ carrots
 * 450g tomatoes
-* 4 cloves garlic
+* 4_ cloves garlic
 * 2 Tbsp butter
 * 2 Tbsp vegetable oil
 * 2 Tbsp sweet paprika powder
 * 2 Tbsp smoked paprika powder 
 * 200g peas
-* 3 tsp salt
+* 3_ tsp salt
 * 20g parsley
 * 150g Avjar 
 * 300g rice (or orzo)

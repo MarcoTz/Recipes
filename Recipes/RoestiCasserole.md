@@ -3,13 +3,13 @@
 ## Ingredients
  
 * 800g potatoes
-* 1 onion
+* 1_ onion
 * 1 Tbsp butter 
 * 1 tsp Salt 
 * 1 Tbsp Pepper 
 * 1 tsp Nutmeg
 * 150g cubed ham (optional)
-* 4-8 eggs (optional)
+* 4-8_ eggs (optional)
 
 ### Topping
 

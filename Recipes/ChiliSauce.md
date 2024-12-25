@@ -2,8 +2,8 @@
 
 ## Ingredients
 
-* 4 cloves garlic
-* 3 shallots
+* 4_ cloves garlic
+* 3_ shallots
 * 250g chilis
 * 1 Tbsp soy sauce
 * 400ml pureed tomatoes

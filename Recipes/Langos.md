@@ -11,7 +11,7 @@
 ### Topping
 
 * 200g creme fraiche
-* 1 clove garlic
+* 1_ clove garlic
 * 30ml olive oil 
 * 200g grated cheese 
 

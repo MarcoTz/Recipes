@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-* 1 head cabbage
+* 1_ head cabbage
 * 1 Tbsp salt 
 
 ## Steps

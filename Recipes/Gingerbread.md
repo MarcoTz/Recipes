@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-* 18 baking wavers (9cm diameter)
+* 18_ baking wavers (9cm diameter)
 * 125g ground hazelnuts 
 * 125g ground almonds
 * 50g orange peel

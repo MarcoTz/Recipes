@@ -3,9 +3,9 @@
 ## Ingredients
 
 * 4 Tbsp olive oil
-* 2 leeks
+* 2_ leeks
 * 600g mushrooms (mixed) (1)
-* 6 cloves garlic
+* 6_ cloves garlic
 * 400ml vegetable broth
 * 2 Tbsp soy sauce
 * 1 tsp worchestershire sauce

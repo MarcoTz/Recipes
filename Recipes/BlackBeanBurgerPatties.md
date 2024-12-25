@@ -6,8 +6,8 @@
 * 60g sunflower seeds
 * 60g rolled oats
 * 30g tomato paste
-* 3 cloves garlic
-* 0.5 onions
+* 3_ cloves garlic
+* 0.5_ onions
 * 3 Tbsp chia seeds 
 * 2 Tbsp soy sauce 
 * 1 tsp chili flakes

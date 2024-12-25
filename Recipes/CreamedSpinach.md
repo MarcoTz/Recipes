@@ -5,9 +5,9 @@
 * 400g spinach 
 * 250ml cream 
 * 1 tsp salt or to taste 
-* 1 Tbsps pepper or to taste 
-* 1 clove garlic (optional)
-* 1 onion (optional)
+* 1 Tbsp pepper or to taste 
+* 1_ clove garlic (optional)
+* 1_ onion (optional)
 
 ## Steps
 

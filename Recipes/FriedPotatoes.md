@@ -8,7 +8,7 @@
 * 30g parsley 
 * 1 tsp salt or to taste
 * 300g pork belly or bacon (optional)
-* 2 onions (optional)
+* 2_ onions (optional)
 
 ## Steps
 

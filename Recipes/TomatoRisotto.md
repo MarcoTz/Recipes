@@ -4,15 +4,15 @@
 
 * 1 Tbsp olive oil
 * 300g cherry tomatoes
-* 2 bell peppers
-* 1 zucchini
-* 1 onion
-* 3 cloves garlic
+* 2_ bell peppers
+* 1_ zucchini
+* 1_ onion
+* 3_ cloves garlic
 * 225g risotto rice
 * 1 Tbsp balsamic vinegar
 * 250ml pureed tomatoes 
 * 250ml vegetable broth
-* 6 dried tomatoes
+* 6_ dried tomatoes
 * 1 tsp salt or to taste
 * 1 Tbsp pepper or to taste
 * 50g parmesan cheese or to taste (optional) (2)

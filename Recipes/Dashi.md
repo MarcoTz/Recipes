@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-* 1 piece konbu (about 10cm x 10cm)
+* 1_ piece konbu (about 10cm x 10cm)
 * 2 Tbsp dried bonito flakes
 * 1l water
 

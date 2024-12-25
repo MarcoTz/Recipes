@@ -5,11 +5,11 @@
 * 15g dried yeast 
 * 450g flour
 * 80ml milk
-* 3 eggs 
+* 3_ eggs 
 * 1 Tbsp salt 
 * 200g butter (1)
 * 50g sugar
-* 1 egg yolk
+* 1_ egg yolk
 
 ## Steps
 

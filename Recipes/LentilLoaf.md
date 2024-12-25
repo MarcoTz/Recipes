@@ -3,9 +3,9 @@
 ## Ingredients
 
 * 200g lentils (any kind0 
-* 1 carrot
-* 1 onion
-* 2 cloves garlic
+* 1_ carrot
+* 1_ onion
+* 2_ cloves garlic
 * 200g champignons or shiitake
 * 200g mixed nuts
 * 75g yeast flakes 

@@ -3,7 +3,7 @@
 ## Ingredients
 
 * 200g rice
-* 2 eggs 
+* 2_ eggs 
 * 2 Tbsp soy sauce 
 * 200g or more vegetables (1)
 

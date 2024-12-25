@@ -3,7 +3,7 @@
 ## Ingredients
 
 * 500g flour
-* 6 eggs
+* 6_ eggs
 * 150ml (or less) milk
 * 1 tsp salt
 

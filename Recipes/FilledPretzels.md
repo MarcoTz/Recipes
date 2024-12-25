@@ -2,14 +2,14 @@
 
 ## Ingredients
 
-* 6 pretzels (1)
+* 6_ pretzels (1)
 * 70g sour cream
 * 70g smetana (Schmandt)
 * 70g creme fraiche
 * 130g grated cheese 
-* 1 egg
+* 1_ egg
 * 150g ham
-* 1 leek
+* 1_ leek
 * 1 tsp salt or to taste
 * 1 Tbsp pepper or to taste
 * 1 Tbsp paprika powder or to taste

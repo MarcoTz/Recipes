@@ -5,8 +5,8 @@
 * 28g dried mushrooms or 200g fresh mushrooms (1)
 * 650ml vegetable broth 
 * 1 Tbsp vegetable oil
-* 1 onion
-* 3 cloves garlic
+* 1_ onion
+* 3_ cloves garlic
 * 4 Tbsp corn starch or flour (2)
 * 80ml milk
 * 1 Tbsp soy sauce 

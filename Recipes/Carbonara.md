@@ -5,7 +5,7 @@
 * 100g pancetta
 * 50g parmesan
 * 50g pecorino (1)
-* 4 egg yolks
+* 4_ egg yolks
 * 350g spaghetti
 * 1 tsp nutmeg
 * 1 tsp salt or to taste

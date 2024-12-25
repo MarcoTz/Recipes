@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-* 6 apples 
+* 6_ apples 
 * 80ml water 
 * 1 Tbsp cinnamon powser
 * 1 Tbsp sugar

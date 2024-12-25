@@ -6,7 +6,7 @@
 
 * 250g berries
 * 2 Tbsp honey or sugar
-* 250 yoghurt
+* 250g yoghurt
 * 0.5 Tbsp vanilla sugar (optional)
 
 ### Lemon-Coconut Popsicles
@@ -21,7 +21,7 @@
 * 360ml milk
 * 250g fresh spinach
 * 60g honey or sugar
-* 2 bananas 
+* 2_ bananas 
 
 ## Steps
 

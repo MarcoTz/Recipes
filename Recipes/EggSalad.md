@@ -2,14 +2,14 @@
 
 ## Ingredients
 
-* 8 eggs 
+* 8_ eggs 
 * 100g mayonaise 
 * 1 tsp (dijon) mustard 
 * 1 tsp lemon juice 
 * 2 Tbsp chives
 * 2 Tbsp Parsley 
 * 1 tsp garlic powder
-* 2 spring onions or 1 red onion (optional)
+* 2_ spring onions or 1 red onion (optional)
 * 1 tsp paprika powder (optional)
 * 1 tsp salt or to taste
 * 1 Tbsp pepper or to taste

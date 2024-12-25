@@ -4,8 +4,8 @@
 
 * 1 Tbsp olive oil
 * 2 Tbsp butter 
-* 1 onion
-* 1 clove garlic
+* 1_ onion
+* 1_ clove garlic
 * 800g diced tomatoes 
 * 600ml vegetable broth
 * 2 Tbsp italian herbs

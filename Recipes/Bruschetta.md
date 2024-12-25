@@ -2,16 +2,16 @@
 
 ## Ingredients
 
-* 1 [Ciabatta](Ciabatta.html)
-* 6 Tomatoes
+* 1_ [Ciabatta](Ciabatta.html)
+* 6_ Tomatoes
 * 80g fresh basil
-* 5 cloves garlic
+* 5_ cloves garlic
 * 1 Tbsp balsamic vinegar
 * 5 Tbsp olive oil
-* 1 tsl salt
+* 1 tsp salt
 * 1 tsp pepper
 * 80g parmesan (optional)
-* 1 onion (optional)
+* 1_ onion (optional)
 
 ## Steps
 

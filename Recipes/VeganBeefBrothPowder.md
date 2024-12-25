@@ -2,9 +2,9 @@
 
 ## Ingredients
 
-* 4 dried shiitake 
+* 4_ dried shiitake 
 * 0.5 tsp basil
-* 1 bay leaf
+* 1_ bay leaf
 * 1 tsp garlic powder 
 * 1 tsp onion powder
 * 1 tsp paprika powder

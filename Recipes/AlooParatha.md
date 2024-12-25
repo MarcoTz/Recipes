@@ -3,7 +3,7 @@
 ## Ingredients
 
 * 350g potatoes 
-* 3 spring onions 
+* 3_ spring onions 
 * 50g parsley 
 * 0.5 tsp garam masala (optional)
 * 0.5 tsp salt

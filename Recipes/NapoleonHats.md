@@ -6,17 +6,17 @@
 * 1 tbsp baking powder 
 * 75g butter 
 * 15g vanilla sugar (1 pack) 
-* 1 egg
+* 1_ egg
 * 125g butter
-* 3 drops almond aroma
-* 1 egg yellow
+* 3_ drops almond aroma
+* 1_ egg yellow
 * 1 Tbsp milk
 
 ### Marzipan
 
 * 125g powdered almonds
 * 125g powdered sugar
-* 1 egg white
+* 1_ egg white
 * 1 tsp neutral oil
 
 

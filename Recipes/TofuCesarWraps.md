@@ -2,11 +2,11 @@
 
 ## Ingredients
 
-* 4 [Tortillas](Tortillas.html)
-* 1 tomato 
+* 4_ [Tortillas](Tortillas.html)
+* 1_ tomato 
 * 100g lettuce
-* 1 avocado
-* 1 block baked or fried tofu (for example [BakedTofu](BakedTofu.html)
+* 1_ avocado
+* 1_ block baked or fried tofu (for example [BakedTofu](BakedTofu.html)
 
 ### Sauce
 

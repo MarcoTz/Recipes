@@ -11,8 +11,8 @@
 * 1 Tbsp paprika powder
 * 1 tsp salt or to taste
 * 1 Tbsp pepper or to taste 
-* 1 onion (optional) (1)
-* 5 buns
+* 1_ onion (optional) (1)
+* 5_ buns
 
 ## Steps
 

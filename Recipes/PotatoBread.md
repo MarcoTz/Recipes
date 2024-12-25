@@ -5,7 +5,7 @@
 * 150g potatoes
 * 225ml water
 * 1 Tbsp salt 
-* 450 flour
+* 450g flour
 * 15g dry yeast 
 
 ## Steps

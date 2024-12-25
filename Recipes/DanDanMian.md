@@ -13,7 +13,7 @@
 
 ### Marinade
 
-* 3 cloves garlic
+* 3_ cloves garlic
 * 1cm fresh ginger
 * 3 Tbsp soy sauce 
 * 1 Tbsp Shaoxing wine (1)

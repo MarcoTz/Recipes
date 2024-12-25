@@ -9,7 +9,7 @@
 * 3 Tbsp vegetable oil or olive oil 
 * 4 Tbsp [Kebab Spice](KebabSpice.md)
 * 2 Tbsp vegetable broth powder 
-* 2 bay leaves (optional)
+* 2_ bay leaves (optional)
 
 ## Steps
 

@@ -3,8 +3,8 @@
 ## Ingredients
 
 * 350g mushrooms (1)
-* 2 onions
-* 2 Tbsp buter
+* 2_ onions
+* 2 Tbsp butter
 * 250g Arborio rice
 * 750ml vegetable broth
 * 120ml white wine (2)
@@ -12,7 +12,7 @@
 * 2 Tbsp italian herbs
 * 1 tsp salt or to taste
 * 1 Tbsp pepper or to taste
-* 1 lTbsp olive oil for frying
+* 1 Tbsp olive oil for frying
 
 ## Steps
 

@@ -3,13 +3,13 @@
 ## Ingredients
 
 * 500g potatoes (1)
-* 1 red onion
+* 1_ red onion
 * 200g mayonaise
 * 100g pickles
 * 10g chives
 * 1 tsp salt or to taste
 * 1 Tbsp pepper or to taste
-* 1 apple (optional)
+* 1_ apple (optional)
 
 ## Steps
 

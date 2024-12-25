@@ -8,13 +8,13 @@
 * 15g dried yeast 
 * 100g butter
 * 1 tsp salt 
-* 2 eggs
+* 2_ eggs
 * 100-150g raisins (optional)
 * 50g coarse sugar for decoration (optional)
  
 ### Glaze 
 
-* 1 egg yolk 
+* 1_ egg yolk 
 * 10ml milk
 
 ## Steps

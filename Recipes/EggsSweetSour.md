@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-* 4 eggs
+* 4_ eggs
 * 150g rice
 * 80g brown sugar
 * 150ml pineapple juice (1)

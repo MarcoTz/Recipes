@@ -2,10 +2,10 @@
 
 ## Ingredients
 
-* 2 cloves garlic
-* 1 onion
+* 2_ cloves garlic
+* 1_ onion
 * 50g chives
-* 0.5 lemons
+* 0.5_ lemons
 * 400g Quark (1)
 * 200g Creme fraiche
 * 1 Tbsp white wine vinegar 

@@ -7,7 +7,7 @@
 * 80ml vegetable oil
 * 2 Tbsp ginger powder 
 * 1 Tbsp chili flakes
-* 4 cloves garlic
+* 4_ cloves garlic
 * 1 Tbsp sesame oil
 * 6 Tbsp rice vinega
 * 6 Tbsp soy sauce

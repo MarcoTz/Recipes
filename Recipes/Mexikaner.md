@@ -5,7 +5,7 @@
 * 0.7l Korn
 * 1l tomato juice
 * 500ml pureed tomatoes
-* 0,7l Sangrita picante (one bottle)
+* 0.7l Sangrita picante (one bottle)
 * 80ml lemon juice
 * 40ml tobasco
 * 80g tomato paste

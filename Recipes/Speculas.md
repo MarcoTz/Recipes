@@ -4,7 +4,7 @@
 
 * 150g butter 
 * 125g brown sugar 
-* 1 egg 
+* 1_ egg 
 * 1 tsp lemon zest 
 * 60g powdered almonds 
 * 300g flour 

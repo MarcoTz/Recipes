@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-* 1 banana
+* 1_ banana
 * 100g strawberries
 * 2 Tbsp peanut butter
 * 2 Tbsp yoghurt

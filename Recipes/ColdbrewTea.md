@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-* 1 tea bag or about 15g loose tea leaves 
+* 1_ tea bag or about 15g loose tea leaves 
 * 300ml water 
 * 1 tsp sugar or honey (optional)
 * 1 tsp lemon juice (optional) 

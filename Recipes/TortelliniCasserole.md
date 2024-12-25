@@ -5,8 +5,8 @@
 * 400g Tortellini (any kind)
 * 45g peas
 * 45g corn
-* 1-2 spring onions
-* 1-2 hot dog sausages 
+* 1-2_ spring onions
+* 1-2_ hot dog sausages 
 * 100g ham 
 * 35g butter
 * 2 Tbsp flour

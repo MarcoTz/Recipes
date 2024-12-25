@@ -2,11 +2,11 @@
 
 ## Ingredients
 
-* 50 [Dumpling Wrappers](DumplingWrappers.html) (circle)
+* 50_ [Dumpling Wrappers](DumplingWrappers.html) (circle)
 * 250g minced meat 
 * 500g cabbage
-* 5-6 spring onions
-* 4 cloves garlic
+* 5-6_ spring onions
+* 4_ cloves garlic
 * 1 Tbsp sesame oil
 * 1 Tbsp soy sauce
 * 1 Tbsp salt 

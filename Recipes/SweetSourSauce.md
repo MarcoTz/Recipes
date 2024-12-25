@@ -7,7 +7,7 @@
 * 80g ketchup
 * 1 Tbsp soy sauce 
 * 50ml pineapple juice (2)
-* 1 clove garlic
+* 1_ clove garlic
 * 1 Tbsp garlic powder
 * 1 Tbsp corn starch
 

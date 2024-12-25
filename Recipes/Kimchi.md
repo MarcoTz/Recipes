@@ -2,13 +2,13 @@
 
 ## Ingredients
 
-* 2,5kg Nappa cabbage (or other cabbage)
+* 2.5kg Nappa cabbage (or other cabbage)
 * 130g salt
 * 330ml water
-* 1 onion
-* 1 buld garlic
+* 1_ onion
+* 1_ bud garlic
 * 200g chilies
-* 5-6 spring onions
+* 5-6_ spring onions
 * 200-300g vegetables (carrots,etc) (optional)
 
 ## Steps

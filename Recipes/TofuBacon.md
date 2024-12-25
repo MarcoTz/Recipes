@@ -10,7 +10,7 @@
 * 1 tsp pepper
 * 0.5 tsp smoked paprike
 * 0.5 tsp onion powder
-* 0,5 tsp garlic powder 
+* 0.5 tsp garlic powder 
 * 2 Tbsp olive oil 
 
 ## Steps

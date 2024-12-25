@@ -5,7 +5,7 @@
 * 500g flour 
 * 250ml milk
 * 90g sugar 
-* 1 egg 
+* 1_ egg 
 * 15g dried yeast 
 * 1 tsp salt 
 * 100g butter 
@@ -13,7 +13,7 @@
 
 ### Glaze 
 
-* 1 egg yolk
+* 1_ egg yolk
 * 10ml milk
 
 ## Steps

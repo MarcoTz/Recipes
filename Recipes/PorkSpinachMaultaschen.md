@@ -4,11 +4,11 @@
 
 * 500g [Maultaschen Dough](MaultaschenDough.html)
 * 400g spinach
-* 1 onion
+* 1_ onion
 * 150g bread crumbs
 * 400g minced meat 
 * 1 Tbsp parsley
-* 2 eggs 
+* 2_ eggs 
 * 0.5 tsp salt 
 * 1 Tbsp white pepper
 

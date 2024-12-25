@@ -6,7 +6,7 @@
 * 110ml milk
 * 20g brown sugar 
 * 15g fresh yeast 
-* 1 egg 
+* 1_ egg 
 * 1 tsp salt 
 * 50g butter 
 
@@ -18,7 +18,7 @@
 
 ### Glaze 
 
-* 1 egg yolk
+* 1_ egg yolk
 * 1 Tbsp milk
 
 ## Steps

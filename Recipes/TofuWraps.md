@@ -3,7 +3,7 @@
 ## Ingredients
 
 * 180g tofu 
-* 1 onion
+* 1_ onion
 * 1 tsp cayenne pepper
 * 1 tsp Koriander
 * 1 tsp cumin
@@ -11,12 +11,12 @@
 * 1 tsp basil
 * 1 Tbsp tomato paste 
 * 2-3 Tbsp olive oil 
-* 2 [Tortillas](Tortillas.html)
+* 2_ [Tortillas](Tortillas.html)
 * 200g fresh spinach
 * 200g salad
-* 1 cucumber 
-* 1 tomato
-* 1 bell pepper
+* 1_ cucumber 
+* 1_ tomato
+* 1_ bell pepper
 * 100g avocado 
 
 ## Steps

@@ -5,8 +5,8 @@
 * 500g pasta
 * 1 Tbsp olive oil
 * 100g Mascarpone
-* 1 red onion
-* 5 cloves garlic
+* 1_ red onion
+* 5_ cloves garlic
 * 1 Tbsp herb mix
 * 800g pureed/diced tomatoes 
 * 150g tomato paste
@@ -15,9 +15,9 @@
 * 100g fresh basil
 * 250g fresh spinach
 * 50g butter
-* 1 Tbsp olive oil for sauteeing 
-* 1 tsp salt or to taste
-* 1 Tbsp pepper to taste
+* 1_ Tbsp olive oil for sauteeing 
+* 1_ tsp salt or to taste
+* 1_ Tbsp pepper to taste
 
 
 ## Steps

@@ -3,7 +3,7 @@
 ## Ingredients
 
 * 130ml Mayonaise
-* 2 cloves garlic or more to taste
+* 2_ cloves garlic or more to taste
 * 0.5 tsp garlic powder
 * 2 tsp lemon juice
 * 1 tsp salt or to taste

@@ -3,8 +3,8 @@
 ## Ingredients
 
 * 3 Tbsp olive oil
-* 2 onions 
-* 6 cloves garlic 
+* 2_ onions 
+* 6_ cloves garlic 
 * 2 tsp chili powder
 * 750ml vegetable broth
 * 150ml heavy cream

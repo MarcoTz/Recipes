@@ -2,12 +2,12 @@
 
 ## Ingredients
 
-* 2 sweet potatoes
-* 4 cloves garlic
+* 2_ sweet potatoes
+* 4_ cloves garlic
 * 450g chickpeas (cooked)
 * 400g coconut milk
-* 2 onions
-* 2 bell peppers
+* 2_ onions
+* 2_ bell peppers
 * 4 Tbsp curry paste
 * 100g fresh spinach
 * 1 tsp salt or to taste

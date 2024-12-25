@@ -3,11 +3,11 @@
 ## Ingredients
 
 * 300g maultaschen
-* 1 onion
-* 2 cloves garlic 
-* 2 eggs 
-* 12 fish sticks
-* 6 buns
+* 1_ onion
+* 2_ cloves garlic 
+* 2_ eggs 
+* 12_ fish sticks
+* 6_ buns
 * 2 Tbsp ketchup
 * 2 Tbsp mayonaise
 * 2 Tbsp sriracha (optional)

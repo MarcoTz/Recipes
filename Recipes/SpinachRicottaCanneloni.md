@@ -2,20 +2,20 @@
 
 ## Ingredients
 
-* 18-22 Canneloni
+* 18-22_ Canneloni
 * 30g grated parmesan
 * 100g grated mozzarella
 * 1 Tbsp basil for garnish (optional)
 
 ### Sauce 
 
-* 1 onion
-* 4 cloves garlic 
+* 1_ onion
+* 4_ cloves garlic 
 * 120g tomato paste
 * 800g pureed tomatoes 
 * 1l vegetable broth
 * 80ml white wine
-* 1 bay leav
+* 1_ bay leav
 * 1 tsp dried thyme
 * 1 tsp dried oregano
 * 2 Tbsp olive oil
@@ -30,8 +30,8 @@
 * 500g ricotta
 * 30g grated parmesan 
 * 100g grated grated cheese (1)
-* 1 egg 
-* 2 cloves garlic 
+* 1_ egg 
+* 2_ cloves garlic 
 * 1 tsp nutmeg
 * 1 tsp salt 
 * 1 tsp black pepper

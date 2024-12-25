@@ -2,11 +2,11 @@
 
 ## Ingredients
 
-* 3 cloves of garlic
+* 3_ cloves of garlic
 * 200g soba noodles
 * 200g bok choy
 * 1 Tbsp sesame oil
-* 3 spring onions
+* 3_ spring onions
 * 200g bean sprouts
 * 60g minced peanuts
 * 1 tsp soy sauce
@@ -19,7 +19,7 @@
 * 2 Tbsp Sriracha
 * 2 Tbsp Rice vinegar 
 * 1 Tbsp sesame oil 
-* 3 garlic cloves
+* 3_ cloves garlic
 * 3 Tbsp Soy Sauce 
 
 ## Steps 

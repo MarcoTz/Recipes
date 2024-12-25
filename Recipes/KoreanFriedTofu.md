@@ -3,16 +3,16 @@
 ## Ingredients 
 
 * 450g firm tofu
-* 1 spring onion 
+* 1_ spring onion 
 
 ### Marinade 
 
 * 1 Tbsp neutral oil
 * 1 Tbsp soy sauce
 * 1 Tbsp sugar 
-* 2 cloves garlic 
+* 2_ cloves garlic 
 * 2 Tbsp gochugaru
-* 1 chili (optional)
+* 1_ chili (optional)
 * 1 tsp sesame seeds 
 * 1 Tbsp sesame oil 
 * 80ml water

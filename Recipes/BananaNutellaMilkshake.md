@@ -5,7 +5,7 @@
 * 100ml mlik
 * 500g valnilla ice
 * 80g nutella
-* 1 banana
+* 1_ banana
 * 50g whipped cream (optional)
 * 1 Tbsp cocoa powder or chocolate chips (optional)
 

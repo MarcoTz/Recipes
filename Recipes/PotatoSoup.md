@@ -3,14 +3,14 @@
 ## Ingredients
 
 * 1 Tbsp vegetable oil 
-* 1 onion
-* 2 stalks celery 
-* 2 carrots
+* 1_ onion
+* 2_ stalks celery 
+* 2_ carrots
 * 900g potatoes
 * 1l vegetable broth
 * 1 tsp majoram
 * 1 tsp nutmeg 
-* 2 bay leaves 
+* 2_ bay leaves 
 * 1 Tsp salt to taste 
 * 1 Tbsp pepper to taste
 * 100ml cream or milk (optional)

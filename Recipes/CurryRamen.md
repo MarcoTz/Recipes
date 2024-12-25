@@ -5,8 +5,8 @@
 * 400g firm tofu
 * 400g Ramen noodles 
 * 1 Tbsp sesame seeds 
-* 1 small bok choy
-* 1 head broccoli
+* 1_ small bok choy
+* 1_ head broccoli
 * 100g corn
 * 2 Tbsp curry paste
 * 4 Tbsp coconut cream
@@ -17,7 +17,7 @@
 * 60ml soy sauce 
 * 60g coconut sugar (1)
 * 2cm ginger 
-* 1 small lime 
+* 1_ small lime 
 
 ### Tofu breading
 

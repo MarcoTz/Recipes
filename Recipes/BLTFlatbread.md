@@ -2,12 +2,12 @@
 
 ## Ingredients
 
-* 4 flat breads
-* 4 eggs
+* 4_ flat breads
+* 4_ eggs
 * 200g bacon
-* 0.25 heads of salad 
-* 2 tomatoes
-* 1 cucumber
+* 0.25_ heads of salad 
+* 2_ tomatoes
+* 1_ cucumber
 * 1 Tbsp mayonaise or to taste
 
 ## Steps

@@ -11,7 +11,7 @@
 * 0.5 tsp salt 
 * 50g sugar 
 * 5g dry yeast 
-* 1 egg 
+* 1_ egg 
 * 100ml milk
 * 35g butter 
 
@@ -19,7 +19,7 @@
 
 * 60g butter 
 * 100g sugar 
-* 1 egg 
+* 1_ egg 
 * 200g flour 
 * 0.5 tsp baking powder
 * 1 Tbsp corn starch 

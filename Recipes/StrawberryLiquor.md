@@ -5,7 +5,7 @@
 * 700ml vodka, korn or rum
 * 500g strawberries
 * 200-300g sugar or more to taste
-* 1 lemon juiced
+* 1_ lemon juiced
 * 15g vanilla sugar (optional)
 
 ## Steps

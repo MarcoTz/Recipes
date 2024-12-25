@@ -3,7 +3,7 @@
 ## Ingredients
 
 * 900g potatoes 
-* 2 onions
+* 2_ onions
 * 1 Tbsp olive oil
 * 3 tsp majoram
 * 3 tsp nutmeg

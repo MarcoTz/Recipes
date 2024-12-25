@@ -4,13 +4,13 @@
 
 ### Meringue
 
-* 5 egg whites
+* 5_ egg whites
 * 0.25 tsp cream of tartar or lemon juice or vinegar
 * 50g sugar 
 
 ### Cake Batter 
 
-* 5 egg yolks 
+* 5_ egg yolks 
 * 220g cream cheese (plain)
 * 55g butter 
 * 125ml milk 

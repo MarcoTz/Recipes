@@ -7,7 +7,7 @@
 * 1 Tbsp sugar 
 * 3 Tbsp olive oil 
 * 30g plain yoghurt
-* 1 egg
+* 1_ egg
 * 0.5 Tbsp salt
 * 300-350g flour
 * 2 Tbsp butter (optional)

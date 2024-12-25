@@ -15,7 +15,7 @@
 * 3 Tbsp water 
 * 3 Tbsp vegetable oil 
 * 2 Tbsp ginger 
-* 1 onion
+* 1_ onion
 * 2 Tbsp shaoxing wine 
 * 1 Tbsp soy sauce 
 * 1 Tbsp Hoisin sauce 
@@ -24,7 +24,7 @@
 * 0.5 tsp white pepper 
 * 2 tsp sesame oil 
 * 1.5 tsp corn starch 
-* 3 spring onions
+* 3_ spring onions
 
 ## Steps
 

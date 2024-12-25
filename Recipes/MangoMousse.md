@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-* 3 mangos
+* 3_ mangos
 * 400ml coconut milk
 * 3 Tbsp sugar or honey
 

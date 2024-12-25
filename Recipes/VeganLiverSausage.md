@@ -4,7 +4,7 @@
 
 * 175g smoked tofu
 * 200g kidney beans
-* 1 onion
+* 1_ onion
 * 5 Tbsp vegeable oil
 * 1 tsp onion powder 
 * 1 tsp mustard

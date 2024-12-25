@@ -2,12 +2,12 @@
 
 ## Ingredients
 
-* 1 sweet potato
-* 2 [Tortillas](Tortillas.html)
-* 2 eggs
+* 1_ sweet potato
+* 2_ [Tortillas](Tortillas.html)
+* 2_ eggs
 * 50g green salad 
 * 2 Tbsp Tahini
-* 0.5 cucumber 
+* 0.5_ cucumber 
 * 0.5 Tbsp Cumin
 * 0.5 Tbsp Tumeric
 * 0.5 Tbsp salt

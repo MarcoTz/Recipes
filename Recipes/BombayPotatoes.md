@@ -2,11 +2,11 @@
 
 ## Ingredients
 
-* 4 fresh tomatoes
+* 4_ fresh tomatoes
 * 600g potatoes 
-* 2 onions 
+* 2_ onions 
 * 3 Tbsp vegetable oil
-* 4 cloves garlic 
+* 4_ cloves garlic 
 * 250ml water 
 * 1 tsp sugar 
 * 2cm fresh ginger 

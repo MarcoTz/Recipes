@@ -3,11 +3,11 @@
 ## Ingredients
 
 * 1 Tbsp olive oil 
-* 1 onion
-* 1 clove garlic
+* 1_ onion
+* 1_ clove garlic
 * 20g fresh ginger 
 * 500g pumpkin 
-* 1 carrot 
+* 1_ carrot 
 * 500ml vegetable broth
 * 1 tsp salt or to taste 
 * 1 Tbsp pepper or to taste

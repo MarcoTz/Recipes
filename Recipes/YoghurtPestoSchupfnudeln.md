@@ -5,7 +5,7 @@
 * 500g [Schupnudeln](Schupfnudeln.html)
 * 200g Tomatoes
 * 200g orange pesto 
-* 0.5 cucumber
+* 0.5_ cucumber
 * 150g plain yoghurt
 
 ## Steps

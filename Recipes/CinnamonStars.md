@@ -12,7 +12,7 @@
 
 ### Egg whites 
 
-* 1 egg white
+* 1_ egg white
 * 60g powdered sugar 
 * 1 tsp vanilla sugar
 

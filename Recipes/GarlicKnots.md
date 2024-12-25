@@ -4,7 +4,7 @@
 
 * 350g [Pizza Dough](PizzaDoug.html)
 * 5 Tbsp butter 
-* 3 cloves of garlic (1) 
+* 3_ cloves of garlic (1) 
 * 1 Tbsp Oregano
 * 1 Tbsp parsley 
 * 3 Tbsp grated Parmesan

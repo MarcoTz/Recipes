@@ -3,11 +3,11 @@
 ## Ingredients
 
 * 250g peas
-* 0.5 lemons
+* 0.5_ lemons
 * 40ml olive oil
-* 2 spring onions
+* 2_ spring onions
 * 0.5 Tbsp pepper or to taste
-* 0,5 Tbsp chili flakes or to taste
+* 0.5 Tbsp chili flakes or to taste
 * 80g Feta cheese (optional)
 
 ## Steps

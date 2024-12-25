@@ -8,10 +8,10 @@
 * 60ml kimchi water (or just water)
 * 2-3 Tbsp gochujang
 * 3 tsp sesame oil
-* 2 eggs 
-* 1 spring onion
+* 2_ eggs 
+* 1_ spring onion
 * 1 Tbsp sesame seeds 
-* 1 nori leaf
+* 1_ nori leaf
 
 ## Steps
 

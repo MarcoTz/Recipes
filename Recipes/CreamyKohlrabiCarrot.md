@@ -2,8 +2,8 @@
 
 ## Ingredients
 
-* 3-4 Kohlrabi
-* 3 carrots
+* 3-4_ Kohlrabi
+* 3_ carrots
 * 50g butter
 * 50g flour
 * 150ml heavy cream
