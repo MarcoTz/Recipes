@@ -21,13 +21,7 @@ fn parse_measurement(input: &mut String) -> Result<Measurement, Error> {
         .unwrap_or("".to_owned());
     *input = input.replacen(&unit_str, "", 1);
 
-    let unit = match unit_str.parse::<Unit>() {
-        Ok(unit) => unit,
-        Err(_) => {
-            *input = unit_str.to_owned() + " " + input;
-            Unit::Piece
-        }
-    };
+    let unit = unit_str.parse::<Unit>()?;
     Ok(Measurement { amount, unit })
 }
 
