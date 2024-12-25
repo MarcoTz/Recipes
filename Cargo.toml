@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "render_recipes",
+    "lib/recipes"
 ]
 
 resolver = "2"

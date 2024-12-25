@@ -6,3 +6,6 @@ edition = "2021"
 [[bin]]
 name = "render_recipes"
 path = "src/main.rs"
+
+[dependencies]
+recipes = { path = "../lib/recipes/" }

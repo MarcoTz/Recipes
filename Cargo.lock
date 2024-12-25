@@ -3,5 +3,12 @@
 version = 3
 
 [[package]]
+name = "recipes"
+version = "0.0.1"
+
+[[package]]
 name = "render_recipes"
 version = "0.1.0"
+dependencies = [
+ "recipes",
+]
