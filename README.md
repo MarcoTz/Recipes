@@ -32,4 +32,5 @@ The parser expects the following format for recipes
 
 Additionally, inside the separate parts, subheadings can be used, for example `### Sauce`, `### Dough`, etc.
 
-In order to correctly parse units, each ingredient needs an amount (float) followed by a unit. Anything witout a unit, for example  `1 egg` requires an underscore to indicate no unit (instead of trying to parse `egg` as unit), i.e. `1_ egg`
+In order to correctly parse units, each ingredient needs an amount (float) followed by a unit. Anything witout a unit, for example  `1 egg` requires an underscore to indicate no unit (instead of trying to parse `egg` as unit), i.e. `1_ egg`.
+Ranges of amounts such as `1-2_ eggs` are also allowed.

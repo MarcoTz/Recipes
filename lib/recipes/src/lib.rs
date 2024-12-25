@@ -5,7 +5,7 @@ pub mod recipe;
 pub mod units;
 
 pub use ingredient::Ingredient;
-pub use measurement::Measurement;
+pub use measurement::{Amount, Measurement};
 pub use recipe::Recipe;
 pub use units::Unit;
 

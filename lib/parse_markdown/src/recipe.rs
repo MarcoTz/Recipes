@@ -12,7 +12,6 @@ pub fn parse_recipe(input: String) -> Result<Recipe, Error> {
     let mut steps = vec![];
     let mut notes = vec![];
     let mut tags = vec![];
-    println!("parsing {name}");
     for mut input in inputs {
         input = input.trim();
         if input.starts_with("## ") {
