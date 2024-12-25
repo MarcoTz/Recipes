@@ -9,3 +9,4 @@ path = "src/main.rs"
 
 [dependencies]
 recipes = { path = "../lib/recipes/" }
+parse_markdown = { path = "../lib/parse_markdown" }
