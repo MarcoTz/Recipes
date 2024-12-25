@@ -12,7 +12,7 @@
 * 4 Tbsp sugar
 * 3 Tbsp salt
 * 3 Tbsp pepper, or more to taste
-* chili powder to taste (optional)
+* 1 tsp chili powder or to taste (optional)
 
 ## Steps
 

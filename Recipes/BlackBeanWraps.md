@@ -10,9 +10,9 @@
 * 1 Tbsp tomato paste
 * 1 tsp paprika powder 
 * 2 tsp cumin
-* salt to taste
-* chili powder to taste
-* vegetable oil for frying
+* 1 tsp salt or to taste
+* 1 tsp chili powder or to taste
+* 1 Tbsp vegetable oil for frying
 
 ## Steps
 

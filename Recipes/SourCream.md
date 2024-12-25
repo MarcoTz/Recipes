@@ -10,8 +10,8 @@
 * 200g Creme fraiche
 * 1 Tbsp white wine vinegar 
 * 1 Tbsp sugar
-* Salt to taste
-* Pepper to taste
+* 1 tsp Salt or to taste
+* 1 Tbsp Pepper to taste
 
 ## Steps 
 

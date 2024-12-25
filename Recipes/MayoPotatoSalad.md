@@ -7,8 +7,8 @@
 * 200g mayonaise
 * 100g pickles
 * 10g chives
-* salt to taste
-* pepper to taste
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste
 * 1 apple (optional)
 
 ## Steps

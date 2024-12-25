@@ -6,8 +6,8 @@
 * 1 egg 
 * 2 Tbsp flour
 * 60g butter
-* salt to taste 
-* nutmeg to taste
+* 1 tsp salt or to taste 
+* 1 tsp nutmeg or to taste
 
 ## Steps
 

@@ -6,7 +6,7 @@
 * 40g lard (or butter) 
 * 1 Tbsp butter
 * 30g parsley 
-* salt to taste
+* 1 tsp salt or to taste
 * 300g pork belly or bacon (optional)
 * 2 onions (optional)
 

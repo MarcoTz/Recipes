@@ -14,8 +14,8 @@
 * 2 Tbsp parsley 
 * 1.5l+50ml vegetable broth
 * 2 Tbsp soy sauce
-* salt to taste
-* pepper to taste
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste
 
 ## Steps
 

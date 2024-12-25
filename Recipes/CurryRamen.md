@@ -16,7 +16,7 @@
 
 * 60ml soy sauce 
 * 60g coconut sugar (1)
-* about 2cm ginger 
+* 2cm ginger 
 * 1 small lime 
 
 ### Tofu breading

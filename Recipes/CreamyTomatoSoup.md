@@ -10,8 +10,8 @@
 * 600ml vegetable broth
 * 2 Tbsp italian herbs
 * 10g fresh basil
-* salt to taste
-* pepper to taste
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste
 * 150ml cream (optional)
 
 ## Steps

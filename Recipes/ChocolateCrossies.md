@@ -5,7 +5,7 @@
 * 100g dark chocolate
 * 150g chocolate
 * 200g Cornflakes
-* 50 shredded almonds (optional)
+* 50g shredded almonds (optional)
 
 ## Steps
 

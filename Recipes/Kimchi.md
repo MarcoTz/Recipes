@@ -9,7 +9,7 @@
 * 1 buld garlic
 * 200g chilies
 * 5-6 spring onions
-* additional vegetables (carrots,etc) (optional)
+* 200-300g vegetables (carrots,etc) (optional)
 
 ## Steps
 

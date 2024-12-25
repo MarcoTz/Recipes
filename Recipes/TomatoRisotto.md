@@ -13,9 +13,9 @@
 * 250ml pureed tomatoes 
 * 250ml vegetable broth
 * 6 dried tomatoes
-* salt to taste
-* pepper to taste
-* parmesan cheese to taste (optional) (2)
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste
+* 50g parmesan cheese or to taste (optional) (2)
 
 ## Steps
 

@@ -12,9 +12,9 @@
 * 2-3 potatoes
 * 200g Avjar (alternatively use tomato puree)
 * 2-3 Tbsp Water
-* Salt
-* Pepper
-* Paprika Powder
+* 1 tsp Salt
+* 1 Tbsp Pepper
+* 1 Tbsp Paprika Powder
 
 ## Steps 
 

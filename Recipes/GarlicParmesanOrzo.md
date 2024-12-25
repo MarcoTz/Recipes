@@ -11,8 +11,8 @@
 * 80ml cream
 * 2-3 Tbsp parsley 
 * 1 Tbsp salt 
-* pepper to taste
-* olive oil for frying
+* 1 Tbsp pepper or to taste
+* 1 Tbsp olive oil for frying
 
 ## Steps
 

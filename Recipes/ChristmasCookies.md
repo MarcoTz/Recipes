@@ -7,7 +7,7 @@
 * 125g butter 
 * 1 egg 
 * 1 egg yellow (optional)
-* sprinkles/icing (optional)
+* 50g sprinkles/icing (optional)
 
 ## Steps 
 

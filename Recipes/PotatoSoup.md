@@ -11,8 +11,8 @@
 * 1 tsp majoram
 * 1 tsp nutmeg 
 * 2 bay leaves 
-* salt to taste 
-* pepper to taste
+* 1 Tsp salt to taste 
+* 1 Tbsp pepper to taste
 * 100ml cream or milk (optional)
 
 ## Steps

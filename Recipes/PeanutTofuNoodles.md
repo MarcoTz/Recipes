@@ -6,7 +6,7 @@
 * 350g firm tofu
 * 50g sesame seeds
 * 3 spring onions
-* chopped peanuts to taste (2)
+* 50g chopped peanuts or to taste (2)
 
 ### Sauce 
 

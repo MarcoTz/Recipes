@@ -7,8 +7,8 @@
 * 250g beans (cooked) (2)
 * 2 tsp garlic powder 
 * 2 tsp onion powder
-* salt to taste
-* pepper to taste 
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste 
 
 ## Steps
 

@@ -15,7 +15,7 @@
 * 2 Tbsp onion powder 
 * 2 Tbsp smoked paprika 
 * 0.5 tsp cumin
-* pepper to taste
+* 1 Tbsp pepper or to taste
 
 ## Steps
 

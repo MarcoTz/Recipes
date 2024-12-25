@@ -10,7 +10,7 @@
 * 150g quark
 * 50ml condensed milk (possibly more)
 * 1 egg yellow (possbily more)
-* any filling (1)
+* 150g filling (1)
 
 ## Steps
 

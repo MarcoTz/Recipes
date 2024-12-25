@@ -15,8 +15,8 @@
 * 100g creme cheese
 * 1 Tbsp herb mix
 * 200g grated cheese
-* salt to taste
-* pepper to taste
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste
 
 ## Steps
 

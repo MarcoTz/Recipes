@@ -19,7 +19,7 @@
 * 0.5 tsp nutmeg
 * 0.5 tsp smoked paprika
 * 0.5 tsp chili flakes
-* salt to taste
+* 1 tsp salt to taste
 
 ## Steps
 

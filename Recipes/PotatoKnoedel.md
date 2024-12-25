@@ -7,8 +7,8 @@
 * 1 Tbsp olive oil
 * 3 tsp majoram
 * 3 tsp nutmeg
-* salt to taste
-* pepper to taste
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste
 
 ## Steps
 

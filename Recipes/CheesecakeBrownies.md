@@ -11,7 +11,7 @@
 * 4 eggs 
 * 100g cocoa powder
 * 0.5 Tbsp salt
-* small fruits or berries (optional)
+* 50g small fruits or berries (optional)
 
 ### Cheesecake Frosting
 

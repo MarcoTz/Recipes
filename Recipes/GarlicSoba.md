@@ -10,8 +10,8 @@
 * 200g bean sprouts
 * 60g minced peanuts
 * 1 tsp soy sauce
-* Koriander
-* Chili Flakes 
+* 1 tsp Koriander
+* 1 tsp Chili Flakes 
 
 ### Sauce 
 

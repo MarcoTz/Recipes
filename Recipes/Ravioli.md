@@ -6,7 +6,7 @@
 * 5 eggs 
 * 3 egg yellows 
 * 2 Tbsp salt
-* any filling (1)
+* 200g any filling (1)
 
 ## Steps
 

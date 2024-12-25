@@ -7,7 +7,7 @@
 * 300ml water
 * 500g flour 
 * 15g dry yeast
-* hail salt to taste
+* 1 tsp hail salt 
 
 ### Lye 
 

@@ -10,8 +10,8 @@
 * 3 cloves garlic
 * 1 Tbsp Italian herb mix 
 * 2 Tbsp Paprika powder 
-* Salt to taste
-* pepper to taste
+* 1 tsp  Salt or to taste
+* 1 Tbsps pepper or to taste
 
 ## Steps
 

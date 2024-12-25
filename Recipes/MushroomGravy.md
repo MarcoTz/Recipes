@@ -12,8 +12,8 @@
 * 1 Tbsp soy sauce 
 * 3-4 Tbsp thyme
 * 2 Tbsp rosemary
-* salt to taste
-* pepper to taste
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste
 * 60ml red wine (optional)
 
 ## Steps

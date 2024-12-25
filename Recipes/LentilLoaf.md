@@ -18,8 +18,8 @@
 * 1 Tbsp soy sauce 
 * 2 Tbsp ketchup
 * 1 Tbsp smoked salt 
-* salt to taste
-* pepper to taste
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste
 
 ## Steps
 

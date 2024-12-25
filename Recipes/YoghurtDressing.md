@@ -8,9 +8,9 @@
 * 1 tsp mustard 
 * 1 clove garlic
 * 1 tsp sugar 
-* Salt to taste
-* Papper to taste
-* Herb mix to taste
+* 1 tsp Salt or to taste
+* 1 Tbsp Papper to taste
+* 1 Tbsp Herb mix or to taste
 
 ## Steps 
 

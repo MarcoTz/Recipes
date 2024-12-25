@@ -10,10 +10,10 @@
 * 1 egg
 * 150g ham
 * 1 leek
-* salt to taste
-* pepper to taste
-* paprika powder to taste
-* italian herbs to taste
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste
+* 1 Tbsp paprika powder or to taste
+* 1 Tbsp italian herbs or to taste
 
 ## Steps
 

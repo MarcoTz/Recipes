@@ -11,10 +11,10 @@
 * 0.5 Tbsp Chili powder 
 * 800g diced tomatoes
 * 6 eggs 
-* Salt to taste
-* Pepper to taste
+* 1 tsp Salt or to taste
+* 1 Tbsp Pepper to taste
 * 20g parsley 
-* oil for frying
+* 1 Tbsp oil for frying
 
 ## Steps
 

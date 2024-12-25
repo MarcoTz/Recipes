@@ -6,7 +6,7 @@
 * 2 cloves garlic or more to taste
 * 0.5 tsp garlic powder
 * 2 tsp lemon juice
-* salt to taste
+* 1 tsp salt or to taste
 
 ## Steps
 

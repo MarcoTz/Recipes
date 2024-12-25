@@ -8,8 +8,8 @@
 * 2-3 Tbsp flour
 * 1 Tbsp Parsley
 * 50g breadcrumbs
-* Salt to taste
-* oil for frying
+* 1 tsp Salt or to taste
+* 100ml oil for frying
 
 ## Steps 
 

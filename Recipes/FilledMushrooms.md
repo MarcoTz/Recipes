@@ -6,8 +6,8 @@
 * 200g cream cheese
 * 100g grated cheese
 * 1 Tbsp oregano
-* salt to taste 
-* pepper to taste
+* 1 tsp salt or to taste 
+* 1 Tbsp pepper or to taste
 * 1 tsp chili powder (optional)
 
 ## Steps

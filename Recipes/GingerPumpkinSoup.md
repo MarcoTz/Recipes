@@ -9,8 +9,8 @@
 * 500g pumpkin 
 * 1 carrot 
 * 500ml vegetable broth
-* salt to taste 
-* pepper to taste
+* 1 tsp salt or to taste 
+* 1 Tbsp pepper or to taste
 
 ## Steps
 

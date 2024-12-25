@@ -18,7 +18,7 @@
 * 300g rice (or orzo)
 * 600ml vegetable broth
 * 2 tsp sugar
-* black pepper to taste
+* 1 Tbsp black pepper or to taste
 
 ## Steps
 

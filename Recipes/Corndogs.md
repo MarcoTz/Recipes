@@ -4,7 +4,7 @@
 
 * 12 hot dogs
 * 12 shashlik sticks
-* about 1l frying oil
+* 1l frying oil
 
 ### Batter 
 

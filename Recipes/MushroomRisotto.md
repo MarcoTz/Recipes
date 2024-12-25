@@ -10,9 +10,9 @@
 * 120ml white wine (2)
 * 50g Parmesan 
 * 2 Tbsp italian herbs
-* salt to taste
-* pepper to taste
-* olive oil for frying
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste
+* 1 lTbsp olive oil for frying
 
 ## Steps
 

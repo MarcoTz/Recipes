@@ -11,8 +11,8 @@
 * 120g grated parmesan (1)
 * 300g bread crumbs
 * 1 Tbsp Paprika powder
-* salt to taste
-* pepper to taste
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste
 * 1 Tbsp cayenne pepper (optional)
 * 1 Tbsp chili flakes (optional)
 

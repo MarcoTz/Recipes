@@ -11,10 +11,10 @@
 * 1-2 Tbsp lemon juice
 * 100g cherry tomatoes
 * 50ml milk (optional)
-* salt to taste
-* pepper to taste
-* italian herbs to taste
-* olive oil for frying
+* 1 tsp salt or to taste
+* 1 tbsp pepper or to taste
+* 1 tsp italian herbs or to taste
+* 1 Tbsp olive oil for frying
 
 ## Steps
 

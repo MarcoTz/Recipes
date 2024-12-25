@@ -9,9 +9,8 @@
 * 50g Parmesen
 * 2 cloves garlic
 * 2 Tbsp Italian Herbs
-* salt to taste
-* pepper to taste
-* extra fillings (optional) (1)
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste
 
 ## Steps
 
@@ -25,7 +24,7 @@
 
 ## Notes
 
-(1) add any pizza toppings like mushrooms, salami, ham, etc
+add any pizza toppings like mushrooms, salami, ham, etc
 
 ## Tags
 bakedgood, vegetarian

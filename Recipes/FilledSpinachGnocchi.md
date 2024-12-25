@@ -11,9 +11,9 @@
 * 50g pine seeds
 * 1 tsp lemon juice 
 * 60ml olive oil 
-* salt to taste
-* pepper to taste
-* vegetable oil or olive oil for frying
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste
+* 1 Tbsp vegetable oil or olive oil for frying
 
 ## Steps
 

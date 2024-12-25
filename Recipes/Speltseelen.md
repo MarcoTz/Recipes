@@ -6,8 +6,8 @@
 * 10g fresh yeast (1)
 * 400ml water
 * 2 tsp salt
-* Caraway seeds (optional)
-* Hail Salt (optional)
+* 1 tsp Caraway seeds (optional)
+* 1 tsp Hail Salt (optional)
 
 ## Steps 
 

@@ -7,7 +7,7 @@
 * 120g grated Parmesan
 * 100g Salami (1)
 * 1 Tbsp garlic powder 
-* salt to taste
+* 1 tsp salt or to taste
 * 300g tomato sauce
 
 ## Steps

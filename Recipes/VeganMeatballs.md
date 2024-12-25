@@ -15,9 +15,9 @@
 * 1 tsp oregano 
 * 1 tsp cumin
 * 0.5 tsp chili flakes
-* salt to taste 
-* pepper to taste
-* vegetable oil for pan frying 
+* 1 tsp salt or to taste 
+* 1 Tbsp pepper or to taste
+* 1 Tbsp vegetable oil for pan frying 
 
 ## Steps
 

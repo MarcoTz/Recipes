@@ -6,7 +6,7 @@
 * 50g pine seeds
 * 80ml olive oil
 * 50g grated parmesan
-* salt to taste
+* 1 tsp salt or to taste
 
 ## Steps
 

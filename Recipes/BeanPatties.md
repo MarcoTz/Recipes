@@ -13,9 +13,9 @@
 * 2 tsp Paprika powder
 * 1 tsp cumin
 * 0.5 tsp cayenne pepper
-* Salt to taste 
-* pepper to taste
-* oil for frying 
+* 1 tsp Salt or to taste 
+* 1 Tbsp pepper or to taste
+* 50ml oil for frying 
 
 ## Steps
  

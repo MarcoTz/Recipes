@@ -7,7 +7,7 @@
 * 80g nutella
 * 1 banana
 * 50g whipped cream (optional)
-* cocoa powder or chocolate chips (optional)
+* 1 Tbsp cocoa powder or chocolate chips (optional)
 
 ## Steps
 

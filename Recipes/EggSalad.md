@@ -11,8 +11,8 @@
 * 1 tsp garlic powder
 * 2 spring onions or 1 red onion (optional)
 * 1 tsp paprika powder (optional)
-* salt to taste
-* pepper to taste
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste
  
 
 ## Steps

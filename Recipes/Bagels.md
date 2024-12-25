@@ -11,7 +11,7 @@
 * 1 Tbps honey 
 * 1 egg yolk
 * 2 Tbsp milk
-* sunflower seeds, pumpkin seeds, etc (optional)
+* 1 Tbsp sunflower seeds, pumpkin seeds, etc (optional)
 
 ## Steps
 

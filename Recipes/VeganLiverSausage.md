@@ -12,7 +12,7 @@
 * 2 tsp vegetable broth powder
 * 0.5 tsp garlic powder 
 * 1 Tbsp majoram
-* pepper to taste
+* 1 Tbsp pepper or to taste
 
 ## Steps
 

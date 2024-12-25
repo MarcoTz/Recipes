@@ -5,7 +5,7 @@
 * 18-22 Canneloni
 * 30g grated parmesan
 * 100g grated mozzarella
-* basil for garnish (optional)
+* 1 Tbsp basil for garnish (optional)
 
 ### Sauce 
 

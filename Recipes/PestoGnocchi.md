@@ -6,7 +6,7 @@
 * 250g dried tomatoes
 * 250g green pesto
 * 300ml heavy cream
-* salt to taste
+* 1 tsp salt or to taste
 
 ## Steps
 

@@ -12,7 +12,7 @@
 * 0.5 tsp white pepper
 * 1 tsp lemon juice
 * 1 tsp sugar
-* nutmeg to taste
+* 1 tsp nutmeg or to taste
 
 ## Steps
 

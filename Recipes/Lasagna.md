@@ -15,8 +15,8 @@
 * 2 Tbsp tomato paste
 * 1 Tbsp paprika powder 
 * 2 Tbsp Oregano
-* salt to taste 
-* pepper to taste
+* 1 tsp salt or to taste 
+* 1 Tbsp pepper or to taste
 
 ### Bechamel Sauce
 
@@ -24,8 +24,8 @@
 * 2 Tbsp flour
 * 400m milk
 * 1 tsp nutmeg 
-* salt to taste
-* pepper to taste
+* 1 tsp salt or to taste
+* 1 Tbsp pepper to taste
 
 ## Steps
 

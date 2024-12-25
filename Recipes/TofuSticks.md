@@ -10,7 +10,7 @@
 * 2 Tbsp paprika powder 
 * 250g breadcrumbs
 * 1 Tbsp olive oil
-* pepper to taste
+* 1 Tbsp pepper or to taste
 
 ## Steps
 

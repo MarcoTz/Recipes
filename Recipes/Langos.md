@@ -5,8 +5,8 @@
 * 450g flour
 * 15g dried yeast
 * 250ml milk
-* salt to taste 
-* oil for deep frying
+* 1 tsp salt or to taste 
+* 100ml oil for deep frying
 
 ### Topping
 

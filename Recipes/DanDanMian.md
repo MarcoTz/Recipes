@@ -8,8 +8,8 @@
 * 60g bok choy or similar green
 * 200g white noodles (3)
 * 60ml vegetable or chicken broth
-* crushed peanuts (optional)
-* sesame seeds (optional)
+* 50g crushed peanuts (optional)
+* 2 Tbsp sesame seeds (optional)
 
 ### Marinade
 
@@ -25,7 +25,7 @@
 * 1 Tbsp dark soy sauce 
 * 3 Tbsp chili oil
 * 0.5 Tbsp sugar
-* pepper to taste
+* 1 Tbsp pepper or to taste
 
 ## Steps
 

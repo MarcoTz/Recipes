@@ -16,12 +16,11 @@
 * 2 Tbsp tomato paste
 * 1 tsp caraway
 * 1 tsp garlic powder
-* t tsp paprika powder
+* 1 tsp paprika powder
 * 1 tsp tumeric
 * 1 tsp salt 
 * 15g grated parmesan (optional)
-* 
-
+ 
 ## Steps
 
 1. Preheat oven t0 200C upper/lower

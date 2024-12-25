@@ -7,7 +7,7 @@
 * 150g oat bran
 * 50g wheat bran
 * 15g baking powder
-* mixed seeds and nuts (optional)
+* 50-100g mixed seeds and nuts (optional)
 
 ## Steps
 

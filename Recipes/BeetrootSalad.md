@@ -7,8 +7,8 @@
 * 1 tbsp caraway powder 
 * 6 Tbsp olive oil
 * 2 tbsp salt 
-* Pepper to taste
-* Sugar to taste
+* 1 Tbsp Pepper or to taste
+* 1 Tbsp Sugar or to taste
 
 ## Steps
 

@@ -12,7 +12,7 @@
 * 1 tsp smoked paprika 
 * 1 tsp garlic powder 
 * 1 tsp onion powder
-* vegetable oil for deep frying
+* 100ml vegetable oil for deep frying
 
 ### Marinade
 

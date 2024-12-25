@@ -8,11 +8,11 @@
 * 300g corn
 * 400g spinach
 * 130ml milk
-* juice of 1 lemon
+* 1 lemon juiced
 * 1 clove garlic
 * 1 Tbsp olive oil
-* salt to taste
-* pepper to taste
+* 1 tsp salt or to taste
+* 1 tsp pepper or to taste
 
 ## Steps
 

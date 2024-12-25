@@ -5,9 +5,9 @@
 * 800g potatoes
 * 1 onion
 * 1 Tbsp butter 
-* Salt 
-* Pepper 
-* Nutmeg
+* 1 tsp Salt 
+* 1 Tbsp Pepper 
+* 1 tsp Nutmeg
 * 150g cubed ham (optional)
 * 4-8 eggs (optional)
 

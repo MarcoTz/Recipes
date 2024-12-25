@@ -8,7 +8,7 @@
 * 0.25 heads of salad 
 * 2 tomatoes
 * 1 cucumber
-* mayonaise to taste
+* 1 Tbsp mayonaise or to taste
 
 ## Steps
 

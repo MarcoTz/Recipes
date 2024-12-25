@@ -5,7 +5,7 @@
 * 200g rice
 * 2 eggs 
 * 2 Tbsp soy sauce 
-* any vegetables (1)
+* 200g or more vegetables (1)
 
 ## Steps
 

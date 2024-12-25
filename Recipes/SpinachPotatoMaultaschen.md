@@ -7,8 +7,8 @@
 * 200g spinach 
 * 1 onion
 * 2 cloves garlic
-* salt to taste
-* pepper to taste
+* 1 tsp salt or to taste
+* 1 tsp pepper or to taste
 
 ## Steps
 

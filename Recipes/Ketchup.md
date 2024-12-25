@@ -11,8 +11,8 @@
 * 0.5 tsp terragon
 * 0.5 tsp curry powder
 * 0.5 tsp paprika powder
-* salt to taste 
-* pepper to taste
+* 1 tsp salt or to taste 
+* 1 Tbsp pepper or to taste
 
 ## Steps
 

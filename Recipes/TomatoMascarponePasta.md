@@ -15,9 +15,9 @@
 * 100g fresh basil
 * 250g fresh spinach
 * 50g butter
-* olive oil for sauteeing 
-* salt to taste
-* pepper to taste
+* 1 Tbsp olive oil for sauteeing 
+* 1 tsp salt or to taste
+* 1 Tbsp pepper to taste
 
 
 ## Steps

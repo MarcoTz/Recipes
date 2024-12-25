@@ -21,8 +21,8 @@
 * 1 Tbsp fresh basil
 * 0.5 Tbsp dried oregano
 * 1 Tbsp parsley
-* salt to taste
-* pepper to taste 
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste 
 
 ## Steps 
 
@@ -32,7 +32,7 @@
 4. Dice cucumber and red onion
 5. Combine all ingredients and let rest in the fridge for at least 1h 
 
-### Notes 
+## Notes 
 
 (1) alternatively use sugar or honey
 

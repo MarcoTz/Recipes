@@ -5,11 +5,11 @@
 * 500g potatoes
 * 2 egg yellows 
 * 1 whole egg 
-* about 100g of bread crumbs
-* about 50g flour
+* 100g of bread crumbs
+* 50g flour
 * 1 Tbsp salt
 * 1 tsp nutmeg
-* oil for frying 
+* 100ml oil for frying 
 
 ## Steps
 

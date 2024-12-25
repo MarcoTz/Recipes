@@ -10,9 +10,9 @@
 * 2 bell peppers
 * 4 Tbsp curry paste
 * 100g fresh spinach
-* salt to taste
-* pepper to taste 
-* oil for frying
+* 1 tsp salt or to taste
+* 1 Tbsp pepper to taste 
+* 1 Tbsp oil for frying
 
 ## Steps
 

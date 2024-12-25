@@ -7,7 +7,12 @@
 * 250ml cream
 * 1 clove garlic
 * 250ml vegetable broth
-* salt, pepper, paprika powder, oregano, thyme, rosemary all to taste
+* 1 tsp salt
+* 1 Tbsp pepper
+* 1 Tbsp paprika powder
+* 1 Tbsp oregano,
+* 2 tsp thyme
+* 2 tsp rosemary 
 
 ### Topping 
 

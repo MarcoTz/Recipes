@@ -8,9 +8,9 @@
 * 1 clove garlic
 * 0.5 onions
 * 1 Tbsp yeast flakes
-* nutmeg to taste
-* salt to taste
-* pepper to taste
+* 1 tsp nutmeg or to taste
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste
 
 ## Steps 
 

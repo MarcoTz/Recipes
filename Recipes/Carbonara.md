@@ -8,8 +8,8 @@
 * 4 egg yolks
 * 350g spaghetti
 * 1 tsp nutmeg
-* salt to taste
-* pepper to taste
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste
 
 ## Steps
 

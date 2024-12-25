@@ -11,7 +11,7 @@
 * 1 Tbsp soy sauce
 * 1 Tbsp salt 
 * 1 Tbsp white pepper
-* vegetable oil or water
+* 1 Tbsp vegetable oil 
 
 ## Steps
 

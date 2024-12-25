@@ -9,8 +9,8 @@
 * 2 Tbsp oregano
 * 2 Tbsp basil
 * 1 Tbsp paprika powder
-* salt to taste
-* pepper to taste 
+* 1 tsp salt or to taste
+* 1 Tbsp pepper or to taste 
 * 1 onion (optional) (1)
 * 5 buns
 
