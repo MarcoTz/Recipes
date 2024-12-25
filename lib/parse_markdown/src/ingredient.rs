@@ -1,56 +1,50 @@
 use super::{errors::Error, parse_steps::ParseStep};
 use recipes::{Ingredient, Measurement, Unit};
-use std::str::Split;
 
 pub fn parse_ingredient(input: String) -> Result<Ingredient, Error> {
-    let input = input.replace('*', "").trim().to_owned();
-    let mut parts = input.split(" ");
-    let measurement = parse_measurement(&mut parts)?;
-    let ingredient = parts
-        .map(|s| s.to_owned())
-        .collect::<Vec<String>>()
-        .join(" ");
+    let mut input = input.replace('*', "").trim().to_owned();
+    let measurement = parse_measurement(&mut input)?;
     Ok(Ingredient {
         measure: measurement,
-        ingredient,
+        ingredient: input,
     })
 }
 
-fn parse_measurement(parts: &mut Split<'_, &str>) -> Result<Measurement, Error> {
-    let amount_str = parts.next().ok_or(Error::MissingPart(
-        "Amount".to_owned(),
-        ParseStep::Ingredients,
-    ))?;
-    let (amount_str, mut unit_str) = take_num(amount_str.to_owned());
+fn parse_measurement(input: &mut String) -> Result<Measurement, Error> {
+    let amount_str = take_num(input);
     let amount = amount_str
         .parse::<f32>()
-        .map_err(|_| Error::Parse("amount".to_owned(), ParseStep::Ingredients))?;
-    if unit_str.is_empty() {
-        unit_str = parts
-            .next()
-            .map(|s| s.to_owned())
-            .ok_or(Error::MissingPart(
-                "Unit".to_owned(),
-                ParseStep::Ingredients,
-            ))?;
-    }
-    let unit = unit_str.parse::<Unit>()?;
+        .map_err(|_| Error::Parse("Amount".to_owned(), ParseStep::Ingredients))?;
+    let unit_str = input
+        .split_once(" ")
+        .map(|(u, _)| u.to_owned())
+        .unwrap_or("".to_owned());
+    *input = input.replacen(&unit_str, "", 1);
+
+    let unit = match unit_str.parse::<Unit>() {
+        Ok(unit) => unit,
+        Err(_) => {
+            *input = unit_str.to_owned() + " " + input;
+            Unit::Piece
+        }
+    };
     Ok(Measurement { amount, unit })
 }
 
-fn take_num(input: String) -> (String, String) {
+fn take_num(input: &mut String) -> String {
     let mut num_part = "".to_owned();
-    let mut rest = "".to_owned();
-    let mut chars = input.chars().into_iter();
-    while let Some(ch) = chars.next() {
+    while !input.is_empty() {
+        let ch = input.remove(0);
+        if ch == '-' {
+            continue; //TODO amounts "x-y unit" should be allowed
+        }
         if ch.is_digit(10) || ch == '.' {
             num_part.push(ch);
         } else {
-            rest.push(ch);
+            input.insert(0, ch);
             break;
         }
     }
-    println!("remaining: {chars:?}");
-    rest.push_str(&chars.collect::<String>());
-    (num_part, rest)
+    *input = input.trim().to_owned();
+    num_part
 }

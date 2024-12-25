@@ -15,11 +15,13 @@ pub fn parse_recipe(input: String) -> Result<Recipe, Error> {
 
     for mut input in inputs {
         input = input.trim();
-        if input.is_empty() {
-            continue;
-        }
         if input.starts_with("## ") {
             current_step = current_step.next();
+            continue;
+        }
+
+        if input.is_empty() || input.starts_with('#') {
+            //TODO subheaders should work
             continue;
         }
 
@@ -48,7 +50,6 @@ pub fn parse_recipe(input: String) -> Result<Recipe, Error> {
 }
 
 fn parse_step(input: String) -> Result<String, Error> {
-    println!("current input {input}");
     let step = input
         .split_once(".")
         .map(|res| res.1)
