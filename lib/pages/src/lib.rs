@@ -5,6 +5,7 @@ pub mod header;
 pub mod html_head;
 pub mod index;
 pub mod recipe;
+pub mod tag_details;
 pub mod tag_overview;
 
 pub trait Page {
