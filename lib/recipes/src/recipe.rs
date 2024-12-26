@@ -16,6 +16,20 @@ pub struct Recipe {
     pub tags: Vec<Tag>,
 }
 
+impl Recipe {
+    pub fn get_url(&self, base: &str) -> String {
+        format!("{base}/{}.html", self.name.replace(" ", ""))
+    }
+
+    pub fn get_tag_urls(&self, base: &str) -> Vec<(String, String)> {
+        let mut urls = vec![];
+        for tag in self.tags.iter() {
+            urls.push((tag.clone(), format!("{base}/{}.html", tag.replace(" ", ""))));
+        }
+        urls
+    }
+}
+
 impl From<Vec<String>> for StepSection {
     fn from(steps: Vec<String>) -> StepSection {
         StepSection {
