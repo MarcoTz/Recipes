@@ -1,5 +1,5 @@
 use super::{IngredientSection, Tag};
-use std::fmt;
+use std::{fmt, path::PathBuf};
 
 #[derive(Debug, Default, PartialEq, Eq)]
 pub struct StepSection {
@@ -14,6 +14,7 @@ pub struct Recipe {
     pub steps: Vec<StepSection>,
     pub notes: Vec<String>,
     pub tags: Vec<Tag>,
+    pub images: Vec<PathBuf>,
 }
 
 impl Recipe {

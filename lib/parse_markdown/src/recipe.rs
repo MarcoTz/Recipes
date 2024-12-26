@@ -1,8 +1,8 @@
 use super::{errors::Error, ingredient::parse_ingredient, parse_steps::ParseStep};
 use recipes::{IngredientSection, Recipe, StepSection};
-use std::str::Lines;
+use std::{path::PathBuf, str::Lines};
 
-pub fn parse_recipe(input: String) -> Result<Recipe, Error> {
+pub fn parse_recipe(input: String, images_dir: PathBuf) -> Result<Recipe, Error> {
     let input = input.trim().to_owned();
     let mut inputs = input.lines();
 
@@ -55,12 +55,14 @@ pub fn parse_recipe(input: String) -> Result<Recipe, Error> {
     }
     previous_ingredients.push(current_ingredients);
     previous_steps.push(current_steps);
+    let images = load_recipe_images(&name, images_dir)?;
     Ok(Recipe {
         name,
         ingredients: previous_ingredients,
         steps: previous_steps,
         notes,
         tags,
+        images,
     })
 }
 
@@ -86,4 +88,24 @@ fn parse_name(lines: &mut Lines<'_>) -> Result<String, Error> {
         .ok_or(Error::MissingHeader("Name".to_owned()))?;
     name = name.replace('#', "").trim().to_owned();
     Ok(name)
+}
+
+fn load_recipe_images(recipe_name: &str, images_dir: PathBuf) -> Result<Vec<PathBuf>, Error> {
+    let recipe_name = recipe_name.replace(" ", "");
+    let dir_contents = std::fs::read_dir(images_dir)?;
+    let mut images = vec![];
+    for dir_entry in dir_contents {
+        let dir_entry = dir_entry?;
+        let path = dir_entry.path();
+        let file_name = path
+            .file_name()
+            .ok_or(Error::IO(std::io::ErrorKind::Other))?;
+        let file_name = file_name
+            .to_str()
+            .ok_or(Error::IO(std::io::ErrorKind::Other))?;
+        if file_name.contains(&recipe_name) {
+            images.push(dir_entry.path());
+        }
+    }
+    Ok(images)
 }
