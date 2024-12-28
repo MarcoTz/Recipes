@@ -51,7 +51,7 @@ impl PageComponent for Footer {
                         .into(),
                         Div {
                             attributes: vec![Attribute::Id("num_recipes".to_owned())],
-                            content: Rc::new(format!("{}", self.num_recipes).into()),
+                            content: Rc::new(format!("{} Recipes", self.num_recipes).into()),
                         }
                         .into(),
                     ]
