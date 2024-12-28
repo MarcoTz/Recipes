@@ -75,6 +75,22 @@ impl PageComponent for RecipeContents {
             .into(),
         );
 
+        let mut notes_rendered: Vec<HtmlElement> = self
+            .recipe
+            .notes
+            .into_iter()
+            .map(|note| note.into())
+            .collect();
+        notes_rendered.insert(
+            0,
+            Headline {
+                size: HeaderSize::H2,
+                attributes: vec![],
+                content: Rc::new("Notes".to_owned().into()),
+            }
+            .into(),
+        );
+
         Div {
             attributes: vec![
                 Attribute::Id(self.recipe.name.clone()),
@@ -102,6 +118,14 @@ impl PageComponent for RecipeContents {
                             Attribute::Class(vec!["level2".to_owned()]),
                         ],
                         content: Rc::new(steps_rendered.into()),
+                    }
+                    .into(),
+                    Div {
+                        attributes: vec![
+                            Attribute::Id("notes".to_owned()),
+                            Attribute::Class(vec!["level2".to_owned()]),
+                        ],
+                        content: Rc::new(notes_rendered.into()),
                     }
                     .into(),
                     Div {
