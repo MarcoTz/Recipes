@@ -22,7 +22,7 @@ impl fmt::Display for Unit {
             Unit::Milliliter => f.write_str("ml"),
             Unit::Teaspoon => f.write_str(" tsp"),
             Unit::Tablespoon => f.write_str(" Tbsp"),
-            Unit::Piece => f.write_str(""),
+            Unit::Piece => f.write_str("_"),
             Unit::Centimeter => f.write_str("cm"),
         }
     }

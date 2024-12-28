@@ -154,7 +154,15 @@ fn render_ingredient_section(sec: IngredientSection) -> HtmlElement {
             .into_iter()
             .map(|it| Li {
                 attributes: vec![],
-                content: Rc::new(format!("{it}").into()),
+                content: Rc::new(
+                    format!(
+                        "{}{} {}",
+                        it.measure.amount,
+                        it.measure.unit.to_string().replace('_', ""),
+                        it.ingredient
+                    )
+                    .into(),
+                ),
             })
             .collect(),
     };
