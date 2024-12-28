@@ -1,13 +1,13 @@
 use super::Unit;
 use std::fmt;
 
-#[derive(Debug, PartialEq)]
+#[derive(Clone, Debug, PartialEq)]
 pub enum Amount {
     Num(f32),
     Range(f32, f32),
 }
 
-#[derive(Debug, PartialEq)]
+#[derive(Clone, Debug, PartialEq)]
 pub struct Measurement {
     pub amount: Amount,
     pub unit: Unit,

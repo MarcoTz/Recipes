@@ -1,10 +1,11 @@
-pub struct TagSearch;
 use crate::PageComponent;
 use html::{
     attribute::Attribute,
     elements::{Div, HtmlElement, Input},
 };
 use std::rc::Rc;
+
+pub struct TagSearch;
 
 impl PageComponent for TagSearch {
     fn render(self, _: &str) -> HtmlElement {

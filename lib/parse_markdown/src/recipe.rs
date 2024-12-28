@@ -62,7 +62,7 @@ pub fn parse_recipe(input: String, images_dir: PathBuf) -> Result<Recipe, Error>
         steps: previous_steps,
         notes,
         tags,
-        images,
+        image_paths: images,
     })
 }
 
@@ -90,7 +90,7 @@ fn parse_name(lines: &mut Lines<'_>) -> Result<String, Error> {
     Ok(name)
 }
 
-fn load_recipe_images(recipe_name: &str, images_dir: PathBuf) -> Result<Vec<PathBuf>, Error> {
+fn load_recipe_images(recipe_name: &str, images_dir: PathBuf) -> Result<Vec<String>, Error> {
     let recipe_name = recipe_name.replace(" ", "");
     let dir_contents = std::fs::read_dir(images_dir)?;
     let mut images = vec![];
@@ -104,7 +104,8 @@ fn load_recipe_images(recipe_name: &str, images_dir: PathBuf) -> Result<Vec<Path
             .to_str()
             .ok_or(Error::IO(std::io::ErrorKind::Other))?;
         if file_name.contains(&recipe_name) {
-            images.push(dir_entry.path());
+            let path = path.to_str().ok_or(Error::IO(std::io::ErrorKind::Other))?;
+            images.push(path.to_owned());
         }
     }
     Ok(images)

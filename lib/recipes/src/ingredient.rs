@@ -1,13 +1,13 @@
 use super::Measurement;
 use std::fmt;
 
-#[derive(Debug, PartialEq)]
+#[derive(Clone, Debug, PartialEq)]
 pub struct Ingredient {
     pub measure: Measurement,
     pub ingredient: String,
 }
 
-#[derive(Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, PartialEq)]
 pub struct IngredientSection {
     pub header: String,
     pub ingredients: Vec<Ingredient>,

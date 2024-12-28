@@ -6,6 +6,7 @@ use html::{
     elements::{Body, Div, HeaderSize, Headline},
     html_document::HtmlDocument,
 };
+use recipes::Recipe;
 use std::rc::Rc;
 
 pub mod tag_list;
@@ -21,6 +22,17 @@ pub struct TagOverview {
     pub sort: TagSort,
     pub search: TagSearch,
     pub list: TagList,
+}
+
+impl TagOverview {
+    pub fn new(recipes: &[Recipe]) -> TagOverview {
+        TagOverview {
+            num_recipes: recipes.len(),
+            sort: TagSort,
+            search: TagSearch,
+            list: TagList::new(recipes),
+        }
+    }
 }
 
 impl Page for TagOverview {

@@ -6,6 +6,7 @@ mod recipe_tests {
     use std::path::PathBuf;
 
     static RECIPE_PATH: &str = "../Recipes";
+    static IMG_PATH: &str = "../html/img";
 
     enum TestResult {
         Fail(String),
@@ -35,7 +36,7 @@ mod recipe_tests {
     }
 
     fn test_recipe(source: RecipeSource) -> ParseResult {
-        let parsed = parse_recipe(source.contents.clone());
+        let parsed = parse_recipe(source.contents.clone(), PathBuf::from(IMG_PATH));
         let recipe = match parsed {
             Err(err) => {
                 return ParseResult {
@@ -50,7 +51,7 @@ mod recipe_tests {
 
         let printed = format!("{}", recipe);
 
-        let reparsed = parse_recipe(printed.clone());
+        let reparsed = parse_recipe(printed.clone(), PathBuf::from(IMG_PATH));
         let recipe_new = match reparsed {
             Err(err) => {
                 return ParseResult {

@@ -8,6 +8,11 @@ pub mod recipe;
 pub mod tag_details;
 pub mod tag_overview;
 
+pub use index::Index;
+pub use recipe::RecipeDetails;
+pub use tag_details::TagDetails;
+pub use tag_overview::TagOverview;
+
 pub trait Page {
     fn render(self, date_format: &str) -> HtmlDocument;
 }

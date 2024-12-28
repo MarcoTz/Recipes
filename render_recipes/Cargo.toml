@@ -11,3 +11,5 @@ path = "src/main.rs"
 recipes = { path = "../lib/recipes/" }
 parse_markdown = { path = "../lib/parse_markdown" }
 pages = { path = "../lib/pages" }
+
+html = { git = "https://github.com/MarcoTz/rust-html.git" }

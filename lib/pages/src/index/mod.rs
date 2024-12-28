@@ -9,6 +9,7 @@ use html::{
     elements::{Body, Div, HeaderSize, Headline},
     html_document::HtmlDocument,
 };
+use recipes::Recipe;
 use std::rc::Rc;
 
 use recipe_list::RecipeList;
@@ -19,6 +20,16 @@ pub struct Index {
     pub recipes: RecipeList,
     pub sort: RecipeSort,
     pub search: RecipeSearch,
+}
+
+impl Index {
+    pub fn new(recipes: Vec<Recipe>) -> Index {
+        Index {
+            recipes: RecipeList::new(recipes),
+            sort: RecipeSort,
+            search: RecipeSearch,
+        }
+    }
 }
 
 impl Page for Index {

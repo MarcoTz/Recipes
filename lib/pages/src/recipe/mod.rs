@@ -1,6 +1,7 @@
 use crate::{footer::Footer, header::Header, html_head::HtmlHead, Page, PageComponent};
 use chrono::Local;
 use html::{attribute::Attribute, elements::Body, html_document::HtmlDocument};
+use recipes::Recipe;
 use std::rc::Rc;
 
 pub mod recipe_contents;
@@ -9,11 +10,24 @@ pub mod recipe_images;
 use recipe_contents::RecipeContents;
 use recipe_images::RecipeImages;
 
+#[derive(PartialEq)]
 pub struct RecipeDetails {
     pub recipe_name: String,
     pub num_recipes: usize,
     pub recipe_contents: RecipeContents,
     pub recipe_images: RecipeImages,
+}
+
+impl RecipeDetails {
+    pub fn new(recipe: &Recipe, num_recipes: usize) -> RecipeDetails {
+        let images = RecipeImages::new(recipe.image_paths.clone());
+        RecipeDetails {
+            recipe_name: recipe.name.clone(),
+            num_recipes,
+            recipe_contents: RecipeContents::new(recipe),
+            recipe_images: images,
+        }
+    }
 }
 
 impl Page for RecipeDetails {

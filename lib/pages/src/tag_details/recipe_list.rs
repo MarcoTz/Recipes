@@ -7,7 +7,20 @@ use recipes::Recipe;
 use std::rc::Rc;
 
 pub struct RecipeList {
-    pub recipes: Vec<Recipe>,
+    pub recipes: Vec<(String, String)>,
+}
+
+impl RecipeList {
+    pub fn new(recipes: &[&Recipe]) -> RecipeList {
+        let mut recipe_urls = vec![];
+        for recipe in recipes {
+            let url = recipe.get_url("../recipes");
+            recipe_urls.push((recipe.name.clone(), url));
+        }
+        RecipeList {
+            recipes: recipe_urls,
+        }
+    }
 }
 
 impl PageComponent for RecipeList {
@@ -15,13 +28,13 @@ impl PageComponent for RecipeList {
         let recipe_divs: Vec<HtmlElement> = self
             .recipes
             .into_iter()
-            .map(|recipe| {
+            .map(|(recipe_name, recipe_url)| {
                 Div {
                     attributes: vec![Attribute::Class(vec!["recipe_item".to_owned()])],
                     content: Rc::new(
                         A {
-                            attributes: vec![Attribute::Href(recipe.get_url("../recipes"))],
-                            content: Rc::new(recipe.name.into()),
+                            attributes: vec![Attribute::Href(recipe_url)],
+                            content: Rc::new(recipe_name.into()),
                         }
                         .into(),
                     ),

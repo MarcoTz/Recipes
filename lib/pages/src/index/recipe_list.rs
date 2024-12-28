@@ -10,6 +10,12 @@ pub struct RecipeList {
     pub recipes: Vec<Recipe>,
 }
 
+impl RecipeList {
+    pub fn new(recipes: Vec<Recipe>) -> RecipeList {
+        RecipeList { recipes }
+    }
+}
+
 impl PageComponent for RecipeList {
     fn render(self, _: &str) -> HtmlElement {
         let mut recipe_divs = vec![];

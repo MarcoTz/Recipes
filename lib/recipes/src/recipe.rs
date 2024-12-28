@@ -1,20 +1,20 @@
 use super::{IngredientSection, Tag};
-use std::{fmt, path::PathBuf};
+use std::fmt;
 
-#[derive(Debug, Default, PartialEq, Eq)]
+#[derive(Clone, Debug, Default, PartialEq, Eq)]
 pub struct StepSection {
     pub header: String,
     pub steps: Vec<String>,
 }
 
-#[derive(Debug, PartialEq)]
+#[derive(Clone, Debug, PartialEq)]
 pub struct Recipe {
     pub name: String,
     pub ingredients: Vec<IngredientSection>,
     pub steps: Vec<StepSection>,
     pub notes: Vec<String>,
     pub tags: Vec<Tag>,
-    pub images: Vec<PathBuf>,
+    pub image_paths: Vec<String>,
 }
 
 impl Recipe {

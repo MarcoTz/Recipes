@@ -5,8 +5,15 @@ use html::{
 };
 use std::rc::Rc;
 
+#[derive(PartialEq, Eq)]
 pub struct RecipeImages {
     pub image_urls: Vec<String>,
+}
+
+impl RecipeImages {
+    pub fn new(images: Vec<String>) -> RecipeImages {
+        RecipeImages { image_urls: images }
+    }
 }
 
 impl PageComponent for RecipeImages {

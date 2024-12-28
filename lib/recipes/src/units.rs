@@ -1,7 +1,7 @@
 use super::errors::Error;
 use std::{fmt, str::FromStr};
 
-#[derive(Debug, PartialEq, Eq)]
+#[derive(Clone, Debug, PartialEq, Eq)]
 pub enum Unit {
     Gram,
     Kilogram,

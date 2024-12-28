@@ -3,10 +3,29 @@ use html::{
     attribute::Attribute,
     elements::{Div, HtmlElement, A},
 };
-use std::rc::Rc;
+use recipes::Recipe;
+use std::{collections::HashMap, rc::Rc};
 
 pub struct TagList {
     pub tags: Vec<(String, usize)>,
+}
+
+impl TagList {
+    pub fn new(recipes: &[Recipe]) -> TagList {
+        let mut tags = HashMap::new();
+        for recipe in recipes {
+            for recipe_tag in recipe.tags.iter().cloned() {
+                match tags.get(&recipe_tag) {
+                    None => tags.insert(recipe_tag, 0),
+                    Some(i) => tags.insert(recipe_tag, i + 1),
+                };
+            }
+        }
+
+        TagList {
+            tags: tags.into_iter().collect(),
+        }
+    }
 }
 
 impl PageComponent for TagList {

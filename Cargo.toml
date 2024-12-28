@@ -4,7 +4,7 @@ members = [
     "test",
     "lib/recipes",
     "lib/parse_markdown",
-    "lib/pages"
+    "lib/pages",
 ]
 
 resolver = "2"

@@ -5,6 +5,7 @@ use html::{
     elements::{Body, HeaderSize, Headline},
     html_document::HtmlDocument,
 };
+use recipes::Recipe;
 use std::rc::Rc;
 
 pub mod recipe_list;
@@ -14,6 +15,16 @@ pub struct TagDetails {
     pub name: String,
     pub recipes: RecipeList,
     pub num_recipes: usize,
+}
+
+impl TagDetails {
+    pub fn new(tag: String, recipes: &[&Recipe]) -> TagDetails {
+        TagDetails {
+            name: tag,
+            num_recipes: recipes.len(),
+            recipes: RecipeList::new(recipes),
+        }
+    }
 }
 
 impl Page for TagDetails {

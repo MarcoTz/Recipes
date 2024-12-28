@@ -1,10 +1,11 @@
-pub struct TagSort;
 use crate::PageComponent;
 use html::{
     attribute::Attribute,
     elements::{Div, HtmlElement, Select, SelectOption},
 };
 use std::rc::Rc;
+
+pub struct TagSort;
 
 impl PageComponent for TagSort {
     fn render(self, _: &str) -> HtmlElement {
