@@ -20,7 +20,17 @@ pub fn parse_recipe(input: String, images_dir: PathBuf) -> Result<Recipe, Error>
             continue;
         }
         if input.starts_with("## ") {
-            current_step = current_step.next();
+            if input.contains("ingredient") {
+                current_step = ParseStep::Ingredients;
+            } else if input.to_lowercase().contains("step") {
+                current_step = ParseStep::Steps;
+            } else if input.to_lowercase().contains("note") {
+                current_step = ParseStep::Notes;
+            } else if input.to_lowercase().contains("tag") {
+                current_step = ParseStep::Tags;
+            } else {
+                current_step = current_step.next();
+            }
             continue;
         }
 
