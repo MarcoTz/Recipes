@@ -35,6 +35,7 @@ impl Page for RecipeDetails {
         HtmlDocument {
             head: HtmlHead {
                 title: self.recipe_name,
+                relative_up: true,
             }
             .as_head(),
             body: Body {

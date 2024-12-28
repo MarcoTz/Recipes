@@ -1,7 +1,8 @@
 use std::fmt;
 
-#[derive(Debug, Clone, PartialEq, Eq)]
+#[derive(Default, Debug, Clone, PartialEq, Eq)]
 pub enum ParseStep {
+    #[default]
     Name,
     Ingredients,
     Steps,
@@ -20,12 +21,6 @@ impl ParseStep {
             ParseStep::Tags => ParseStep::Done,
             ParseStep::Done => ParseStep::Done,
         }
-    }
-}
-
-impl Default for ParseStep {
-    fn default() -> ParseStep {
-        ParseStep::Name
     }
 }
 

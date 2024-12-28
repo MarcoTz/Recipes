@@ -38,6 +38,7 @@ impl Page for Index {
         HtmlDocument {
             head: HtmlHead {
                 title: "Recipes".to_owned(),
+                relative_up: false,
             }
             .as_head(),
             body: Body {

@@ -32,7 +32,7 @@ fn parse_amount(input: &mut String) -> Result<Amount, Error> {
             first = false;
             continue;
         }
-        if !ch.is_digit(10) && ch != '.' {
+        if !ch.is_ascii_digit() && ch != '.' {
             input.insert(0, ch);
             break;
         }

@@ -44,7 +44,7 @@ impl PageComponent for Footer {
                         Div {
                             attributes: vec![Attribute::Id("created_date".to_owned())],
                             content: Rc::new(
-                                format!("Created At: {}", self.created_date.format(&date_format))
+                                format!("Created At: {}", self.created_date.format(date_format))
                                     .into(),
                             ),
                         }

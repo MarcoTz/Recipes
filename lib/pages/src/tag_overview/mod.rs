@@ -40,6 +40,7 @@ impl Page for TagOverview {
         HtmlDocument {
             head: HtmlHead {
                 title: "Tags".to_owned(),
+                relative_up: false,
             }
             .as_head(),
             body: Body {
@@ -86,8 +87,7 @@ impl Page for TagOverview {
                             num_recipes: self.num_recipes,
                             created_date: Local::now().date_naive(),
                         }
-                        .render(date_format)
-                        .into(),
+                        .render(date_format),
                     ]
                     .into(),
                 ),

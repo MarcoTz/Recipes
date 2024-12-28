@@ -32,6 +32,7 @@ impl Page for TagDetails {
         HtmlDocument {
             head: HtmlHead {
                 title: self.name.clone(),
+                relative_up: true,
             }
             .as_head(),
             body: Body {

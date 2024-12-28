@@ -47,7 +47,7 @@ impl PageComponent for RecipeContents {
             .recipe
             .ingredients
             .into_iter()
-            .map(|sec| render_ingredient_section(sec))
+            .map(render_ingredient_section)
             .collect();
         ingredients_rendered.insert(
             0,
@@ -63,7 +63,7 @@ impl PageComponent for RecipeContents {
             .recipe
             .steps
             .into_iter()
-            .map(|sec| render_step_section(sec))
+            .map(render_step_section)
             .collect();
         steps_rendered.insert(
             0,
@@ -126,12 +126,9 @@ fn render_ingredient_section(sec: IngredientSection) -> HtmlElement {
         items: sec
             .ingredients
             .into_iter()
-            .map(|it| {
-                Li {
-                    attributes: vec![],
-                    content: Rc::new(format!("{it}").into()),
-                }
-                .into()
+            .map(|it| Li {
+                attributes: vec![],
+                content: Rc::new(format!("{it}").into()),
             })
             .collect(),
     };
@@ -140,7 +137,7 @@ fn render_ingredient_section(sec: IngredientSection) -> HtmlElement {
     } else {
         Div {
             attributes: vec![
-                Attribute::Id(sec.header.clone().into()),
+                Attribute::Id(sec.header.clone()),
                 Attribute::Class(vec!["level2".to_owned()]),
             ],
             content: Rc::new(
@@ -177,7 +174,7 @@ fn render_step_section(sec: StepSection) -> HtmlElement {
     } else {
         Div {
             attributes: vec![
-                Attribute::Id(sec.header.clone().into()),
+                Attribute::Id(sec.header.clone()),
                 Attribute::Class(vec!["level2".to_owned()]),
             ],
             content: Rc::new(

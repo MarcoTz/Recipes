@@ -7,10 +7,14 @@ use std::rc::Rc;
 
 pub struct HtmlHead {
     pub title: String,
+    pub relative_up: bool,
 }
 
 impl HtmlHead {
     pub fn as_head(self) -> Head {
+        let prefix = if self.relative_up { "../" } else { "" };
+        let js_src = format!("{prefix}main.js");
+        let css_src = format!("{prefix}main.css");
         Head {
             title: self.title,
             content: Rc::new(
@@ -18,12 +22,12 @@ impl HtmlHead {
                     Link {
                         attributes: vec![
                             Attribute::Rel("stylesheet".to_owned()),
-                            Attribute::Href("main.css".to_owned()),
+                            Attribute::Href(css_src),
                         ],
                     }
                     .into(),
                     Script {
-                        attributes: vec![Attribute::Src("main.js".to_owned())],
+                        attributes: vec![Attribute::Src(js_src)],
                         content: "".to_owned(),
                     }
                     .into(),
