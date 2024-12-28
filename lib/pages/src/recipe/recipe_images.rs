@@ -18,6 +18,7 @@ impl RecipeImages {
 
 impl PageComponent for RecipeImages {
     fn render(self, _: &str) -> HtmlElement {
+        let img_base = "../img/";
         let img_divs: Vec<HtmlElement> = self
             .image_urls
             .into_iter()
@@ -26,7 +27,7 @@ impl PageComponent for RecipeImages {
                     attributes: vec![Attribute::Class(vec!["recipe_image".to_owned()])],
                     content: Rc::new(
                         Img {
-                            attributes: vec![Attribute::Src(url)],
+                            attributes: vec![Attribute::Src(format!("{img_base}{url}"))],
                         }
                         .into(),
                     ),

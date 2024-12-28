@@ -62,7 +62,7 @@ pub fn parse_recipe(input: String, images_dir: PathBuf) -> Result<Recipe, Error>
         steps: previous_steps,
         notes,
         tags,
-        image_paths: images,
+        image_filenames: images,
     })
 }
 
@@ -104,8 +104,7 @@ fn load_recipe_images(recipe_name: &str, images_dir: PathBuf) -> Result<Vec<Stri
             .to_str()
             .ok_or(Error::IO(std::io::ErrorKind::Other))?;
         if file_name.contains(&recipe_name) {
-            let path = path.to_str().ok_or(Error::IO(std::io::ErrorKind::Other))?;
-            images.push(path.to_owned());
+            images.push(file_name.to_owned());
         }
     }
     Ok(images)

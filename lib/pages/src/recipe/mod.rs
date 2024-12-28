@@ -20,7 +20,7 @@ pub struct RecipeDetails {
 
 impl RecipeDetails {
     pub fn new(recipe: &Recipe, num_recipes: usize) -> RecipeDetails {
-        let images = RecipeImages::new(recipe.image_paths.clone());
+        let images = RecipeImages::new(recipe.image_filenames.clone());
         RecipeDetails {
             recipe_name: recipe.name.clone(),
             num_recipes,

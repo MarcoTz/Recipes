@@ -14,7 +14,7 @@ pub struct Recipe {
     pub steps: Vec<StepSection>,
     pub notes: Vec<String>,
     pub tags: Vec<Tag>,
-    pub image_paths: Vec<String>,
+    pub image_filenames: Vec<String>,
 }
 
 impl Recipe {
