@@ -81,15 +81,17 @@ impl PageComponent for RecipeContents {
             .into_iter()
             .map(|note| note.into())
             .collect();
-        notes_rendered.insert(
-            0,
-            Headline {
-                size: HeaderSize::H2,
-                attributes: vec![],
-                content: Rc::new("Notes".to_owned().into()),
-            }
-            .into(),
-        );
+        if !notes_rendered.is_empty() {
+            notes_rendered.insert(
+                0,
+                Headline {
+                    size: HeaderSize::H2,
+                    attributes: vec![],
+                    content: Rc::new("Notes".to_owned().into()),
+                }
+                .into(),
+            );
+        }
 
         Div {
             attributes: vec![
