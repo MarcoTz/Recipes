@@ -2,6 +2,7 @@ pub mod errors;
 pub mod ingredient;
 pub mod measurement;
 pub mod recipe;
+pub mod text;
 pub mod units;
 
 pub use ingredient::{Ingredient, IngredientSection};
