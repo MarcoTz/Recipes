@@ -1,5 +1,8 @@
-use super::{errors::Error, ingredient::parse_ingredient, parse_steps::ParseStep};
-use recipes::{IngredientSection, Recipe, StepSection, Tag, TextBlock};
+use super::{
+    errors::Error, images::load_recipe_images, ingredient::parse_ingredient,
+    parse_steps::ParseStep, steps::parse_step, tag::parse_tags,
+};
+use recipes::{IngredientSection, Recipe, StepSection, TextBlock};
 use std::{path::PathBuf, str::Lines};
 
 pub fn parse_recipe(input: String, images_dir: PathBuf) -> Result<Recipe, Error> {
@@ -76,22 +79,6 @@ pub fn parse_recipe(input: String, images_dir: PathBuf) -> Result<Recipe, Error>
     })
 }
 
-fn parse_step(input: String) -> Result<TextBlock, Error> {
-    let step = input
-        .split_once(".")
-        .map(|res| res.1.trim())
-        .ok_or(Error::MissingPart("Number".to_owned(), ParseStep::Steps))?;
-    let block = step.parse::<TextBlock>()?;
-    Ok(block)
-}
-
-fn parse_tags(input: String) -> Vec<Tag> {
-    input
-        .split(",")
-        .map(|tag| Tag(tag.trim().to_owned()))
-        .collect()
-}
-
 fn parse_name(lines: &mut Lines<'_>) -> Result<String, Error> {
     let mut name = lines
         .next()
@@ -99,24 +86,4 @@ fn parse_name(lines: &mut Lines<'_>) -> Result<String, Error> {
         .ok_or(Error::MissingHeader("Name".to_owned()))?;
     name = name.replace('#', "").trim().to_owned();
     Ok(name)
-}
-
-fn load_recipe_images(recipe_name: &str, images_dir: PathBuf) -> Result<Vec<String>, Error> {
-    let recipe_name = recipe_name.replace(" ", "");
-    let dir_contents = std::fs::read_dir(images_dir)?;
-    let mut images = vec![];
-    for dir_entry in dir_contents {
-        let dir_entry = dir_entry?;
-        let path = dir_entry.path();
-        let file_name = path
-            .file_name()
-            .ok_or(Error::IO(std::io::ErrorKind::Other))?;
-        let file_name = file_name
-            .to_str()
-            .ok_or(Error::IO(std::io::ErrorKind::Other))?;
-        if file_name.contains(&recipe_name) {
-            images.push(file_name.to_owned());
-        }
-    }
-    Ok(images)
 }

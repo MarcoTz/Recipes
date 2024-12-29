@@ -1,7 +1,10 @@
 pub mod errors;
+pub mod images;
 pub mod ingredient;
 pub mod parse_steps;
 pub mod recipe;
+pub mod steps;
+pub mod tag;
 
 use errors::Error;
 use std::{
