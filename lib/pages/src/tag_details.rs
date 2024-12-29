@@ -1,4 +1,6 @@
-use super::{footer::Footer, header::Header, html_head::HtmlHead, Page, PageComponent};
+use super::{
+    footer::Footer, header::Header, html_head::HtmlHead, Page, PageComponent, RenderParameters,
+};
 use chrono::Local;
 use html::{
     attribute::Attribute,
@@ -28,34 +30,30 @@ impl TagDetails {
 }
 
 impl Page for TagDetails {
-    fn render(self, date_format: &str) -> HtmlDocument {
+    fn render(self, params: &mut RenderParameters) -> HtmlDocument {
+        params.depth = 1;
         HtmlDocument {
             head: HtmlHead {
                 title: self.tag.to_string(),
-                relative_up: true,
             }
-            .as_head(),
+            .as_head(params),
             body: Body {
                 attributes: vec![Attribute::Id("body_tag".to_owned())],
                 content: Rc::new(
                     vec![
-                        Header {
-                            index_link: "../index.html".to_owned(),
-                            tag_link: "../tag_overview.html".to_owned(),
-                        }
-                        .render(date_format),
+                        Header.render(params),
                         Headline {
                             attributes: vec![],
                             size: HeaderSize::H1,
-                            content: Rc::new(self.tag.render(date_format)),
+                            content: Rc::new(self.tag.render(params)),
                         }
                         .into(),
-                        self.recipes.render(date_format),
+                        self.recipes.render(params),
                         Footer {
                             created_date: Local::now().date_naive(),
                             num_recipes: self.num_recipes,
                         }
-                        .render(date_format),
+                        .render(params),
                     ]
                     .into(),
                 ),

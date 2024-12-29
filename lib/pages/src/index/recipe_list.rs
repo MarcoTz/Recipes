@@ -1,4 +1,4 @@
-use crate::PageComponent;
+use crate::{PageComponent, RenderParameters};
 use html::{
     attribute::Attribute,
     elements::{Div, HtmlElement, A},
@@ -17,11 +17,11 @@ impl RecipeList {
 }
 
 impl PageComponent for RecipeList {
-    fn render(self, date_format: &str) -> HtmlElement {
+    fn render(self, params: &mut RenderParameters) -> HtmlElement {
         let mut recipe_divs = vec![];
         for recipe in self.recipes {
             let mut tag_list: Vec<HtmlElement> = vec!["Tags:".to_owned().into()];
-            tag_list.push(recipe.tags.clone().render(date_format));
+            tag_list.push(recipe.tags.clone().render(params));
 
             let div = Div {
                 attributes: vec![Attribute::Class(vec!["recipe_item".to_owned()])],

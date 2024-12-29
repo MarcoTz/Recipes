@@ -69,23 +69,20 @@ pub fn create_pages(recipes: Vec<Recipe>) -> Result<AllPages, Box<dyn std::error
     })
 }
 
-pub fn render_pages(
-    pages: AllPages,
-    date_format: &str,
-) -> Result<PageHtmls, Box<dyn std::error::Error>> {
-    let index_str = pages.index.render(date_format).render();
-    let tag_overview_str = pages.tag_overview.render(date_format).render();
+pub fn render_pages(pages: AllPages) -> Result<PageHtmls, Box<dyn std::error::Error>> {
+    let index_str = pages.index.render(&mut Default::default()).render();
+    let tag_overview_str = pages.tag_overview.render(&mut Default::default()).render();
 
     let mut page_strs = vec![];
     for recipe_page in pages.recipe_details {
         let name = recipe_page.recipe_name.clone();
-        let recipe_page_str = recipe_page.render(date_format).render();
+        let recipe_page_str = recipe_page.render(&mut Default::default()).render();
         page_strs.push((name, recipe_page_str));
     }
     let mut tag_strs = vec![];
     for tag_page in pages.tag_details {
         let name = tag_page.tag.to_string();
-        let tag_str = tag_page.render(date_format).render();
+        let tag_str = tag_page.render(&mut Default::default()).render();
         tag_strs.push((name, tag_str));
     }
 

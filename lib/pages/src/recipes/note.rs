@@ -1,9 +1,9 @@
-use crate::PageComponent;
+use crate::{PageComponent, RenderParameters};
 use html::elements::HtmlElement;
 use recipes::Note;
 
 impl PageComponent for Note {
-    fn render(self, date_format: &str) -> HtmlElement {
-        vec![self.0.render(date_format), HtmlElement::Br].into()
+    fn render(self, params: &mut RenderParameters) -> HtmlElement {
+        vec![self.0.render(params), HtmlElement::Br].into()
     }
 }

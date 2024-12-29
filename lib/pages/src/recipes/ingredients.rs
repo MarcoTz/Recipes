@@ -1,4 +1,4 @@
-use crate::PageComponent;
+use crate::{PageComponent, RenderParameters};
 use html::{
     attribute::Attribute,
     elements::{Div, HeaderSize, Headline, HtmlElement, Li, Ul},
@@ -6,12 +6,12 @@ use html::{
 use recipes::{Ingredient, IngredientSection};
 use std::rc::Rc;
 
-fn render_ingredient(ing: Ingredient, date_format: &str) -> Li {
+fn render_ingredient(ing: Ingredient, params: &mut RenderParameters) -> Li {
     Li {
         attributes: vec![],
         content: Rc::new(
             vec![
-                ing.measure.render(date_format),
+                ing.measure.render(params),
                 ing.ingredient.to_string().into(),
             ]
             .into(),
@@ -20,13 +20,13 @@ fn render_ingredient(ing: Ingredient, date_format: &str) -> Li {
 }
 
 impl PageComponent for IngredientSection {
-    fn render(self, date_format: &str) -> HtmlElement {
+    fn render(self, params: &mut RenderParameters) -> HtmlElement {
         let ingredient_list = Ul {
             attributes: vec![],
             items: self
                 .ingredients
                 .into_iter()
-                .map(|it| render_ingredient(it, date_format))
+                .map(|it| render_ingredient(it, params))
                 .collect(),
         };
         if self.header.is_empty() {

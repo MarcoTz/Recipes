@@ -1,4 +1,4 @@
-use super::PageComponent;
+use super::{PageComponent, RenderParameters};
 use chrono::NaiveDate;
 use html::{
     attribute::Attribute,
@@ -12,7 +12,7 @@ pub struct Footer {
 }
 
 impl PageComponent for Footer {
-    fn render(self, date_format: &str) -> HtmlElement {
+    fn render(self, params: &mut RenderParameters) -> HtmlElement {
         vec![
             Div {
                 attributes: vec![Attribute::Class(vec!["spacer".to_owned()])],
@@ -44,8 +44,11 @@ impl PageComponent for Footer {
                         Div {
                             attributes: vec![Attribute::Id("created_date".to_owned())],
                             content: Rc::new(
-                                format!("Created At: {}", self.created_date.format(date_format))
-                                    .into(),
+                                format!(
+                                    "Created At: {}",
+                                    self.created_date.format(&params.date_format)
+                                )
+                                .into(),
                             ),
                         }
                         .into(),

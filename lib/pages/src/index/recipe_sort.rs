@@ -1,4 +1,4 @@
-use crate::PageComponent;
+use crate::{PageComponent, RenderParameters};
 use html::{
     attribute::Attribute,
     elements::{Div, HtmlElement, Select, SelectOption},
@@ -8,7 +8,7 @@ use std::rc::Rc;
 pub struct RecipeSort;
 
 impl PageComponent for RecipeSort {
-    fn render(self, _: &str) -> HtmlElement {
+    fn render(self, _: &mut RenderParameters) -> HtmlElement {
         Div {
             attributes: vec![Attribute::Id("recipe_list_sort".to_owned())],
             content: Rc::new(

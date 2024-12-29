@@ -1,4 +1,4 @@
-use crate::PageComponent;
+use crate::{PageComponent, RenderParameters};
 use html::{
     attribute::Attribute,
     elements::{Div, HeaderSize, Headline, HtmlElement, Li, Ol},
@@ -6,14 +6,14 @@ use html::{
 use recipes::{StepSection, TextBlock};
 use std::rc::Rc;
 
-fn render_step_li(step: TextBlock, date_format: &str) -> Li {
+fn render_step_li(step: TextBlock, params: &mut RenderParameters) -> Li {
     Li {
         attributes: vec![],
-        content: Rc::new(step.render(date_format)),
+        content: Rc::new(step.render(params)),
     }
 }
 impl PageComponent for StepSection {
-    fn render(self, date_format: &str) -> HtmlElement {
+    fn render(self, date_format: &mut RenderParameters) -> HtmlElement {
         let step_ol = Ol {
             attributes: vec![],
             items: self

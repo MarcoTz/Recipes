@@ -1,4 +1,4 @@
-use crate::PageComponent;
+use crate::{PageComponent, RenderParameters};
 use html::{
     attribute::Attribute,
     elements::{Div, HtmlElement, Img},
@@ -17,7 +17,7 @@ impl RecipeImages {
 }
 
 impl PageComponent for RecipeImages {
-    fn render(self, _: &str) -> HtmlElement {
+    fn render(self, _: &mut RenderParameters) -> HtmlElement {
         let img_base = "../img/";
         let img_divs: Vec<HtmlElement> = self
             .image_urls

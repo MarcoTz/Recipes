@@ -1,4 +1,4 @@
-use crate::PageComponent;
+use crate::{PageComponent, RenderParameters};
 use html::{
     attribute::Attribute,
     elements::{Div, HeaderSize, Headline, HtmlElement},
@@ -7,7 +7,7 @@ use recipes::Recipe;
 use std::rc::Rc;
 
 impl PageComponent for Recipe {
-    fn render(self, date_format: &str) -> HtmlElement {
+    fn render(self, date_format: &mut RenderParameters) -> HtmlElement {
         let notes_rendered = if self.notes.is_empty() {
             "".to_owned().into()
         } else {

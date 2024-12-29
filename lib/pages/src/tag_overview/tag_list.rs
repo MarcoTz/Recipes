@@ -1,4 +1,4 @@
-use crate::PageComponent;
+use crate::{PageComponent, RenderParameters};
 use html::{
     attribute::Attribute,
     elements::{Div, HtmlElement, A},
@@ -29,7 +29,7 @@ impl TagList {
 }
 
 impl PageComponent for TagList {
-    fn render(self, date_format: &str) -> HtmlElement {
+    fn render(self, params: &mut RenderParameters) -> HtmlElement {
         let mut tag_divs = vec![];
         for (tag, num_recipes) in self.tags {
             let tag_url = tag.get_url("tags");
@@ -39,7 +39,7 @@ impl PageComponent for TagList {
                     vec![
                         A {
                             attributes: vec![Attribute::Href(tag_url)],
-                            content: Rc::new(tag.render(date_format)),
+                            content: Rc::new(tag.render(params)),
                         }
                         .into(),
                         format!("({num_recipes})").into(),

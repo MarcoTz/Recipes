@@ -1,4 +1,4 @@
-use super::PageComponent;
+use super::{PageComponent, RenderParameters};
 use html::{
     attribute::Attribute,
     elements::{Head, HtmlElement, Link, Script},
@@ -7,12 +7,11 @@ use std::rc::Rc;
 
 pub struct HtmlHead {
     pub title: String,
-    pub relative_up: bool,
 }
 
 impl HtmlHead {
-    pub fn as_head(self) -> Head {
-        let prefix = if self.relative_up { "../" } else { "" };
+    pub fn as_head(self, params: &mut RenderParameters) -> Head {
+        let prefix = params.get_link_prefix();
         let js_src = format!("{prefix}main.js");
         let css_src = format!("{prefix}main.css");
         Head {
@@ -39,7 +38,7 @@ impl HtmlHead {
 }
 
 impl PageComponent for HtmlHead {
-    fn render(self, _: &str) -> HtmlElement {
-        self.as_head().into()
+    fn render(self, params: &mut RenderParameters) -> HtmlElement {
+        self.as_head(params).into()
     }
 }

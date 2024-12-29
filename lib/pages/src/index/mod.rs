@@ -2,7 +2,9 @@ pub mod recipe_list;
 pub mod recipe_search;
 pub mod recipe_sort;
 
-use super::{footer::Footer, header::Header, html_head::HtmlHead, Page, PageComponent};
+use super::{
+    footer::Footer, header::Header, html_head::HtmlHead, Page, PageComponent, RenderParameters,
+};
 use chrono::Local;
 use html::{
     attribute::Attribute,
@@ -33,23 +35,19 @@ impl Index {
 }
 
 impl Page for Index {
-    fn render(self, date_format: &str) -> HtmlDocument {
+    fn render(self, params: &mut RenderParameters) -> HtmlDocument {
+        params.depth = 0;
         let num_recipes = self.recipes.recipes.len();
         HtmlDocument {
             head: HtmlHead {
                 title: "Recipes".to_owned(),
-                relative_up: false,
             }
-            .as_head(),
+            .as_head(params),
             body: Body {
                 attributes: vec![Attribute::Id("body_index".to_owned())],
                 content: Rc::new(
                     vec![
-                        Header {
-                            index_link: "index.html".to_owned(),
-                            tag_link: "tag_overview.html".to_owned(),
-                        }
-                        .render(date_format),
+                        Header.render(params),
                         Headline {
                             attributes: vec![],
                             size: HeaderSize::H1,
@@ -60,8 +58,8 @@ impl Page for Index {
                             attributes: vec![Attribute::Id("recipe_list_container".to_owned())],
                             content: Rc::new(
                                 vec![
-                                    self.sort.render(date_format),
-                                    self.search.render(date_format),
+                                    self.sort.render(params),
+                                    self.search.render(params),
                                     Div {
                                         attributes: vec![Attribute::Class(
                                             vec!["space".to_owned()],
@@ -76,7 +74,7 @@ impl Page for Index {
                                         content: Rc::new("".to_owned().into()),
                                     }
                                     .into(),
-                                    self.recipes.render(date_format),
+                                    self.recipes.render(params),
                                 ]
                                 .into(),
                             ),
@@ -86,7 +84,7 @@ impl Page for Index {
                             created_date: Local::now().date_naive(),
                             num_recipes,
                         }
-                        .render(date_format),
+                        .render(params),
                     ]
                     .into(),
                 ),

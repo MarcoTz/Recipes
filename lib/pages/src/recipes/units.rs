@@ -1,9 +1,9 @@
-use crate::PageComponent;
+use crate::{PageComponent, RenderParameters};
 use html::elements::HtmlElement;
 use recipes::Unit;
 
 impl PageComponent for Unit {
-    fn render(self, _: &str) -> HtmlElement {
+    fn render(self, _: &mut RenderParameters) -> HtmlElement {
         self.to_string().replace('_', "").into()
     }
 }

@@ -1,4 +1,4 @@
-use crate::PageComponent;
+use crate::{PageComponent, RenderParameters};
 use html::{
     attribute::Attribute,
     elements::{Div, HtmlElement, A},
@@ -24,7 +24,7 @@ impl RecipeList {
 }
 
 impl PageComponent for RecipeList {
-    fn render(self, _: &str) -> HtmlElement {
+    fn render(self, _: &mut RenderParameters) -> HtmlElement {
         let recipe_divs: Vec<HtmlElement> = self
             .recipes
             .into_iter()

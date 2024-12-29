@@ -1,4 +1,4 @@
-use crate::PageComponent;
+use crate::{PageComponent, RenderParameters};
 use html::elements::HtmlElement;
 use recipes::Recipe;
 
@@ -16,7 +16,7 @@ impl RecipeContents {
 }
 
 impl PageComponent for RecipeContents {
-    fn render(self, date_format: &str) -> HtmlElement {
-        self.recipe.render(date_format)
+    fn render(self, params: &mut RenderParameters) -> HtmlElement {
+        self.recipe.render(params)
     }
 }

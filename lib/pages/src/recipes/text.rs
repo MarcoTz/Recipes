@@ -1,4 +1,4 @@
-use crate::PageComponent;
+use crate::{PageComponent, RenderParameters};
 use html::{
     attribute::Attribute,
     elements::{HtmlElement, A},
@@ -7,7 +7,7 @@ use recipes::{TextBlock, TextElement};
 use std::rc::Rc;
 
 impl PageComponent for TextBlock {
-    fn render(self, date_format: &str) -> HtmlElement {
+    fn render(self, date_format: &mut RenderParameters) -> HtmlElement {
         self.elements
             .into_iter()
             .map(|elem| elem.render(date_format))
@@ -17,7 +17,7 @@ impl PageComponent for TextBlock {
 }
 
 impl PageComponent for TextElement {
-    fn render(self, _: &str) -> HtmlElement {
+    fn render(self, _: &mut RenderParameters) -> HtmlElement {
         match self {
             TextElement::Link { label, target } => A {
                 attributes: vec![Attribute::Href(target)],

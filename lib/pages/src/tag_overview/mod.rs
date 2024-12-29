@@ -1,4 +1,4 @@
-use super::{footer::Footer, header::Header, html_head::HtmlHead, PageComponent};
+use super::{footer::Footer, header::Header, html_head::HtmlHead, PageComponent, RenderParameters};
 use crate::Page;
 use chrono::Local;
 use html::{
@@ -36,13 +36,13 @@ impl TagOverview {
 }
 
 impl Page for TagOverview {
-    fn render(self, date_format: &str) -> HtmlDocument {
+    fn render(self, params: &mut RenderParameters) -> HtmlDocument {
+        params.depth = 0;
         HtmlDocument {
             head: HtmlHead {
                 title: "Tags".to_owned(),
-                relative_up: false,
             }
-            .as_head(),
+            .as_head(params),
             body: Body {
                 attributes: vec![
                     Attribute::Id("body_tag_overview".to_owned()),
@@ -50,11 +50,7 @@ impl Page for TagOverview {
                 ],
                 content: Rc::new(
                     vec![
-                        Header {
-                            index_link: "index.html".to_owned(),
-                            tag_link: "tag_overview.html".to_owned(),
-                        }
-                        .render(date_format),
+                        Header.render(params),
                         Headline {
                             attributes: vec![],
                             size: HeaderSize::H1,
@@ -65,8 +61,8 @@ impl Page for TagOverview {
                             attributes: vec![Attribute::Id("tag_list_container".to_owned())],
                             content: Rc::new(
                                 vec![
-                                    self.sort.render(date_format),
-                                    self.search.render(date_format),
+                                    self.sort.render(params),
+                                    self.search.render(params),
                                     Div {
                                         attributes: vec![],
                                         content: Rc::new("".to_owned().into()),
@@ -77,7 +73,7 @@ impl Page for TagOverview {
                                         content: Rc::new("".to_owned().into()),
                                     }
                                     .into(),
-                                    self.list.render(date_format),
+                                    self.list.render(params),
                                 ]
                                 .into(),
                             ),
@@ -87,7 +83,7 @@ impl Page for TagOverview {
                             num_recipes: self.num_recipes,
                             created_date: Local::now().date_naive(),
                         }
-                        .render(date_format),
+                        .render(params),
                     ]
                     .into(),
                 ),
