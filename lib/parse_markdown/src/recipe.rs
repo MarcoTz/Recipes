@@ -58,7 +58,7 @@ pub fn parse_recipe(input: String, images_dir: PathBuf) -> Result<Recipe, Error>
                 let step = parse_step(input.to_owned())?;
                 current_steps.steps.push(step);
             }
-            ParseStep::Notes => notes.push(input.trim().parse::<TextBlock>()?),
+            ParseStep::Notes => notes.push(input.trim().parse::<TextBlock>()?.into()),
             ParseStep::Tags => tags.extend(parse_tags(input.to_owned())),
             ParseStep::Done => break,
         }

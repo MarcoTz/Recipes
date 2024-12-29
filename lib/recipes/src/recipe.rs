@@ -1,4 +1,4 @@
-use super::{IngredientSection, StepSection, Tag, TextBlock};
+use super::{IngredientSection, Note, StepSection, Tag};
 use std::fmt;
 
 #[derive(Clone, Debug, PartialEq)]
@@ -6,7 +6,7 @@ pub struct Recipe {
     pub name: String,
     pub ingredients: Vec<IngredientSection>,
     pub steps: Vec<StepSection>,
-    pub notes: Vec<TextBlock>,
+    pub notes: Vec<Note>,
     pub tags: Vec<Tag>,
     pub image_filenames: Vec<String>,
 }
