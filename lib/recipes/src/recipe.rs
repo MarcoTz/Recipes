@@ -1,20 +1,5 @@
-use super::{IngredientSection, TextBlock};
+use super::{IngredientSection, StepSection, Tag, TextBlock};
 use std::fmt;
-
-#[derive(Clone, Debug, Default, PartialEq, Eq)]
-pub struct StepSection {
-    pub header: String,
-    pub steps: Vec<TextBlock>,
-}
-
-#[derive(Clone, Debug, PartialEq, Eq, Hash)]
-pub struct Tag(pub String);
-
-impl Tag {
-    pub fn get_url(&self, base: &str) -> String {
-        format!("{base}/{}.html", self.0.replace(" ", ""))
-    }
-}
 
 #[derive(Clone, Debug, PartialEq)]
 pub struct Recipe {
@@ -29,37 +14,6 @@ pub struct Recipe {
 impl Recipe {
     pub fn get_url(&self, base: &str) -> String {
         format!("{base}/{}.html", self.name.replace(" ", ""))
-    }
-}
-
-impl From<Vec<TextBlock>> for StepSection {
-    fn from(steps: Vec<TextBlock>) -> StepSection {
-        StepSection {
-            header: "".to_owned(),
-            steps,
-        }
-    }
-}
-
-impl fmt::Display for StepSection {
-    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-        let step_strs: Vec<String> = self
-            .steps
-            .iter()
-            .enumerate()
-            .map(|(num, step)| format!("{}. {step}", num + 1))
-            .collect();
-        if !self.header.is_empty() {
-            writeln!(f, "### {}", self.header)?;
-            writeln!(f)?;
-        }
-        writeln!(f, "{}", step_strs.join("\n"))
-    }
-}
-
-impl fmt::Display for Tag {
-    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-        f.write_str(&self.0)
     }
 }
 
