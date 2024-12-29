@@ -1,6 +1,6 @@
 use html::render::Render;
 use pages::{Index, Page, RecipeDetails, TagDetails, TagOverview};
-use parse_markdown::{load_markdown, recipe::parse_recipe};
+use parse_markdown::{load_markdown, parse_recipe};
 use recipes::Recipe;
 use std::{
     collections::HashMap,
