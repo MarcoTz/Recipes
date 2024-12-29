@@ -14,8 +14,8 @@ impl PageComponent for Amount {
 impl PageComponent for Measurement {
     fn render(self, date_format: &str) -> HtmlElement {
         vec![
-            self.amount.render(date_format).into(),
-            self.unit.to_string().into(),
+            self.amount.render(date_format),
+            self.unit.to_string().replace("_", "").into(),
         ]
         .into()
     }

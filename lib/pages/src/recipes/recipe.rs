@@ -1,63 +1,10 @@
 use crate::PageComponent;
 use html::{
     attribute::Attribute,
-    elements::{Div, HeaderSize, Headline, HtmlElement, Li, Ol, A},
+    elements::{Div, HeaderSize, Headline, HtmlElement},
 };
-use recipes::{Recipe, StepSection, Tag, TextBlock};
+use recipes::Recipe;
 use std::rc::Rc;
-
-fn render_step_li(step: TextBlock, date_format: &str) -> Li {
-    Li {
-        attributes: vec![],
-        content: Rc::new(step.render(date_format)),
-    }
-}
-
-impl PageComponent for Tag {
-    fn render(self, _: &str) -> HtmlElement {
-        A {
-            attributes: vec![Attribute::Href(self.get_url("../tags"))],
-            content: Rc::new(self.to_string().into()),
-        }
-        .into()
-    }
-}
-
-impl PageComponent for StepSection {
-    fn render(self, date_format: &str) -> HtmlElement {
-        let step_ol = Ol {
-            attributes: vec![],
-            items: self
-                .steps
-                .into_iter()
-                .map(|step| render_step_li(step, date_format))
-                .collect(),
-        };
-        if self.header.is_empty() {
-            step_ol.into()
-        } else {
-            Div {
-                attributes: vec![
-                    Attribute::Id(self.header.clone()),
-                    Attribute::Class(vec!["level2".to_owned()]),
-                ],
-                content: Rc::new(
-                    vec![
-                        Headline {
-                            attributes: vec![],
-                            size: HeaderSize::H3,
-                            content: Rc::new(self.header.into()),
-                        }
-                        .into(),
-                        step_ol.into(),
-                    ]
-                    .into(),
-                ),
-            }
-            .into()
-        }
-    }
-}
 
 impl PageComponent for Recipe {
     fn render(self, date_format: &str) -> HtmlElement {

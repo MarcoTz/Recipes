@@ -1,36 +1,29 @@
 use crate::PageComponent;
 use html::{
     attribute::Attribute,
-    elements::{Div, HeaderSize, Headline, HtmlElement, Li, Ul},
+    elements::{Div, HeaderSize, Headline, HtmlElement, Li, Ol},
 };
-use recipes::{Ingredient, IngredientSection};
+use recipes::{StepSection, TextBlock};
 use std::rc::Rc;
 
-fn render_ingredient(ing: Ingredient, date_format: &str) -> Li {
+fn render_step_li(step: TextBlock, date_format: &str) -> Li {
     Li {
         attributes: vec![],
-        content: Rc::new(
-            vec![
-                ing.measure.render(date_format),
-                ing.ingredient.to_string().into(),
-            ]
-            .into(),
-        ),
+        content: Rc::new(step.render(date_format)),
     }
 }
-
-impl PageComponent for IngredientSection {
+impl PageComponent for StepSection {
     fn render(self, date_format: &str) -> HtmlElement {
-        let ingredient_list = Ul {
+        let step_ol = Ol {
             attributes: vec![],
             items: self
-                .ingredients
+                .steps
                 .into_iter()
-                .map(|it| render_ingredient(it, date_format))
+                .map(|step| render_step_li(step, date_format))
                 .collect(),
         };
         if self.header.is_empty() {
-            ingredient_list.into()
+            step_ol.into()
         } else {
             Div {
                 attributes: vec![
@@ -45,7 +38,7 @@ impl PageComponent for IngredientSection {
                             content: Rc::new(self.header.into()),
                         }
                         .into(),
-                        ingredient_list.into(),
+                        step_ol.into(),
                     ]
                     .into(),
                 ),

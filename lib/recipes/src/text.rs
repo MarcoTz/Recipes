@@ -74,16 +74,13 @@ impl FromStr for TextBlock {
 
         let rest_blocks = rest.parse::<TextBlock>()?;
         elements.extend(rest_blocks.elements);
-        elements = elements
-            .into_iter()
-            .filter(|elem| {
-                if let TextElement::Plain(st) = elem {
-                    !st.is_empty()
-                } else {
-                    true
-                }
-            })
-            .collect();
+        elements.retain(|elem| {
+            if let TextElement::Plain(st) = elem {
+                !st.is_empty()
+            } else {
+                true
+            }
+        });
 
         Ok(elements.into())
     }
