@@ -5,22 +5,22 @@ use html::{
     elements::{Body, HeaderSize, Headline},
     html_document::HtmlDocument,
 };
-use recipes::Recipe;
+use recipes::{Recipe, Tag};
 use std::rc::Rc;
 
 pub mod recipe_list;
 use recipe_list::RecipeList;
 
 pub struct TagDetails {
-    pub name: String,
+    pub tag: Tag,
     pub recipes: RecipeList,
     pub num_recipes: usize,
 }
 
 impl TagDetails {
-    pub fn new(tag: String, recipes: &[&Recipe]) -> TagDetails {
+    pub fn new(tag: Tag, recipes: &[&Recipe]) -> TagDetails {
         TagDetails {
-            name: tag,
+            tag,
             num_recipes: recipes.len(),
             recipes: RecipeList::new(recipes),
         }
@@ -31,7 +31,7 @@ impl Page for TagDetails {
     fn render(self, date_format: &str) -> HtmlDocument {
         HtmlDocument {
             head: HtmlHead {
-                title: self.name.clone(),
+                title: self.tag.to_string(),
                 relative_up: true,
             }
             .as_head(),
@@ -47,7 +47,7 @@ impl Page for TagDetails {
                         Headline {
                             attributes: vec![],
                             size: HeaderSize::H1,
-                            content: Rc::new(self.name.into()),
+                            content: Rc::new(self.tag.render(date_format)),
                         }
                         .into(),
                         self.recipes.render(date_format),

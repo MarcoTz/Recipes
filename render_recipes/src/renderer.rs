@@ -84,7 +84,7 @@ pub fn render_pages(
     }
     let mut tag_strs = vec![];
     for tag_page in pages.tag_details {
-        let name = tag_page.name.clone();
+        let name = tag_page.tag.to_string();
         let tag_str = tag_page.render(date_format).render();
         tag_strs.push((name, tag_str));
     }

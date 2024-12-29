@@ -3,11 +3,11 @@ use html::{
     attribute::Attribute,
     elements::{Div, HtmlElement, A},
 };
-use recipes::Recipe;
+use recipes::{Recipe, Tag};
 use std::{collections::HashMap, rc::Rc};
 
 pub struct TagList {
-    pub tags: Vec<(String, usize)>,
+    pub tags: Vec<(Tag, usize)>,
 }
 
 impl TagList {
@@ -29,19 +29,17 @@ impl TagList {
 }
 
 impl PageComponent for TagList {
-    fn render(self, _: &str) -> HtmlElement {
+    fn render(self, date_format: &str) -> HtmlElement {
         let mut tag_divs = vec![];
         for (tag, num_recipes) in self.tags {
-            let mut tag_url = tag.replace(" ", "");
-            tag_url.push_str(".html");
-            tag_url.insert_str(0, "tags/");
+            let tag_url = tag.get_url("tags");
             let div = Div {
                 attributes: vec![Attribute::Class(vec!["tag_item".to_owned()])],
                 content: Rc::new(
                     vec![
                         A {
                             attributes: vec![Attribute::Href(tag_url)],
-                            content: Rc::new(tag.into()),
+                            content: Rc::new(tag.render(date_format)),
                         }
                         .into(),
                         format!("({num_recipes})").into(),

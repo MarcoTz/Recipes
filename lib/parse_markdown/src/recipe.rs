@@ -1,5 +1,5 @@
 use super::{errors::Error, ingredient::parse_ingredient, parse_steps::ParseStep};
-use recipes::{IngredientSection, Recipe, StepSection};
+use recipes::{IngredientSection, Recipe, StepSection, Tag, TextBlock};
 use std::{path::PathBuf, str::Lines};
 
 pub fn parse_recipe(input: String, images_dir: PathBuf) -> Result<Recipe, Error> {
@@ -58,7 +58,7 @@ pub fn parse_recipe(input: String, images_dir: PathBuf) -> Result<Recipe, Error>
                 let step = parse_step(input.to_owned())?;
                 current_steps.steps.push(step);
             }
-            ParseStep::Notes => notes.push(input.trim().to_owned()),
+            ParseStep::Notes => notes.push(input.trim().parse::<TextBlock>()?),
             ParseStep::Tags => tags.extend(parse_tags(input.to_owned())),
             ParseStep::Done => break,
         }
@@ -76,19 +76,20 @@ pub fn parse_recipe(input: String, images_dir: PathBuf) -> Result<Recipe, Error>
     })
 }
 
-fn parse_step(input: String) -> Result<String, Error> {
+fn parse_step(input: String) -> Result<TextBlock, Error> {
     let step = input
         .split_once(".")
         .map(|res| res.1.trim())
         .ok_or(Error::MissingPart("Number".to_owned(), ParseStep::Steps))?;
-    Ok(step.to_owned())
+    let block = step.parse::<TextBlock>()?;
+    Ok(block)
 }
 
-fn parse_tags(input: String) -> Vec<String> {
+fn parse_tags(input: String) -> Vec<Tag> {
     input
         .split(",")
-        .map(|tag| tag.trim().to_owned())
-        .collect::<Vec<String>>()
+        .map(|tag| Tag(tag.trim().to_owned()))
+        .collect()
 }
 
 fn parse_name(lines: &mut Lines<'_>) -> Result<String, Error> {

@@ -7,7 +7,6 @@ pub mod units;
 
 pub use ingredient::{Ingredient, IngredientSection};
 pub use measurement::{Amount, Measurement};
-pub use recipe::{Recipe, StepSection};
+pub use recipe::{Recipe, StepSection, Tag};
+pub use text::{TextBlock, TextElement};
 pub use units::Unit;
-
-pub type Tag = String;

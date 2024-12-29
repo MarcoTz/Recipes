@@ -1,12 +1,13 @@
 use super::{errors::Error, parse_steps::ParseStep};
-use recipes::{Amount, Ingredient, Measurement, Unit};
+use recipes::{Amount, Ingredient, Measurement, TextBlock, Unit};
 
 pub fn parse_ingredient(input: String) -> Result<Ingredient, Error> {
     let mut input = input.replace('*', "").trim().to_owned();
     let measurement = parse_measurement(&mut input)?;
+    let ingredient = input.trim().parse::<TextBlock>()?;
     Ok(Ingredient {
         measure: measurement,
-        ingredient: input.trim().to_owned(),
+        ingredient,
     })
 }
 

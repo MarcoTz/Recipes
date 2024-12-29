@@ -1,13 +1,13 @@
 use super::errors::Error;
 use std::{fmt, str::FromStr};
 
-#[derive(Debug, PartialEq, Eq)]
+#[derive(Clone, Debug, PartialEq, Eq)]
 pub enum TextElement {
     Plain(String),
     Link { label: String, target: String },
 }
 
-#[derive(Debug, PartialEq, Eq)]
+#[derive(Clone, Debug, PartialEq, Eq)]
 pub struct TextBlock {
     pub elements: Vec<TextElement>,
 }
@@ -18,6 +18,19 @@ impl fmt::Display for TextElement {
             TextElement::Plain(s) => f.write_str(s),
             TextElement::Link { label, target } => write!(f, "[{label}]({target})"),
         }
+    }
+}
+
+impl fmt::Display for TextBlock {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        f.write_str(
+            &self
+                .elements
+                .iter()
+                .map(|elem| elem.to_string())
+                .collect::<Vec<String>>()
+                .join(""),
+        )
     }
 }
 

@@ -1,10 +1,10 @@
-use super::Measurement;
+use super::{Measurement, TextBlock};
 use std::fmt;
 
 #[derive(Clone, Debug, PartialEq)]
 pub struct Ingredient {
     pub measure: Measurement,
-    pub ingredient: String,
+    pub ingredient: TextBlock,
 }
 
 #[derive(Clone, Debug, Default, PartialEq)]
