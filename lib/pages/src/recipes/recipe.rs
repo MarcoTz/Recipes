@@ -61,6 +61,36 @@ impl PageComponent for StepSection {
 
 impl PageComponent for Recipe {
     fn render(self, date_format: &str) -> HtmlElement {
+        let notes_rendered = if self.notes.is_empty() {
+            "".to_owned().into()
+        } else {
+            vec![
+                Headline {
+                    size: HeaderSize::H3,
+                    attributes: vec![],
+                    content: Rc::new("Notes".to_owned().into()),
+                }
+                .into(),
+                self.notes.render(date_format),
+            ]
+            .into()
+        };
+
+        let tags_rendered = if self.tags.is_empty() {
+            "".to_owned().into()
+        } else {
+            vec![
+                Headline {
+                    size: HeaderSize::H3,
+                    attributes: vec![],
+                    content: Rc::new("Tags".to_owned().into()),
+                }
+                .into(),
+                self.tags.render(date_format),
+            ]
+            .into()
+        };
+
         Div {
             attributes: vec![
                 Attribute::Id(self.name.clone()),
@@ -95,7 +125,7 @@ impl PageComponent for Recipe {
                             Attribute::Id("notes".to_owned()),
                             Attribute::Class(vec!["level2".to_owned()]),
                         ],
-                        content: Rc::new(self.notes.render(date_format).into()),
+                        content: Rc::new(notes_rendered),
                     }
                     .into(),
                     Div {
@@ -103,7 +133,7 @@ impl PageComponent for Recipe {
                             Attribute::Id("tags".to_owned()),
                             Attribute::Class(vec!["level2".to_owned()]),
                         ],
-                        content: Rc::new(self.tags.render(date_format)),
+                        content: Rc::new(tags_rendered),
                     }
                     .into(),
                 ]
