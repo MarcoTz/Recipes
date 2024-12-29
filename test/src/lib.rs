@@ -1,7 +1,7 @@
 #[cfg(test)]
 mod recipe_tests {
 
-    use parse_markdown::{load_markdown, recipe::parse_recipe, RecipeSource};
+    use parse_markdown::{load_markdown, parse_recipe, RecipeSource};
     use std::fmt;
     use std::path::PathBuf;
 
