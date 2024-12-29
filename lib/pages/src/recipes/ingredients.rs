@@ -9,13 +9,7 @@ use std::rc::Rc;
 fn render_ingredient(ing: Ingredient, params: &mut RenderParameters) -> Li {
     Li {
         attributes: vec![],
-        content: Rc::new(
-            vec![
-                ing.measure.render(params),
-                ing.ingredient.to_string().into(),
-            ]
-            .into(),
-        ),
+        content: Rc::new(vec![ing.measure.render(params), ing.ingredient.render(params)].into()),
     }
 }
 

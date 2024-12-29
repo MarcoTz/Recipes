@@ -17,6 +17,7 @@ impl RecipeContents {
 
 impl PageComponent for RecipeContents {
     fn render(self, params: &mut RenderParameters) -> HtmlElement {
+        params.depth = 1;
         self.recipe.render(params)
     }
 }

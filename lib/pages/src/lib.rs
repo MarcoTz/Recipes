@@ -21,7 +21,7 @@ pub struct RenderParameters {
 
 impl RenderParameters {
     pub fn get_link_prefix(&self) -> String {
-        let mut prefix = "../".to_owned();
+        let mut prefix = "".to_owned();
         for _ in 1..=self.depth {
             prefix += "../";
         }
