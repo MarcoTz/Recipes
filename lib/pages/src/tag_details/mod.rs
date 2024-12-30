@@ -20,10 +20,10 @@ pub struct TagDetails {
 }
 
 impl TagDetails {
-    pub fn new(tag: Tag, recipes: &[&Recipe]) -> TagDetails {
+    pub fn new(tag: Tag, recipes: &[&Recipe], num_recipes: usize) -> TagDetails {
         TagDetails {
             tag,
-            num_recipes: recipes.len(),
+            num_recipes,
             recipes: RecipeList::new(recipes),
         }
     }

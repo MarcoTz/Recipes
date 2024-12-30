@@ -56,8 +56,8 @@ pub fn create_pages(recipes: Vec<Recipe>) -> Result<AllPages, Box<dyn std::error
         }
     }
     let mut tag_pages = vec![];
-    for (tag, recipes) in tags.into_iter() {
-        let tag_page = TagDetails::new(tag, recipes.as_slice());
+    for (tag, tag_recipes) in tags.into_iter() {
+        let tag_page = TagDetails::new(tag, tag_recipes.as_slice(), recipes.len());
         tag_pages.push(tag_page);
     }
 

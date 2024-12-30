@@ -16,7 +16,7 @@ impl TagList {
         for recipe in recipes {
             for recipe_tag in recipe.tags.iter().cloned() {
                 match tags.get(&recipe_tag) {
-                    None => tags.insert(recipe_tag, 0),
+                    None => tags.insert(recipe_tag, 1),
                     Some(i) => tags.insert(recipe_tag, i + 1),
                 };
             }
