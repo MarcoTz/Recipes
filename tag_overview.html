@@ -1,77 +1,270 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Tags</title>
-    <link rel="stylesheet" href="main.css"/>
-    <script src="main.js"></script>
-  </head>
-  <body id="body_tag_overview" onLoad="sort()"><div id="header">
-  <div id="headline"><a href="index.html">All Recipes</a></div>
-  <div id="tagslink"><a href="tag_overview.html">Tags</a></div>
-</div>
-<div class="spacer"></div><h1>Tags</h1>
-    <div id="tags_list_container">
-      <div id="tags_list_sort">
-        Sort by 
-        <select id="sort_key" onChange="sort()">
-          <option value="name_desc">Tag Name (desc.)</option>
-          <option value="name_asc">Tag Name (asc.)</option> 
-        </select>
-      </div>
-      <div id="searchbox">Filter <input type="text" id="search" onKeyup="filter()"/></div>
-      <div class="spacer"></div>
-      <div class="hline"></div>
-      <div id="tags_list"><div class="tag_item"><a href="tags/japanese.html">Japanese</a>&nbsp;(11)</div>
-<div class="tag_item"><a href="tags/vegetarian.html">Vegetarian</a>&nbsp;(164)</div>
-<div class="tag_item"><a href="tags/vegan.html">Vegan</a>&nbsp;(116)</div>
-<div class="tag_item"><a href="tags/sauce.html">Sauce</a>&nbsp;(19)</div>
-<div class="tag_item"><a href="tags/dip.html">Dip</a>&nbsp;(5)</div>
-<div class="tag_item"><a href="tags/indian.html">Indian</a>&nbsp;(5)</div>
-<div class="tag_item"><a href="tags/potato.html">Potato</a>&nbsp;(17)</div>
-<div class="tag_item"><a href="tags/dessert.html">Dessert</a>&nbsp;(30)</div>
-<div class="tag_item"><a href="tags/kebab.html">Kebab</a>&nbsp;(4)</div>
-<div class="tag_item"><a href="tags/salad.html">Salad</a>&nbsp;(9)</div>
-<div class="tag_item"><a href="tags/pasta.html">Pasta</a>&nbsp;(12)</div>
-<div class="tag_item"><a href="tags/fast.html">Fast</a>&nbsp;(20)</div>
-<div class="tag_item"><a href="tags/sandwich.html">Sandwich</a>&nbsp;(5)</div>
-<div class="tag_item"><a href="tags/bread.html">Bread</a>&nbsp;(22)</div>
-<div class="tag_item"><a href="tags/bakedgood.html">Bakedgood</a>&nbsp;(38)</div>
-<div class="tag_item"><a href="tags/yeast.html">Yeast</a>&nbsp;(23)</div>
-<div class="tag_item"><a href="tags/fish.html">Fish</a>&nbsp;(1)</div>
-<div class="tag_item"><a href="tags/drink.html">Drink</a>&nbsp;(7)</div>
-<div class="tag_item"><a href="tags/cookie.html">Cookie</a>&nbsp;(6)</div>
-<div class="tag_item"><a href="tags/chinese.html">Chinese</a>&nbsp;(7)</div>
-<div class="tag_item"><a href="tags/burger.html">Burger</a>&nbsp;(5)</div>
-<div class="tag_item"><a href="tags/american.html">American</a>&nbsp;(2)</div>
-<div class="tag_item"><a href="tags/italian.html">Italian</a>&nbsp;(11)</div>
-<div class="tag_item"><a href="tags/cake.html">Cake</a>&nbsp;(3)</div>
-<div class="tag_item"><a href="tags/spice.html">Spice</a>&nbsp;(7)</div>
-<div class="tag_item"><a href="tags/vegan fast.html">Vegan fast</a>&nbsp;(1)</div>
-<div class="tag_item"><a href="tags/soup.html">Soup</a>&nbsp;(9)</div>
-<div class="tag_item"><a href="tags/casserole.html">Casserole</a>&nbsp;(6)</div>
-<div class="tag_item"><a href="tags/noodle.html">Noodle</a>&nbsp;(10)</div>
-<div class="tag_item"><a href="tags/noodles.html">Noodles</a>&nbsp;(1)</div>
-<div class="tag_item"><a href="tags/meat.html">Meat</a>&nbsp;(4)</div>
-<div class="tag_item"><a href="tags/rice.html">Rice</a>&nbsp;(6)</div>
-<div class="tag_item"><a href="tags/dough.html">Dough</a>&nbsp;(5)</div>
-<div class="tag_item"><a href="tags/bbq.html">Bbq</a>&nbsp;(1)</div>
-<div class="tag_item"><a href="tags/german.html">German</a>&nbsp;(10)</div>
-<div class="tag_item"><a href="tags/risotto.html">Risotto</a>&nbsp;(4)</div>
-<div class="tag_item"><a href="tags/pumpkin.html">Pumpkin</a>&nbsp;(1)</div>
-<div class="tag_item"><a href="tags/korean.html">Korean</a>&nbsp;(4)</div>
-<div class="tag_item"><a href="tags/fermented.html">Fermented</a>&nbsp;(2)</div>
-<div class="tag_item"><a href="tags/alcohol.html">Alcohol</a>&nbsp;(3)</div>
-<div class="tag_item"><a href="tags/snack.html">Snack</a>&nbsp;(1)</div>
-<div class="tag_item"><a href="tags/stew.html">Stew</a>&nbsp;(2)</div>
-<div class="tag_item"><a href="tags/.html"></a>&nbsp;(1)</div>
-<div class="tag_item"><a href="tags/vegatarian.html">Vegatarian</a>&nbsp;(2)</div>
-</div>
-    </div><div class="spacer"></div>
-<div class="spacer"></div>
-<div class="hline"></div>
-<div id="footer">
-  <div id="github_link"><a href="https://github.com/MarcoTz/Recipes">Github</a></div>
-  <div id="created_date">Created At:28.11.2024</div>
-  <div id="last_modified_date">Number of recipes: 197</div>
-</div></body>
-</html>
+	<head>
+	<title>
+		Tags
+	</title>
+	<link rel="stylesheet" href="main.css"/>
+	<script src="main.js">
+		
+	</script>
+</head>
+	<body id="body_tag_overview" onLoad="sort()">
+	<div id="header">
+		<div id="headline">
+			<a href="index.html">All Recipes</a>
+		</div>
+		<div id="tagslink">
+			<a href="tag_overview.html">Tags</a>
+		</div>
+	</div>
+	<h1 >
+		Tags
+	</h1>
+	<div id="tag_list_container">
+		<div id="tags_list_sort">
+			Sort by
+			<select id="sort_key" onChange="sort()">
+				<option value="name_desc">Tag Name (desc.)</option>
+				<option value="name_asc">Tag Name (asc.)</option>
+			</select>
+		</div>
+		<div id="searchbox">
+			Filter
+			<input type="text" id="search" onKeyUp="filter()"/>
+		</div>
+		<div >
+			
+		</div>
+		<div >
+			
+		</div>
+		<div id="tags_list">
+			<div class="tag_item">
+				<a href="tags/risotto.html"><a href="tags/risotto.html">risotto</a></a>
+				(4)
+			</div>
+			<div class="tag_item">
+				<a href="tags/indian.html"><a href="tags/indian.html">indian</a></a>
+				(3)
+			</div>
+			<div class="tag_item">
+				<a href="tags/Italian.html"><a href="tags/Italian.html">Italian</a></a>
+				(9)
+			</div>
+			<div class="tag_item">
+				<a href="tags/yeast.html"><a href="tags/yeast.html">yeast</a></a>
+				(23)
+			</div>
+			<div class="tag_item">
+				<a href="tags/cookie.html"><a href="tags/cookie.html">cookie</a></a>
+				(6)
+			</div>
+			<div class="tag_item">
+				<a href="tags/burger.html"><a href="tags/burger.html">burger</a></a>
+				(5)
+			</div>
+			<div class="tag_item">
+				<a href="tags/Korean.html"><a href="tags/Korean.html">Korean</a></a>
+				(3)
+			</div>
+			<div class="tag_item">
+				<a href="tags/Indian.html"><a href="tags/Indian.html">Indian</a></a>
+				(2)
+			</div>
+			<div class="tag_item">
+				<a href="tags/fish.html"><a href="tags/fish.html">fish</a></a>
+				(1)
+			</div>
+			<div class="tag_item">
+				<a href="tags/vegan.html"><a href="tags/vegan.html">vegan</a></a>
+				(116)
+			</div>
+			<div class="tag_item">
+				<a href="tags/dip.html"><a href="tags/dip.html">dip</a></a>
+				(5)
+			</div>
+			<div class="tag_item">
+				<a href="tags/Salad.html"><a href="tags/Salad.html">Salad</a></a>
+				(1)
+			</div>
+			<div class="tag_item">
+				<a href="tags/veganfast.html"><a href="tags/veganfast.html">vegan fast</a></a>
+				(1)
+			</div>
+			<div class="tag_item">
+				<a href="tags/noodles.html"><a href="tags/noodles.html">noodles</a></a>
+				(1)
+			</div>
+			<div class="tag_item">
+				<a href="tags/sandwich.html"><a href="tags/sandwich.html">sandwich</a></a>
+				(5)
+			</div>
+			<div class="tag_item">
+				<a href="tags/cake.html"><a href="tags/cake.html">cake</a></a>
+				(3)
+			</div>
+			<div class="tag_item">
+				<a href="tags/Kebab.html"><a href="tags/Kebab.html">Kebab</a></a>
+				(1)
+			</div>
+			<div class="tag_item">
+				<a href="tags/fermented.html"><a href="tags/fermented.html">fermented</a></a>
+				(2)
+			</div>
+			<div class="tag_item">
+				<a href="tags/meat.html"><a href="tags/meat.html">meat</a></a>
+				(4)
+			</div>
+			<div class="tag_item">
+				<a href="tags/vegetarian.html"><a href="tags/vegetarian.html">vegetarian</a></a>
+				(164)
+			</div>
+			<div class="tag_item">
+				<a href="tags/fast.html"><a href="tags/fast.html">fast</a></a>
+				(20)
+			</div>
+			<div class="tag_item">
+				<a href="tags/korean.html"><a href="tags/korean.html">korean</a></a>
+				(1)
+			</div>
+			<div class="tag_item">
+				<a href="tags/.html"><a href="tags/.html"></a></a>
+				(1)
+			</div>
+			<div class="tag_item">
+				<a href="tags/chinese.html"><a href="tags/chinese.html">chinese</a></a>
+				(5)
+			</div>
+			<div class="tag_item">
+				<a href="tags/potato.html"><a href="tags/potato.html">potato</a></a>
+				(17)
+			</div>
+			<div class="tag_item">
+				<a href="tags/italian.html"><a href="tags/italian.html">italian</a></a>
+				(2)
+			</div>
+			<div class="tag_item">
+				<a href="tags/bakedgood.html"><a href="tags/bakedgood.html">bakedgood</a></a>
+				(37)
+			</div>
+			<div class="tag_item">
+				<a href="tags/Bakedgood.html"><a href="tags/Bakedgood.html">Bakedgood</a></a>
+				(1)
+			</div>
+			<div class="tag_item">
+				<a href="tags/noodle.html"><a href="tags/noodle.html">noodle</a></a>
+				(10)
+			</div>
+			<div class="tag_item">
+				<a href="tags/sauce.html"><a href="tags/sauce.html">sauce</a></a>
+				(19)
+			</div>
+			<div class="tag_item">
+				<a href="tags/rice.html"><a href="tags/rice.html">rice</a></a>
+				(6)
+			</div>
+			<div class="tag_item">
+				<a href="tags/German.html"><a href="tags/German.html">German</a></a>
+				(10)
+			</div>
+			<div class="tag_item">
+				<a href="tags/dessert.html"><a href="tags/dessert.html">dessert</a></a>
+				(30)
+			</div>
+			<div class="tag_item">
+				<a href="tags/american.html"><a href="tags/american.html">american</a></a>
+				(2)
+			</div>
+			<div class="tag_item">
+				<a href="tags/spice.html"><a href="tags/spice.html">spice</a></a>
+				(7)
+			</div>
+			<div class="tag_item">
+				<a href="tags/snack.html"><a href="tags/snack.html">snack</a></a>
+				(1)
+			</div>
+			<div class="tag_item">
+				<a href="tags/casserole.html"><a href="tags/casserole.html">casserole</a></a>
+				(6)
+			</div>
+			<div class="tag_item">
+				<a href="tags/dough.html"><a href="tags/dough.html">dough</a></a>
+				(5)
+			</div>
+			<div class="tag_item">
+				<a href="tags/alcohol.html"><a href="tags/alcohol.html">alcohol</a></a>
+				(3)
+			</div>
+			<div class="tag_item">
+				<a href="tags/pumpkin.html"><a href="tags/pumpkin.html">pumpkin</a></a>
+				(1)
+			</div>
+			<div class="tag_item">
+				<a href="tags/stew.html"><a href="tags/stew.html">stew</a></a>
+				(2)
+			</div>
+			<div class="tag_item">
+				<a href="tags/pasta.html"><a href="tags/pasta.html">pasta</a></a>
+				(12)
+			</div>
+			<div class="tag_item">
+				<a href="tags/vegatarian.html"><a href="tags/vegatarian.html">vegatarian</a></a>
+				(2)
+			</div>
+			<div class="tag_item">
+				<a href="tags/Chinese.html"><a href="tags/Chinese.html">Chinese</a></a>
+				(2)
+			</div>
+			<div class="tag_item">
+				<a href="tags/bread.html"><a href="tags/bread.html">bread</a></a>
+				(22)
+			</div>
+			<div class="tag_item">
+				<a href="tags/Japanese.html"><a href="tags/Japanese.html">Japanese</a></a>
+				(7)
+			</div>
+			<div class="tag_item">
+				<a href="tags/kebab.html"><a href="tags/kebab.html">kebab</a></a>
+				(3)
+			</div>
+			<div class="tag_item">
+				<a href="tags/bbq.html"><a href="tags/bbq.html">bbq</a></a>
+				(1)
+			</div>
+			<div class="tag_item">
+				<a href="tags/soup.html"><a href="tags/soup.html">soup</a></a>
+				(9)
+			</div>
+			<div class="tag_item">
+				<a href="tags/drink.html"><a href="tags/drink.html">drink</a></a>
+				(7)
+			</div>
+			<div class="tag_item">
+				<a href="tags/salad.html"><a href="tags/salad.html">salad</a></a>
+				(8)
+			</div>
+			<div class="tag_item">
+				<a href="tags/japanese.html"><a href="tags/japanese.html">japanese</a></a>
+				(4)
+			</div>
+		</div>
+	</div>
+	<div class="spacer">
+		
+	</div>
+	<div class="hline">
+		
+	</div>
+	<div id="footer">
+		<div id="github_link">
+			<a href="https://github.com/MarcoTz/Recipes">Github</a>
+		</div>
+		<div id="created_date">
+			Created At: 30.12.2024
+		</div>
+		<div id="num_recipes">
+			197 Recipes
+		</div>
+	</div>
+</body></html>
