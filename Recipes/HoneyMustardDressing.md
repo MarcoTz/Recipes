@@ -18,4 +18,4 @@
 For a vegan version use agave sirup instead of honey
 
 ## Tags
-Salad, sauce, vegetarian, vegan
+salad, sauce, vegetarian, vegan

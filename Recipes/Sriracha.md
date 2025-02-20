@@ -18,4 +18,4 @@
 
 
 ## Tags
-sauce,vegetarian,vegan,spice,
+sauce,vegetarian,vegan,spice
