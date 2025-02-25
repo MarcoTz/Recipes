@@ -1,5 +1,5 @@
 use html::render::Render;
-use pages::{Index, Page, RecipeDetails, TagDetails, TagOverview};
+use pages::{Index, Page, RecipeDetails, RenderParameters, TagDetails, TagOverview};
 use parse_markdown::{load_markdown, parse_recipe};
 use recipes::Recipe;
 use std::{
@@ -70,19 +70,29 @@ pub fn create_pages(recipes: Vec<Recipe>) -> Result<AllPages, Box<dyn std::error
 }
 
 pub fn render_pages(pages: AllPages) -> Result<PageHtmls, Box<dyn std::error::Error>> {
-    let index_str = pages.index.render(&mut Default::default()).render();
-    let tag_overview_str = pages.tag_overview.render(&mut Default::default()).render();
+    let all_recipes: Vec<String> = pages
+        .recipe_details
+        .iter()
+        .map(|det| det.recipe_name.clone())
+        .collect();
+    let mut params = RenderParameters::default();
+    params.all_recipes = all_recipes;
+    let index_str = pages.index.render(&mut params).render();
+    params.depth = 0;
+    let tag_overview_str = pages.tag_overview.render(&mut params).render();
 
     let mut page_strs = vec![];
     for recipe_page in pages.recipe_details {
         let name = recipe_page.recipe_name.clone();
-        let recipe_page_str = recipe_page.render(&mut Default::default()).render();
+        params.depth = 0;
+        let recipe_page_str = recipe_page.render(&mut params).render();
         page_strs.push((name, recipe_page_str));
     }
     let mut tag_strs = vec![];
     for tag_page in pages.tag_details {
+        params.depth = 0;
         let name = tag_page.tag.to_string();
-        let tag_str = tag_page.render(&mut Default::default()).render();
+        let tag_str = tag_page.render(&mut params).render();
         tag_strs.push((name, tag_str));
     }
 

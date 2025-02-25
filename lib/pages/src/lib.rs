@@ -17,6 +17,7 @@ pub use tag_overview::TagOverview;
 pub struct RenderParameters {
     pub date_format: String,
     pub depth: usize,
+    pub all_recipes: Vec<String>,
 }
 
 impl RenderParameters {
@@ -34,6 +35,7 @@ impl Default for RenderParameters {
         RenderParameters {
             date_format: "%d.%m.%Y".to_owned(),
             depth: 0,
+            all_recipes: vec![],
         }
     }
 }
