@@ -19,8 +19,6 @@
 5. Reduce heat and simmer until water has almost fully evaporated
 6. Add chili oil
 
-## Notes
-
 ## Tags
 
 japanese, vega, vegetarian
