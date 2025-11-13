@@ -30,6 +30,7 @@ pub fn load_recipes(
     let recipe_strs = load_markdown(recipe_path).map_err(Box::new)?;
     let mut recipes = vec![];
     for recipe_str in recipe_strs {
+        println!("parsing {:?}", recipe_str.file_name);
         let recipe = parse_recipe(recipe_str.contents, img_path.clone())?;
         recipes.push(recipe)
     }
