@@ -32,6 +32,10 @@
 7. Roll each korokke in flour, then egg, then panko
 8. Fry in oil until orange-brown
 
+## Notes
+
+Optionally add grated cheese to the mixture
+
 ## Tags
 
 japanese
