@@ -10,14 +10,14 @@
 - 2 Tbsp soy sauce
 - 2 Tbsp rolled oats
 - 1 Tbsp starch
-- 1 tsp sweety paprika
+- 1 tsp sweet paprika
 - 1 tsp mustard
 - 1 tsp salt
 - 1 Tbsp pepper
 
 ### Sauce
 
-- 1 Tbsp live oil
+- 1 Tbsp olive oil
 - 1_ red onion
 - 2_ bell peppers
 - 2 Tbsp tomato paste
@@ -37,3 +37,7 @@
 4. For the sauce, sautee onions and peppers, add tomato paste
 5. add broth and cream, then spices
 6. let simmer for about 10min
+
+## Tags
+
+vegetarian, vegan
